@@ -15,7 +15,7 @@ import java.util.UUID;
  *
  * @author Philippe Genoud - LIG Steamer - Université Grenoble Alpes
  */
-public class GenerateBookStoreText {
+public class ConvertorCSVtoRDF {
 
     /**
      *
@@ -24,6 +24,38 @@ public class GenerateBookStoreText {
      *
      * @throws java.io.IOException
      */
+
+
+     /*
+SELECT ?game ?name ?releaseDate ?developer ?publisher ?platform ?genre ?series ?countryOfOrigin
+       ?mainSubject ?officialWebsite ?designer ?composer ?character
+       ?gameMode
+WHERE {
+  # Sélectionne les éléments de type "VideoGame"
+  ?game rdf:type dbo:VideoGame ;
+        rdfs:label ?name .
+
+  # Filtre pour ne garder que les noms en anglais
+  FILTER(LANG(?name) = "en")
+
+  # Propriétés optionnelles
+  OPTIONAL { ?game dbo:releaseDate ?releaseDate. }             # Date de sortie
+  OPTIONAL { ?game dbo:developer ?developer. }                 # Développeur
+  OPTIONAL { ?game dbo:publisher ?publisher. }                 # Éditeur
+  OPTIONAL { ?game dbo:computingPlatform ?platform. }          # Plateforme
+  OPTIONAL { ?game dbo:genre ?genre. }                         # Genre
+  OPTIONAL { ?game dbo:series ?series. }                       # Série
+  OPTIONAL { ?game dbo:country ?countryOfOrigin. }             # Pays d'origine
+  OPTIONAL { ?game dbo:subject ?mainSubject. }                 # Sujet principal
+  OPTIONAL { ?game foaf:homepage ?officialWebsite. }           # Site web officiel
+  OPTIONAL { ?game dbo:designer ?designer. }                   # Concepteur du jeu
+  OPTIONAL { ?game dbo:composer ?composer. }                   # Compositeur
+  OPTIONAL { ?game dbo:character ?character. }                 # Personnages principaux
+  OPTIONAL { ?game dbo:gameMode ?gameMode. }                   # Mode de jeu (ex : solo, multijoueur)
+}
+LIMIT 100000
+OFFSET 0
+        */
     public static void generateTurtle(String csvFileName, String textFilName) throws IOException {
 
         try (BufferedReader br = Files.newBufferedReader(Paths.get(csvFileName));
@@ -39,13 +71,21 @@ public class GenerateBookStoreText {
             while ((line = br.readLine()) != null) {
                 // split the line in using the ';' (semicolon)
                 String[] lineTokens = line.split(";");
-
-                String authorFamilyName = lineTokens[0];
-                String authorGivenName = lineTokens[1];
-                String bookTitle = lineTokens[2];
-                int pagesNb = Integer.parseInt(lineTokens[3]);
-                String isbn = lineTokens[4];
-                String publisherName = lineTokens[5];
+                String game = lineTokens[0];
+                String name = lineTokens[1];
+                String releaseDate = lineTokens[2];
+                String developer = lineTokens[3];
+                String publisher = lineTokens[4];
+                String platform = lineTokens[5];
+                String genre = lineTokens[6];
+                String series = lineTokens[7];
+                String countryOfOrigin = lineTokens[8];
+                String mainSubject = lineTokens[9];
+                String officialWebsitek = lineTokens[10];
+                String designer = lineTokens[11]; 
+                String composer = lineTokens[12];
+                String character = lineTokens[13];
+                String gameMode = lineTokens[14];
 
                 String outputLine = """
                         -------------------------------------------------------------------------------------------------------
@@ -73,7 +113,7 @@ public class GenerateBookStoreText {
     public static void genTurtle(String csvFileName, String textFilName) throws IOException{
         try (BufferedReader br = Files.newBufferedReader(Paths.get(csvFileName));
                 BufferedWriter bw = Files.newBufferedWriter(Paths.get(textFilName))) {
-            bw.write(GenerateBookStoreText.prefixes());
+            bw.write(ConvertorCSVtoRDF.prefixes());
             bw.write("");
 
             HashMap<String,UUID> authorMap = new HashMap<>();
@@ -82,20 +122,25 @@ public class GenerateBookStoreText {
             br.readLine(); // to skip the column titles line
             while ((line = br.readLine()) != null) {
                 // split the line in using the ';' (semicolon)
+
                 String[] lineTokens = line.split(";");
+                String game = lineTokens[0];
+                String name = lineTokens[1];
+                String releaseDate = lineTokens[2];
+                String developer = lineTokens[3];
+                String publisher = lineTokens[4];
+                String platform = lineTokens[5];
+                String genre = lineTokens[6];
+                String series = lineTokens[7];
+                String countryOfOrigin = lineTokens[8];
+                String mainSubject = lineTokens[9];
+                String officialWebsitek = lineTokens[10];
+                String designer = lineTokens[11]; 
+                String composer = lineTokens[12];
+                String character = lineTokens[13];
+                String gameMode = lineTokens[14];
 
-                String authorFamilyName = lineTokens[0];
-                String authorGivenName = lineTokens[1];
-                String bookTitle = lineTokens[2];
-                int pagesNb = Integer.parseInt(lineTokens[3]);
-                String isbn = lineTokens[4];
-                String publisherName = lineTokens[5];
-
-
-                //Process the line
-
-                //Process author
-                String fullname = (authorFamilyName + authorGivenName);
+                String fullname;
                 UUID uuidAuthor;
                 UUID uuidEditor;
 
