@@ -55,19 +55,19 @@ public class GenerateBookStoreGraph {
                 /*"game","name","releaseDate","developer","publisher","platform","genre","series",
                         "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
 
-                String game = lineTokens[0];
-                String name = lineTokens[1];
-                String releaseDate = lineTokens[2];
-                String developer = lineTokens[3];
-                String publisher = lineTokens[4];
-                String platform = lineTokens[5];
-                String genre = lineTokens[6];
-                String series = lineTokens[7];
-                String countryOfOrigin = lineTokens[8];
-                String mainSubject = lineTokens[9];
-                String officialWebsite = lineTokens[10];
-                String designer = lineTokens[11];
-                String composer = lineTokens[12];
+                String game = removeQuote(lineTokens[0]);
+                String name = removeQuote(lineTokens[1]);
+                String releaseDate = removeQuote(lineTokens[2]);
+                String developer = removeQuote(lineTokens[3]);
+                String publisher = removeQuote(lineTokens[4]);
+                String platform = removeQuote(lineTokens[5]);
+                String genre = removeQuote(lineTokens[6]);
+                String series = removeQuote(lineTokens[7]);
+                String countryOfOrigin = removeQuote(lineTokens[8]);
+                String mainSubject = removeQuote(lineTokens[9]);
+                String officialWebsite = removeQuote(lineTokens[10]);
+                String designer = removeQuote(lineTokens[11]);
+                String composer = removeQuote(lineTokens[12]);
 
                 UUID gameUUID = authors.get(game);
                 if (gameUUID == null) {
@@ -103,11 +103,14 @@ public class GenerateBookStoreGraph {
         }
     }
     
-    public static removeQuote(String value){
+    public static String removeQuote(String value){
 
-        if(value != null){
-            
+        if(value != null && value.length() >0 ){
+            if(value.charAt(0) == '"'){
+                value = value.substring(1, value.length()-1);
+            }
         }
+        return value;
 
     }
 
