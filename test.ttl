@@ -1,0 +1,3681 @@
+@prefix abo: <http://artemisBookstore.com/ontology#> .
+@prefix abr: <http://artemisBookstore.com/resource/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+resource:8ab96cc5-0fcb-4960-a761-58af1fe50265 a ontology:game;
+       auPif:name "Caesar IV";
+       auPif:releaseDate 2006-09-26;
+       auPif:developer "http://dbpedia.org/resource/Tilted_Mill_Entertainment";
+       auPif:publisher "http://dbpedia.org/resource/Sierra_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Microsoft_Windows";
+       auPif:genre "http://dbpedia.org/resource/City-building_game";
+       auPif:series "http://dbpedia.org/resource/City_Building_Series";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20060421012211/http:/www.caesariv.com/us/";
+       auPif:designer "http://dbpedia.org/resource/Chris_Beatrice";
+       auPif:composer "http://dbpedia.org/resource/Keith_Zizza";
+       
+
+resource:8fe6d1f7-f9c7-45c1-843d-2b30f531fff3 a ontology:game;
+       auPif:name "Bejeweled";
+       auPif:releaseDate 2001-05-30;
+       auPif:developer "http://dbpedia.org/resource/PopCap_Games";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/Facebook";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Bejeweled_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://www.ea.com/games/bejeweled";
+       auPif:designer "http://dbpedia.org/resource/Jason_Kapalka";
+       auPif:composer "http://dbpedia.org/resource/Peter_Hajba";
+       
+
+resource:12fe718b-665d-492b-a319-080190856dfb a ontology:game;
+       auPif:name "RollerCoaster Tycoon 2";
+       auPif:releaseDate 2002-10-15;
+       auPif:developer "http://dbpedia.org/resource/Chris_Sawyer";
+       auPif:publisher "http://dbpedia.org/resource/Atari_Interactive";
+       auPif:platform "http://dbpedia.org/resource/Microsoft_Windows";
+       auPif:genre "http://dbpedia.org/resource/Construction_and_management_simulation";
+       auPif:series "http://dbpedia.org/resource/RollerCoaster_Tycoon";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.rollercoastertycoon.com/rollercoaster-tycoon-2-triple-thrill-pack/";
+       auPif:designer "http://dbpedia.org/resource/Chris_Sawyer";
+       auPif:composer "http://dbpedia.org/resource/Allister_Brimble";
+       
+
+resource:ee4ed8d7-4955-47b9-a3af-32f266b6680c a ontology:game;
+       auPif:name "Romancing SaGa 2";
+       auPif:releaseDate 1993-12-10;
+       auPif:developer "http://dbpedia.org/resource/Square_(video_game_company)";
+       auPif:publisher "http://dbpedia.org/resource/Square_Enix";
+       auPif:platform "http://dbpedia.org/resource/Xbox_One";
+       auPif:genre "http://dbpedia.org/resource/Role-playing_video_game";
+       auPif:series "http://dbpedia.org/resource/SaGa";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.square-enix.co.jp/mobile/sem/romasaga2/";
+       auPif:designer "http://dbpedia.org/resource/Akitoshi_Kawazu";
+       auPif:composer "http://dbpedia.org/resource/Kenji_Ito";
+       
+
+resource:f863b493-a2aa-48f6-953d-cd8b855d6580 a ontology:game;
+       auPif:name "Samorost 2";
+       auPif:releaseDate 2005-12-08;
+       auPif:developer "http://dbpedia.org/resource/Amanita_Design";
+       auPif:publisher "http://dbpedia.org/resource/Amanita_Design";
+       auPif:platform "http://dbpedia.org/resource/Linux";
+       auPif:genre "http://dbpedia.org/resource/Adventure_game";
+       auPif:series "http://dbpedia.org/resource/Samorost";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://amanita-design.net/samorost-2/";
+       auPif:designer "http://dbpedia.org/resource/Jakub_Dvorský";
+       auPif:composer "http://dbpedia.org/resource/Floex";
+       
+
+resource:5c97e930-fe4e-4afe-94e0-422c518fa039 a ontology:game;
+       auPif:name "Bejeweled Twist";
+       auPif:releaseDate 2008-10-27;
+       auPif:developer "http://dbpedia.org/resource/PopCap_Games";
+       auPif:publisher "http://dbpedia.org/resource/PopCap_Games";
+       auPif:platform "http://dbpedia.org/resource/Microsoft_Windows";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Bejeweled_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.popcap.com/games/bejeweledtwist";
+       auPif:designer "http://dbpedia.org/resource/Jason_Kapalka";
+       auPif:composer "http://dbpedia.org/resource/Peter_Hajba";
+       
+
+resource:effd3c68-02b7-4a7f-aab5-d27bba2adf93 a ontology:game;
+       auPif:name "Romancing SaGa";
+       auPif:releaseDate 1992-01-28;
+       auPif:developer "http://dbpedia.org/resource/Square_(video_game_company)";
+       auPif:publisher "http://dbpedia.org/resource/Square_Enix";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Role-playing_video_game";
+       auPif:series "http://dbpedia.org/resource/SaGa";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20080710091429/http:/na.square-enix.com/games/romancingsaga/";
+       auPif:designer "http://dbpedia.org/resource/Akitoshi_Kawazu";
+       auPif:composer "http://dbpedia.org/resource/Kenji_Ito";
+       
+
+resource:86d2fd4f-0c89-4d00-a871-926acf2299cf a ontology:game;
+       auPif:name "Battlegrounds Mobile India";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Krafton";
+       auPif:publisher "http://dbpedia.org/resource/Krafton";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Third-person_shooter";
+       auPif:series "http://dbpedia.org/resource/PUBG_Universe";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://www.battlegroundsmobileindia.com";
+       auPif:designer "http://dbpedia.org/resource/Krafton";
+       auPif:composer "http://dbpedia.org/resource/Tom_Salta";
+       
+
+resource:37659df9-aa91-4cc1-8cf6-a9f2661a001d a ontology:game;
+       auPif:name "Prince of Persia: The Sands of Time";
+       auPif:releaseDate 2003-10-28;
+       auPif:developer "http://dbpedia.org/resource/Ubisoft_Montreal";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/Mobile_game";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Prince_of_Persia";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Jordan_Mechner";
+       auPif:composer "http://dbpedia.org/resource/Stuart_Chatwood";
+       
+
+resource:fe811026-ef2d-4759-b5fd-974f01bb29ce a ontology:game;
+       auPif:name "Quake (video game)";
+       auPif:releaseDate 1996-06-22;
+       auPif:developer "http://dbpedia.org/resource/Nightdive_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Bethesda_Softworks";
+       auPif:platform "http://dbpedia.org/resource/Classic_Mac_OS";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Quake_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/John_Romero";
+       auPif:composer "http://dbpedia.org/resource/Aubrey_Hodges";
+       
+
+resource:d0480652-852c-4d20-b95f-b174a5f39181 a ontology:game;
+       auPif:name "Quake III Arena";
+       auPif:releaseDate 1999-12-02;
+       auPif:developer "http://dbpedia.org/resource/Id_Software";
+       auPif:publisher "http://dbpedia.org/resource/Bethesda_Softworks";
+       auPif:platform "http://dbpedia.org/resource/Classic_Mac_OS";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Quake_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Jennell_Jaquays";
+       auPif:composer "http://dbpedia.org/resource/Bill_Leeb";
+       
+
+resource:12fa56db-28f1-4c03-a078-b48cb8583a6a a ontology:game;
+       auPif:name "Quest for Glory V: Dragon Fire";
+       auPif:releaseDate 1998-12-07;
+       auPif:developer "http://dbpedia.org/resource/Sierra_Entertainment";
+       auPif:publisher "http://dbpedia.org/resource/Sierra_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Macintosh";
+       auPif:genre "http://dbpedia.org/resource/Action_role-playing_game";
+       auPif:series "http://dbpedia.org/resource/Quest_for_Glory";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Lori_Ann_Cole";
+       auPif:composer "http://dbpedia.org/resource/Chance_Thomas";
+       
+
+resource:a423dc1d-33a9-4280-bd8f-be8f683bc75b a ontology:game;
+       auPif:name "Romancing SaGa 3";
+       auPif:releaseDate 1995-11-11;
+       auPif:developer "http://dbpedia.org/resource/ArtePiazza";
+       auPif:publisher "http://dbpedia.org/resource/Square_Enix";
+       auPif:platform "http://dbpedia.org/resource/Android_(operating_system)";
+       auPif:genre "http://dbpedia.org/resource/Role-playing_video_game";
+       auPif:series "http://dbpedia.org/resource/SaGa";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Akitoshi_Kawazu";
+       auPif:composer "http://dbpedia.org/resource/Kenji_Ito";
+       
+
+resource:8776c25c-a58d-4b8d-8276-d8f853f8aa60 a ontology:game;
+       auPif:name "San Francisco Rush: Extreme Racing";
+       auPif:releaseDate 1996-12-24;
+       auPif:developer "http://dbpedia.org/resource/Climax_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Midway_Games";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Racing_video_game";
+       auPif:series "http://dbpedia.org/resource/Rush_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Ed_Logg";
+       auPif:composer "http://dbpedia.org/resource/Matthew_Simmonds";
+       
+
+resource:76b8a05b-d9f2-49c0-b778-24d0692f720c a ontology:game;
+       auPif:name "Sangokushi V";
+       auPif:releaseDate 1996-09-27;
+       auPif:developer "http://dbpedia.org/resource/Koei";
+       auPif:publisher "http://dbpedia.org/resource/Koei";
+       auPif:platform "http://dbpedia.org/resource/MS-DOS";
+       auPif:genre "http://dbpedia.org/resource/Turn-based_strategy";
+       auPif:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Koei";
+       auPif:composer "http://dbpedia.org/resource/Takayuki_Hattori";
+       
+
+resource:c732f2f1-a125-44cd-8ef4-9d9418fb85a0 a ontology:game;
+       auPif:name "Baseball (1983 video game)";
+       auPif:releaseDate 1983-12-07;
+       auPif:developer "http://dbpedia.org/resource/Nintendo_R&D1";
+       auPif:publisher "http://dbpedia.org/resource/Nintendo";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Sports_video_game";
+       auPif:series "http://dbpedia.org/resource/List_of_Mario_sports_games";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Shigeru_Miyamoto";
+       auPif:composer "http://dbpedia.org/resource/Hirokazu_Tanaka";
+       
+
+resource:a82311f2-144b-4c83-abec-6f22fe765988 a ontology:game;
+       auPif:name "Batman: The Telltale Series";
+       auPif:releaseDate 2016-08-02;
+       auPif:developer "http://dbpedia.org/resource/Telltale_Games";
+       auPif:publisher "http://dbpedia.org/resource/Telltale_Games";
+       auPif:platform "http://dbpedia.org/resource/Android_(operating_system)";
+       auPif:genre "http://dbpedia.org/resource/Graphic_adventure_game";
+       auPif:series "http://dbpedia.org/resource/List_of_Batman_video_games";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Mark_Darin";
+       auPif:composer "http://dbpedia.org/resource/Jared_Emerson-Johnson";
+       
+
+resource:a55b6a16-bb47-4b17-8c69-b73ac8eaddd8 a ontology:game;
+       auPif:name "Bionic Commando (1987 video game)";
+       auPif:releaseDate 1987-03-20;
+       auPif:developer "http://dbpedia.org/resource/Capcom";
+       auPif:publisher "http://dbpedia.org/resource/U.S._Gold";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Platformer";
+       auPif:series "http://dbpedia.org/resource/Bionic_Commando";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Tokuro_Fujiwara";
+       auPif:composer "http://dbpedia.org/resource/Harumi_Fujita";
+       
+
+resource:6967f01c-1987-4dd7-9725-100485c022ab a ontology:game;
+       auPif:name "BlackSite: Area 51";
+       auPif:releaseDate 2007-11-12;
+       auPif:developer "http://dbpedia.org/resource/Midway_Austin";
+       auPif:publisher "http://dbpedia.org/resource/Midway_Games";
+       auPif:platform "http://dbpedia.org/resource/Windows";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Area_51_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Harvey_Smith_(game_designer)";
+       auPif:composer "http://dbpedia.org/resource/Jason_Graves";
+       
+
+resource:d4350c64-545b-4164-8041-65dc9a5b2447 a ontology:game;
+       auPif:name "Cannon Fodder (video game)";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Sensible_Software";
+       auPif:publisher "http://dbpedia.org/resource/Virgin_Interactive_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Game_Boy_Color";
+       auPif:genre "http://dbpedia.org/resource/Shoot_'em_up";
+       auPif:series "http://dbpedia.org/resource/Cannon_Fodder_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Jon_Hare";
+       auPif:composer "http://dbpedia.org/resource/Sega_Mega_Drive";
+       
+
+resource:0c9523be-4c43-414b-aef4-54d44a3731c2 a ontology:game;
+       auPif:name "Battletoads Arcade";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Rare_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Beat_'em_up";
+       auPif:series "http://dbpedia.org/resource/Battletoads";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Gregg_Mayles";
+       auPif:composer "http://dbpedia.org/resource/David_Wise_(composer)";
+       
+
+resource:c03cc6f8-6e2d-4aeb-b0e5-fbf48feb6197 a ontology:game;
+       auPif:name "RollerCoaster Tycoon Classic";
+       auPif:releaseDate 2016-12-22;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Atari;
+       auPif:platform _Inc._(1993–present)";
+       auPif:genre "http://dbpedia.org/resource/MacOS";
+       auPif:series "http://dbpedia.org/resource/Construction_and_management_simulation";
+       auPif:countryOfOrigin "http://dbpedia.org/resource/RollerCoaster_Tycoon";
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Chris_Sawyer";
+       
+
+resource:129147d3-8b8c-4063-a71e-07ac1eba643a a ontology:game;
+       auPif:name "San Francisco Rush 2049";
+       auPif:releaseDate 2000-09-05;
+       auPif:developer "http://dbpedia.org/resource/Handheld_Games";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Racing_video_game";
+       auPif:series "http://dbpedia.org/resource/Rush_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Ed_Logg";
+       auPif:composer "http://dbpedia.org/resource/Barry_Leitch";
+       
+
+resource:3e4d82fe-6b3d-401f-a645-c4dc11117a68 a ontology:game;
+       auPif:name "Battletoads (1991 video game)";
+       auPif:releaseDate 1991-06-01;
+       auPif:developer "http://dbpedia.org/resource/Arc_System_Works";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Game_Boy";
+       auPif:genre "http://dbpedia.org/resource/Beat_'em_up";
+       auPif:series "http://dbpedia.org/resource/Battletoads";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Tim_and_Chris_Stamper";
+       auPif:composer "http://dbpedia.org/resource/Mark_Knight_(sound_designer)";
+       
+
+resource:e0a1deb4-4692-4e4e-85d4-f73780c2b494 a ontology:game;
+       auPif:name "RollerCoaster Tycoon (video game)";
+       auPif:releaseDate 1999-03-22;
+       auPif:developer ;
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Windows";
+       auPif:genre "http://dbpedia.org/resource/Construction_and_management_simulation";
+       auPif:series "http://dbpedia.org/resource/RollerCoaster_Tycoon";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Chris_Sawyer";
+       auPif:composer "http://dbpedia.org/resource/Allister_Brimble";
+       
+
+resource:8b93723b-8e95-4a67-9bc4-e4db5fb8da2d a ontology:game;
+       auPif:name "Call of Duty: Modern Warfare 3";
+       auPif:releaseDate 2011-11-08;
+       auPif:developer "http://dbpedia.org/resource/Infinity_Ward";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Michael_Condrey";
+       auPif:composer "http://dbpedia.org/resource/Brian_Tyler";
+       
+
+resource:c44ed1b0-18b7-479a-b735-069658eb44b5 a ontology:game;
+       auPif:name "Sam & Max: The Devil's Playhouse";
+       auPif:releaseDate 2010-04-02;
+       auPif:developer "http://dbpedia.org/resource/Telltale_Games";
+       auPif:publisher "http://dbpedia.org/resource/Telltale_Games";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Graphic_adventure_game";
+       auPif:series "http://dbpedia.org/resource/Sam_&_Max";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Chuck_Jordan_(game_designer)";
+       auPif:composer "http://dbpedia.org/resource/Jared_Emerson-Johnson";
+       
+
+resource:5186ae0e-5900-4a14-8cee-0cfea9e19592 a ontology:game;
+       auPif:name "Sam & Max Beyond Time and Space";
+       auPif:releaseDate 2007-11-08;
+       auPif:developer "http://dbpedia.org/resource/Telltale_Games";
+       auPif:publisher ;
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Graphic_adventure_game";
+       auPif:series "http://dbpedia.org/resource/Sam_&_Max";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Dave_Grossman_(game_developer)";
+       auPif:composer "http://dbpedia.org/resource/Jared_Emerson-Johnson";
+       
+
+resource:e25ea7a5-8c92-4853-94c9-9124b9fa3827 a ontology:game;
+       auPif:name "Punch-Out!! (arcade game)";
+       auPif:releaseDate 1984-02-17;
+       auPif:developer "http://dbpedia.org/resource/Nintendo_R&D3";
+       auPif:publisher "http://dbpedia.org/resource/Nintendo";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre ;
+       auPif:series "http://dbpedia.org/resource/Punch-Out!!";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Genyo_Takeda";
+       auPif:composer "http://dbpedia.org/resource/Koji_Kondo";
+       
+
+resource:ad899355-c560-41e7-aea6-8a763fed9c2d a ontology:game;
+       auPif:name "Prince of Persia (1989 video game)";
+       auPif:releaseDate 1989-10-03;
+       auPif:developer "http://dbpedia.org/resource/Virgin_Interactive";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/Apple_II_series";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Jordan_Mechner";
+       auPif:composer "http://dbpedia.org/resource/Mark_Cooksey";
+       
+
+resource:7e3499fe-f3f4-4205-a0f2-18c11041defb a ontology:game;
+       auPif:name "Prototype (video game)";
+       auPif:releaseDate 2009-06-09;
+       auPif:developer "http://dbpedia.org/resource/Radical_Entertainment";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_3";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Eric_Holmes_(video_game_designer)";
+       auPif:composer "http://dbpedia.org/resource/Cris_Velasco";
+       
+
+resource:7cf7ca59-050e-4952-b0d7-1ad1b82b8e8a a ontology:game;
+       auPif:name "Pulseman";
+       auPif:releaseDate 1994-07-22;
+       auPif:developer "http://dbpedia.org/resource/Game_Freak";
+       auPif:publisher "http://dbpedia.org/resource/Sega";
+       auPif:platform "http://dbpedia.org/resource/Virtual_Console";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Ken_Sugimori";
+       auPif:composer "http://dbpedia.org/resource/Junichi_Masuda";
+       
+
+resource:88959315-170f-46f0-b3db-ef9df6eded21 a ontology:game;
+       auPif:name "Putt-Putt Goes to the Moon";
+       auPif:releaseDate 2014-05-05;
+       auPif:developer "http://dbpedia.org/resource/Humongous_Entertainment";
+       auPif:publisher "http://dbpedia.org/resource/Humongous_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Linux";
+       auPif:genre "http://dbpedia.org/resource/Adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Ron_Gilbert";
+       auPif:composer "http://dbpedia.org/resource/George_Sanger_(musician)";
+       
+
+resource:81fc02b1-7d43-4933-9eb0-ebd372d3dd4b a ontology:game;
+       auPif:name "Putt-Putt Saves the Zoo";
+       auPif:releaseDate 1995-08-10;
+       auPif:developer "http://dbpedia.org/resource/Humongous_Entertainment";
+       auPif:publisher "http://dbpedia.org/resource/Humongous_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/DVD_player";
+       auPif:genre "http://dbpedia.org/resource/Adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Ron_Gilbert";
+       auPif:composer "http://dbpedia.org/resource/George_Sanger_(musician)";
+       
+
+resource:81ace732-7b23-49d4-ad4c-65399cb25b81 a ontology:game;
+       auPif:name "Rocky Rodent";
+       auPif:releaseDate 1993-07-30;
+       auPif:developer "http://dbpedia.org/resource/Irem";
+       auPif:publisher "http://dbpedia.org/resource/Irem";
+       auPif:platform "http://dbpedia.org/resource/Super_Nintendo_Entertainment_System";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Eigo_Kasahara";
+       auPif:composer "http://dbpedia.org/resource/Rikei_Hirashima";
+       
+
+resource:ea6f5372-ba3b-472d-b6cf-d445bfc25dba a ontology:game;
+       auPif:name "Rogue Galaxy";
+       auPif:releaseDate 2005-12-08;
+       auPif:developer "http://dbpedia.org/resource/Level-5_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Sony_Computer_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Action_role-playing_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Akihiro_Hino";
+       auPif:composer "http://dbpedia.org/resource/Tomohito_Nishiura";
+       
+
+resource:46cca150-d175-4c73-94c2-44b2f9b28cab a ontology:game;
+       auPif:name "Beetlejuice (video game series)";
+       auPif:releaseDate 1990-07-13;
+       auPif:developer "http://dbpedia.org/resource/Rare_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Acclaim_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Game_Boy";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Gregg_Mayles";
+       auPif:composer "http://dbpedia.org/resource/David_Wise_(composer)";
+       
+
+resource:49da6878-6a9a-4ed5-b142-408cd6c61385 a ontology:game;
+       auPif:name "Beyond Good & Evil (video game)";
+       auPif:releaseDate 2003-11-11;
+       auPif:developer "http://dbpedia.org/resource/Ubisoft_Milan";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/GameCube";
+       auPif:genre "http://dbpedia.org/resource/Stealth_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Michel_Ancel";
+       auPif:composer "http://dbpedia.org/resource/Christophe_Héral";
+       
+
+resource:d349fdb7-f250-4b34-80c3-57d82342f6e2 a ontology:game;
+       auPif:name "Billy Hatcher and the Giant Egg";
+       auPif:releaseDate 2003-09-23;
+       auPif:developer "http://dbpedia.org/resource/Sonic_Team";
+       auPif:publisher "http://dbpedia.org/resource/Sega";
+       auPif:platform "http://dbpedia.org/resource/GameCube";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Shun_Nakamura";
+       auPif:composer "http://dbpedia.org/resource/Tomoya_Ohtani";
+       
+
+resource:4497547e-09be-4736-930e-1e3322e14cd2 a ontology:game;
+       auPif:name "Black & White (video game)";
+       auPif:releaseDate 2001-03-30;
+       auPif:developer "http://dbpedia.org/resource/Lionhead_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/Mac_OS";
+       auPif:genre "http://dbpedia.org/resource/God_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Peter_Molyneux";
+       auPif:composer "http://dbpedia.org/resource/Russell_Shaw_(composer)";
+       
+
+resource:70c5e013-5126-46a0-98d6-f4a9d1dfec18 a ontology:game;
+       auPif:name "Quester";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Namco";
+       auPif:publisher "http://dbpedia.org/resource/Namco";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Breakout_clone";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Toru_Iwatani";
+       auPif:composer "http://dbpedia.org/resource/Shinji_Hosoe";
+       
+
+resource:de5cae17-5cc3-41ca-b68f-135c513a3620 a ontology:game;
+       auPif:name "Menace (video game)";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/DMA_Design";
+       auPif:publisher "http://dbpedia.org/resource/Psygnosis";
+       auPif:platform "http://dbpedia.org/resource/Commodore_64";
+       auPif:genre "http://dbpedia.org/resource/Scrolling_shooter";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/David_Jones_(video_game_developer)";
+       auPif:composer "http://dbpedia.org/resource/David_Whittaker_(video_game_composer)";
+       
+
+resource:d0624daa-ebda-48d8-8491-b866396118ad a ontology:game;
+       auPif:name "1943: The Battle of Midway";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Capcom";
+       auPif:publisher "http://dbpedia.org/resource/Capcom";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Shoot_'em_up";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Yoshiki_Okamoto";
+       auPif:composer "http://dbpedia.org/resource/Harumi_Fujita";
+       
+
+resource:073afc0d-a00e-423b-be97-3a7c9fcf2d6a a ontology:game;
+       auPif:name "Battle Tank (video game)";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Imagineering_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Absolute_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Entertainment_System";
+       auPif:genre "http://dbpedia.org/resource/Simulation_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Garry_Kitchen";
+       auPif:composer "http://dbpedia.org/resource/Mark_Van_Hecke";
+       
+
+resource:528ecc24-c10e-4567-bf4a-6d8f9e83534a a ontology:game;
+       auPif:name "Project S-11";
+       auPif:releaseDate 2001-01-03;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Sunsoft";
+       auPif:platform "http://dbpedia.org/resource/Game_Boy_Color";
+       auPif:genre "http://dbpedia.org/resource/Shoot_'em_up";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Paul_Bragiel";
+       auPif:composer "http://dbpedia.org/resource/Aleksi_Eeben";
+       
+
+resource:b85b8c48-ded7-4e6e-adec-874207797272 a ontology:game;
+       auPif:name "Power Drift";
+       auPif:releaseDate 1988-07-05;
+       auPif:developer "http://dbpedia.org/resource/Activision";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Commodore_64";
+       auPif:genre "http://dbpedia.org/resource/Kart_racing_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Yu_Suzuki";
+       auPif:composer "http://dbpedia.org/resource/Hiroshi_Kawaguchi_(composer)";
+       
+
+resource:193c9bbd-7f18-4971-b25b-63d645175136 a ontology:game;
+       auPif:name "California Games";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Epyx";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Amstrad_CPC";
+       auPif:genre "http://dbpedia.org/resource/Sports_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Ken_Nicholson";
+       auPif:composer "http://dbpedia.org/resource/David_Wise_(composer)";
+       
+
+resource:cedcd840-b750-4e0a-9737-1fd09819efa6 a ontology:game;
+       auPif:name "Quantum Conundrum";
+       auPif:releaseDate 2012-06-21;
+       auPif:developer "http://dbpedia.org/resource/Airtight_Games";
+       auPif:publisher "http://dbpedia.org/resource/Square_Enix";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Puzzle-platform_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Kim_Swift";
+       auPif:composer "http://dbpedia.org/resource/Chris_Ballew";
+       
+
+resource:aa0d69a1-e692-4875-a893-e2f2ef2ed405 a ontology:game;
+       auPif:name "Black & White 2";
+       auPif:releaseDate 2005-10-04;
+       auPif:developer "http://dbpedia.org/resource/Lionhead_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/God_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Peter_Molyneux";
+       auPif:composer "http://dbpedia.org/resource/Russell_Shaw_(composer)";
+       
+
+resource:39f356ea-6bb3-472f-b315-e7a15a60a1d6 a ontology:game;
+       auPif:name "Captain Blood (video game)";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Exxos";
+       auPif:publisher "http://dbpedia.org/resource/Infogrames";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Philippe_Ulrich";
+       auPif:composer "http://dbpedia.org/resource/Jean-Michel_Jarre";
+       
+
+resource:fd532281-0b81-4c99-acbc-ce6c15015e01 a ontology:game;
+       auPif:name "Captain Dynamo (video game)";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Codemasters";
+       auPif:publisher "http://dbpedia.org/resource/Codemasters";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Oliver_Twins";
+       auPif:composer "http://dbpedia.org/resource/Allister_Brimble";
+       
+
+resource:bff56215-dba6-4807-882d-90f9a25717f3 a ontology:game;
+       auPif:name "Canabalt";
+       auPif:releaseDate 2009-10-01;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Beatshapers";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Endless_runner";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer "http://dbpedia.org/resource/Adam_Saltsman";
+       auPif:composer "http://dbpedia.org/resource/Danny_Baranowsky";
+       
+
+resource:e20320d3-4267-4d10-9baa-8dae79b3da5b a ontology:game;
+       auPif:name "Call of Duty: Modern Warfare 3 – Defiance";
+       auPif:releaseDate 2011-11-08;
+       auPif:developer "http://dbpedia.org/resource/N-Space";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_DS";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.callofduty.com/mw3/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Geoff_Zanelli";
+       
+
+resource:52c68752-23ac-43f7-871b-d21c51022cb8 a ontology:game;
+       auPif:name "Call of Duty: Vanguard";
+       auPif:releaseDate 2021-11-05;
+       auPif:developer "http://dbpedia.org/resource/Sledgehammer_Games";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://www.callofduty.com/vanguard";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Bear_McCreary";
+       
+
+resource:229d3fb9-7efc-43a2-89ac-98e9d25c0809 a ontology:game;
+       auPif:name "Call of Duty: World at War – Final Fronts";
+       auPif:releaseDate 2008-11-10;
+       auPif:developer "http://dbpedia.org/resource/Rebellion_Developments";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.callofduty.com/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Sean_Murray_(composer)";
+       
+
+resource:67e61709-12e5-42ac-a23a-62e2e302f580 a ontology:game;
+       auPif:name "Castlevania: Curse of Darkness";
+       auPif:releaseDate 2005-11-01;
+       auPif:developer "http://dbpedia.org/resource/Konami";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series "http://dbpedia.org/resource/Castlevania";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.konami.jp/gs/game/dracula_ps2/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:9e7a4e58-b39b-4935-967c-4c56f44f3c98 a ontology:game;
+       auPif:name "Castlevania: Dawn of Sorrow";
+       auPif:releaseDate 2005-08-25;
+       auPif:developer "http://dbpedia.org/resource/Konami";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/Mobile_phone";
+       auPif:genre "http://dbpedia.org/resource/Action_role-playing_game";
+       auPif:series "http://dbpedia.org/resource/Castlevania";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.konami.jp/gs/game/dracula_ds/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:5c9859e7-5961-4dc9-9fb8-d934d384558f a ontology:game;
+       auPif:name "Castlevania: Lament of Innocence";
+       auPif:releaseDate 2003-10-21;
+       auPif:developer "http://dbpedia.org/resource/Konami";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series "http://dbpedia.org/resource/Castlevania";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20041206110133/http:/www.konami.com/gs/lamentofinnocence/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:de545a63-7036-4139-9182-65d22d6d6583 a ontology:game;
+       auPif:name "Castlevania: Order of Ecclesia";
+       auPif:releaseDate 2008-10-21;
+       auPif:developer "http://dbpedia.org/resource/Konami";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_DS";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Castlevania";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.konami.jp/gs/game/dracula_ds3";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:15f8a5f3-6730-4cba-aa37-d1606a19d7be a ontology:game;
+       auPif:name "Professor Layton and the Curious Village";
+       auPif:releaseDate 2007-02-15;
+       auPif:developer "http://dbpedia.org/resource/Level-5_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Nintendo";
+       auPif:platform "http://dbpedia.org/resource/Mobile_game";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Professor_Layton";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://professorlayton.nintendo.com/curiousvillage/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tomohito_Nishiura";
+       
+
+resource:13368965-a90a-437b-a914-635961bdf266 a ontology:game;
+       auPif:name "Project CARS (video game)";
+       auPif:releaseDate 2015-05-06;
+       auPif:developer "http://dbpedia.org/resource/Slightly_Mad_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Bandai_Namco_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/Sim_racing";
+       auPif:series "http://dbpedia.org/resource/Project_CARS";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.projectcarsgame.com";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Stephen_Baysted";
+       
+
+resource:e0c773fb-d888-453d-ab8c-2aa96190120b a ontology:game;
+       auPif:name "Puyo Puyo Champions";
+       auPif:releaseDate 2018-10-25;
+       auPif:developer "http://dbpedia.org/resource/Sonic_Team";
+       auPif:publisher "http://dbpedia.org/resource/Sega";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Switch";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Puyo_Puyo";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://puyo.sega.com/champions/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jun_Senoue";
+       
+
+resource:6117599c-5896-4cc8-9b71-af74fa6afd8d a ontology:game;
+       auPif:name "Rockman EXE 4.5 Real Operation";
+       auPif:releaseDate 2004-08-06;
+       auPif:developer "http://dbpedia.org/resource/Capcom";
+       auPif:publisher "http://dbpedia.org/resource/Capcom";
+       auPif:platform "http://dbpedia.org/resource/Game_Boy_Advance";
+       auPif:genre "http://dbpedia.org/resource/Real-time_tactics";
+       auPif:series "http://dbpedia.org/resource/Mega_Man_Battle_Network";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20100522212931/http:/www.capcom.co.jp/rockmanexe/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Akari_Kaida";
+       
+
+resource:dadb90fe-9f67-4ce2-8656-e11a45fe5943 a ontology:game;
+       auPif:name "Romance of the Three Kingdoms XI";
+       auPif:releaseDate 2006-03-17;
+       auPif:developer "http://dbpedia.org/resource/Koei";
+       auPif:publisher "http://dbpedia.org/resource/Koei";
+       auPif:platform "http://dbpedia.org/resource/Wii";
+       auPif:genre "http://dbpedia.org/resource/Turn-based_strategy";
+       auPif:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.koei.com/rtkxi/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Yoshihiro_Ike";
+       
+
+resource:0f5bcf1e-f8b6-41c2-81da-f594d07c48ac a ontology:game;
+       auPif:name "Rome: Total War: Barbarian Invasion";
+       auPif:releaseDate 2005-09-25;
+       auPif:developer "http://dbpedia.org/resource/Creative_Assembly";
+       auPif:publisher "http://dbpedia.org/resource/Feral_Interactive";
+       auPif:platform "http://dbpedia.org/resource/MacOS";
+       auPif:genre "http://dbpedia.org/resource/Turn-based_strategy";
+       auPif:series "http://dbpedia.org/resource/Total_War_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.totalwar.com/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jeff_van_Dyck";
+       
+
+resource:bf70b145-28c6-4dd4-9166-186adea98bf0 a ontology:game;
+       auPif:name "Samorost 3";
+       auPif:releaseDate 2016-03-24;
+       auPif:developer "http://dbpedia.org/resource/Amanita_Design";
+       auPif:publisher "http://dbpedia.org/resource/Amanita_Design";
+       auPif:platform "http://dbpedia.org/resource/Android_(operating_system)";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Samorost";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.samorost3.net/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Floex";
+       
+
+resource:db13fa61-cc70-4c5e-981c-4948e59c3fa2 a ontology:game;
+       auPif:name "Saru! Get You! SaruSaru Big Mission";
+       auPif:releaseDate 2007-07-26;
+       auPif:developer "http://dbpedia.org/resource/H.a.n.d.";
+       auPif:publisher "http://dbpedia.org/resource/Sony_Computer_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_Portable";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Ape_Escape";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.jp.playstation.com/scej/title/sarusaru/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Soichi_Terada";
+       
+
+resource:74ca74c5-cc35-42cd-8586-8f8e2b6f72f3 a ontology:game;
+       auPif:name "Myst Online: Uru Live";
+       auPif:releaseDate 2007-02-15;
+       auPif:developer "http://dbpedia.org/resource/Cyan_Worlds";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/Mac_OS_X";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Myst_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://openuru.org";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tim_Larkin";
+       
+
+resource:a57a7927-703a-4724-afb1-ddd376f8ba06 a ontology:game;
+       auPif:name "Project CARS 2";
+       auPif:releaseDate 2017-09-22;
+       auPif:developer "http://dbpedia.org/resource/Slightly_Mad_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Bandai_Namco_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/Sim_racing";
+       auPif:series "http://dbpedia.org/resource/Project_CARS";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.projectcarsgame.com";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Stephen_Baysted";
+       
+
+resource:71a2c5ac-7370-448a-8423-d9a9c1133ae3 a ontology:game;
+       auPif:name "Battlefield 2142";
+       auPif:releaseDate 2006-10-17;
+       auPif:developer "http://dbpedia.org/resource/DICE_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/MacOS";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Battlefield_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20061107051946/http:/www.battlefield2142.ea.com/battlefield/bf2142/default.aspx";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Gregor_Narholz";
+       
+
+resource:7f5f3895-06b7-410e-bbbd-eedfae625b1f a ontology:game;
+       auPif:name "Before Crisis: Final Fantasy VII";
+       auPif:releaseDate 2004-09-24;
+       auPif:developer "http://dbpedia.org/resource/Square_Enix";
+       auPif:publisher "http://dbpedia.org/resource/Square_Enix";
+       auPif:platform "http://dbpedia.org/resource/Mobile_game";
+       auPif:genre "http://dbpedia.org/resource/Action_role-playing_game";
+       auPif:series "http://dbpedia.org/resource/Compilation_of_Final_Fantasy_VII";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.square-enix.co.jp/mobile/bcff7.html";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takeharu_Ishimoto";
+       
+
+resource:71f1c0a0-dddc-4e31-9dba-a0d72a3755e4 a ontology:game;
+       auPif:name "Berserk: Millennium Falcon Hen Seima Senki no Shō";
+       auPif:releaseDate 2004-10-07;
+       auPif:developer "http://dbpedia.org/resource/Yuke's";
+       auPif:publisher "http://dbpedia.org/resource/Sammy_Corporation";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series "http://dbpedia.org/resource/Berserk_(manga)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20060214152613/http:/berserk.sega.jp/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Susumu_Hirasawa";
+       
+
+resource:7c8baa6e-8224-4872-a4d1-8f82bb05363e a ontology:game;
+       auPif:name "Bit.Trip Void";
+       auPif:releaseDate 2009-10-27;
+       auPif:developer "http://dbpedia.org/resource/Choice_Provisions";
+       auPif:publisher "http://dbpedia.org/resource/Gaijin_Games";
+       auPif:platform "http://dbpedia.org/resource/Mac_OS_X";
+       auPif:genre "http://dbpedia.org/resource/Shoot_'em_up";
+       auPif:series "http://dbpedia.org/resource/Bit.Trip";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20110623222706/http:/www.bittripgame.com/bittrip-void.html";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Nullsleep";
+       
+
+resource:20c1ccb9-6f7c-4ad6-9133-63857af3b5c2 a ontology:game;
+       auPif:name "Black Rock Shooter: The Game";
+       auPif:releaseDate 2011-08-25;
+       auPif:developer "http://dbpedia.org/resource/Imageepoch";
+       auPif:publisher "http://dbpedia.org/resource/Nippon_Ichi_Software";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_Portable";
+       auPif:genre "http://dbpedia.org/resource/Action_role-playing_game";
+       auPif:series "http://dbpedia.org/resource/Black_Rock_Shooter";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://nisamerica.com/games/blackrockshooterthegame/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Manabu_Namiki";
+       
+
+resource:ef8ad2f6-5582-400c-b683-30f27a23302b a ontology:game;
+       auPif:name "Bladestorm: The Hundred Years' War";
+       auPif:releaseDate 2007-08-30;
+       auPif:developer "http://dbpedia.org/resource/Omega_Force";
+       auPif:publisher "http://dbpedia.org/resource/Koei";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_3";
+       auPif:genre "http://dbpedia.org/resource/Real-time_tactics";
+       auPif:series "http://dbpedia.org/resource/Dynasty_Warriors";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.gamecity.ne.jp/bladestorm/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jamie_Christopherson";
+       
+
+resource:1668aef2-40c1-4f87-90ff-aeff9b5f093d a ontology:game;
+       auPif:name "Blood Will Tell";
+       auPif:releaseDate 2004-09-09;
+       auPif:developer "http://dbpedia.org/resource/Red_Entertainment";
+       auPif:publisher "http://dbpedia.org/resource/Tezuka_Productions";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series "http://dbpedia.org/resource/Dororo";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20070119234121/http:/sega.jp/ps2/dororo/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Isao_Tomita";
+       
+
+resource:814c7353-cd8d-4b58-a34c-3dfb4f33ccb6 a ontology:game;
+       auPif:name "Castlevania: The Adventure ReBirth";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/M2_(game_developer)";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/WiiWare";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Castlevania";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20091130155305/http:/www.konami.com/games/castlevania/castlevania-adventure-rebirth.php";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Manabu_Namiki";
+       
+
+resource:1bd48ec6-ff53-4ac2-a7c6-b13efff3eca1 a ontology:game;
+       auPif:name "Call of Duty 2";
+       auPif:releaseDate 2005-10-25;
+       auPif:developer "http://dbpedia.org/resource/Infinity_Ward";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Mobile_game";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.callofduty.com/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Graeme_Revell";
+       
+
+resource:04f97c3c-fb8c-4ba9-ac57-207cb5044bf6 a ontology:game;
+       auPif:name "Professor Layton and the Diabolical Box";
+       auPif:releaseDate 2007-11-29;
+       auPif:developer "http://dbpedia.org/resource/Level-5_(company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Android_(operating_system)";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Professor_Layton";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://professorlayton.nintendo.com/diabolicalbox/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tomohito_Nishiura";
+       
+
+resource:91b49fc0-d88b-4af2-ae9c-dfad1876fe13 a ontology:game;
+       auPif:name "Professor Layton and the Miracle Mask";
+       auPif:releaseDate 2011-02-26;
+       auPif:developer "http://dbpedia.org/resource/Level-5_(company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_3DS";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Professor_Layton";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://professorlayton.nintendo.com/miraclemask/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tomohito_Nishiura";
+       
+
+resource:059a7c36-ac8f-48c8-a679-e91f15cdd7a2 a ontology:game;
+       auPif:name "Professor Layton and the Unwound Future";
+       auPif:releaseDate 2008-11-27;
+       auPif:developer "http://dbpedia.org/resource/Level-5_(company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Android_(operating_system)";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Professor_Layton";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://professorlayton.nintendo.com/unwoundfuture/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tomohito_Nishiura";
+       
+
+resource:ba5eef3e-cbb5-4708-8861-481f131c95d1 a ontology:game;
+       auPif:name "Robotics;Notes";
+       auPif:releaseDate 2012-06-28;
+       auPif:developer "http://dbpedia.org/resource/5pb.";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Switch";
+       auPif:genre "http://dbpedia.org/resource/Visual_novel";
+       auPif:series "http://dbpedia.org/resource/Science_Adventure";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.roboticsnotes.tv/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takeshi_Abo";
+       
+
+resource:a0813352-368b-45c0-a1eb-150af990ed3f a ontology:game;
+       auPif:name "MU Legend";
+       auPif:releaseDate 2017-03-23;
+       auPif:developer "http://dbpedia.org/resource/Webzen_Games";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Microsoft_Windows";
+       auPif:genre "http://dbpedia.org/resource/Fantasy";
+       auPif:series "http://dbpedia.org/resource/Mu_Online";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://mulegend.webzen.com";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jesper_Kyd";
+       
+
+resource:53d3420f-b0bd-4ec2-ad26-0264c443e3ee a ontology:game;
+       auPif:name "Beyond Divinity";
+       auPif:releaseDate 2004-04-28;
+       auPif:developer "http://dbpedia.org/resource/Larian_Studios";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/MacOS";
+       auPif:genre "http://dbpedia.org/resource/Action_role-playing_game";
+       auPif:series "http://dbpedia.org/resource/Divinity_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.beyond-divinity.com/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Kirill_Pokrovsky";
+       
+
+resource:3522da32-6fb3-4394-b46c-a4ae72387e5e a ontology:game;
+       auPif:name "BloodRayne: Betrayal";
+       auPif:releaseDate 2011-09-06;
+       auPif:developer "http://dbpedia.org/resource/WayForward_Technologies";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Switch";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/BloodRayne";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://www.ziggurat.games/game/bloodrayne-betrayal/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jake_Kaufman";
+       
+
+resource:23a93986-f51d-4e9f-8d1e-7a9ec6a0f8d8 a ontology:game;
+       auPif:name "Bloody Roar 2";
+       auPif:releaseDate 1999-01-28;
+       auPif:developer "http://dbpedia.org/resource/Eighting";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series "http://dbpedia.org/resource/Bloody_Roar";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://www.8ing.co.jp/museum/prd/br2/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Masaharu_Iwata";
+       
+
+resource:41b0086c-43f2-487b-8e9d-cfc64335e6f7 a ontology:game;
+       auPif:name "Blue Dragon Plus";
+       auPif:releaseDate 2008-09-04;
+       auPif:developer "http://dbpedia.org/resource/Brownie_Brown";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_DS";
+       auPif:genre "http://dbpedia.org/resource/Tactical_role-playing_game";
+       auPif:series "http://dbpedia.org/resource/Blue_Dragon_(video_game)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20071222215542/http:/www.aqi.co.jp/product/bdp/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Nobuo_Uematsu";
+       
+
+resource:05446b63-66b4-43ed-8842-c30bdbddcf7e a ontology:game;
+       auPif:name "Call of Duty: Black Ops Cold War";
+       auPif:releaseDate 2020-11-13;
+       auPif:developer "http://dbpedia.org/resource/Treyarch";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://www.callofduty.com/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jack_Wall_(composer)";
+       
+
+resource:0183c145-b567-4438-84e9-e0b86f776a23 a ontology:game;
+       auPif:name "Powerstar Golf";
+       auPif:releaseDate 2013-11-22;
+       auPif:developer "http://dbpedia.org/resource/Zoë_Mode";
+       auPif:publisher "http://dbpedia.org/resource/Microsoft_Studios";
+       auPif:platform "http://dbpedia.org/resource/Xbox_One";
+       auPif:genre "http://dbpedia.org/resource/Sports_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.zoemode.com/powerstar_golf.html";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Richard_Jacques";
+       
+
+resource:54d6243b-9255-41f8-b305-fef61cb7825b a ontology:game;
+       auPif:name "Prey (2006 video game)";
+       auPif:releaseDate 2006-07-11;
+       auPif:developer "http://dbpedia.org/resource/Human_Head_Studios";
+       auPif:publisher "http://dbpedia.org/resource/2K_Games";
+       auPif:platform "http://dbpedia.org/resource/Linux";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20080715104241/http:/www.prey.com/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jeremy_Soule";
+       
+
+resource:ecd355e0-2fc2-4043-85c8-9110721e6551 a ontology:game;
+       auPif:name "Project Snowblind";
+       auPif:releaseDate 2005-02-22;
+       auPif:developer "http://dbpedia.org/resource/Crystal_Dynamics";
+       auPif:publisher "http://dbpedia.org/resource/Eidos_Interactive";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://archive.today/20040915030111/http:/www.projectsnowblind.com/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Troels_Brun_Folmann";
+       
+
+resource:2e2ff412-4573-4fb8-a311-55e522c647fe a ontology:game;
+       auPif:name "Puppeteer (video game)";
+       auPif:releaseDate 2013-09-05;
+       auPif:developer "http://dbpedia.org/resource/Japan_Studio";
+       auPif:publisher "http://dbpedia.org/resource/Sony_Interactive_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_3";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://www.playstation.com/en-gb/games/puppeteer-ps3/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Patrick_Doyle";
+       
+
+resource:34dad28e-46e6-43cf-8b04-d70e65a008af a ontology:game;
+       auPif:name "Puzzle & Dragons";
+       auPif:releaseDate 2012-11-08;
+       auPif:developer "http://dbpedia.org/resource/GungHo_Online_Entertainment";
+       auPif:publisher "http://dbpedia.org/resource/GungHo_Online_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Android_(operating_system)";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://puzzleanddragons.us/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Kenji_Ito";
+       
+
+resource:c9180b41-14a8-4f82-ab29-75c005c77598 a ontology:game;
+       auPif:name "Rumble Roses";
+       auPif:releaseDate 2004-11-09;
+       auPif:developer "http://dbpedia.org/resource/Yuke's";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Sports_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.konami.jp/gs/game/rumbleroses/ps2/index.html";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:23597d1e-53d5-4ea1-bd77-4209be3ea544 a ontology:game;
+       auPif:name "Samurai Champloo: Sidetracked";
+       auPif:releaseDate 2006-02-23;
+       auPif:developer "http://dbpedia.org/resource/Grasshopper_Manufacture";
+       auPif:publisher "http://dbpedia.org/resource/Namco_Bandai_Games";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/*/http:/bandai.namco.com/games/samurai_s.html";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Masafumi_Takada";
+       
+
+resource:0217c495-3d8c-48df-8a58-8cba80bb3407 a ontology:game;
+       auPif:name "Sands of Destruction";
+       auPif:releaseDate 2008-09-25;
+       auPif:developer "http://dbpedia.org/resource/Imageepoch";
+       auPif:publisher "http://dbpedia.org/resource/Sega";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_DS";
+       auPif:genre "http://dbpedia.org/resource/Role-playing_video_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20080705060932/http:/wd.sega.jp/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Yasunori_Mitsuda";
+       
+
+resource:d0e6bdec-61e5-4d4e-bd7e-ddb428badc32 a ontology:game;
+       auPif:name "Sangokushi Sōsōden";
+       auPif:releaseDate 1998-12-11;
+       auPif:developer "http://dbpedia.org/resource/Koei";
+       auPif:publisher "http://dbpedia.org/resource/Koei";
+       auPif:platform "http://dbpedia.org/resource/Mobile_phone";
+       auPif:genre "http://dbpedia.org/resource/Tactical_role-playing_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.gamecity.ne.jp/products/products/ee/Rlsousou.htm";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Mahito_Yokota";
+       
+
+resource:6d7457d5-6a92-4a6b-b438-d7ebc00e7233 a ontology:game;
+       auPif:name "Baten Kaitos: Eternal Wings and the Lost Ocean";
+       auPif:releaseDate 2003-12-05;
+       auPif:developer "http://dbpedia.org/resource/Monolith_Soft";
+       auPif:publisher "http://dbpedia.org/resource/Namco";
+       auPif:platform "http://dbpedia.org/resource/GameCube";
+       auPif:genre "http://dbpedia.org/resource/Role-playing_video_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.bandainamcogames.co.jp/cs/list/batenkaitos/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Motoi_Sakuraba";
+       
+
+resource:087bf2a8-1cbe-439d-ab8b-8785cc8a939b a ontology:game;
+       auPif:name "Battle Stadium D.O.N";
+       auPif:releaseDate 2006-07-20;
+       auPif:developer "http://dbpedia.org/resource/Eighting";
+       auPif:publisher "http://dbpedia.org/resource/Namco_Bandai_Games";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_GameCube";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20121019041045/http:/www.nintendo.co.jp/ngc/software/g8sj/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Hitoshi_Sakimoto";
+       
+
+resource:51062dff-42b2-4f8d-83f5-c2262849720d a ontology:game;
+       auPif:name "Battlestations: Midway";
+       auPif:releaseDate 2007-01-30;
+       auPif:developer "http://dbpedia.org/resource/Eidos_Hungary";
+       auPif:publisher "http://dbpedia.org/resource/Feral_Interactive";
+       auPif:platform "http://dbpedia.org/resource/MacOS";
+       auPif:genre "http://dbpedia.org/resource/Action_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20110204090617/http:/www.battlestations.net/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Richard_Jacques";
+       
+
+resource:396614ad-3cac-4209-850c-96f987801905 a ontology:game;
+       auPif:name "Battlestations: Pacific";
+       auPif:releaseDate 2009-05-12;
+       auPif:developer "http://dbpedia.org/resource/Eidos_Hungary";
+       auPif:publisher "http://dbpedia.org/resource/Feral_Interactive";
+       auPif:platform "http://dbpedia.org/resource/MacOS";
+       auPif:genre "http://dbpedia.org/resource/Action_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20080901110250/http:/www.battlestations.net/pacific/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Richard_Jacques";
+       
+
+resource:cec5c247-76f7-4830-a111-a42dfe391b09 a ontology:game;
+       auPif:name "Beaterator";
+       auPif:releaseDate 2009-09-29;
+       auPif:developer "http://dbpedia.org/resource/Rockstar_Leeds";
+       auPif:publisher "http://dbpedia.org/resource/Rockstar_Games";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_Portable";
+       auPif:genre "http://dbpedia.org/resource/Music_video_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.rockstargames.com/beaterator/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Timbaland";
+       
+
+resource:f39830ca-2f3d-455f-83af-06c4af2855d0 a ontology:game;
+       auPif:name "Black Sigil: Blade of the Exiled";
+       auPif:releaseDate 2009-06-09;
+       auPif:developer "http://dbpedia.org/resource/Studio_Archcraft";
+       auPif:publisher "http://dbpedia.org/resource/Graffiti_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_DS";
+       auPif:genre "http://dbpedia.org/resource/Role-playing_video_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20071017090449/http:/studioarchcraft.com/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jan_Morgenstern";
+       
+
+resource:7a9aad06-8d10-45d8-ad1c-662dadaa227e a ontology:game;
+       auPif:name "Blake Stone: Aliens of Gold";
+       auPif:releaseDate 1993-12-03;
+       auPif:developer "http://dbpedia.org/resource/JAM_Productions_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Apogee_Software";
+       auPif:platform "http://dbpedia.org/resource/Linux";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.gog.com/game/blake_stone_aliens_of_gold";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Robert_Prince_(video_game_composer)";
+       
+
+resource:8441fda1-f972-4c86-81aa-f640396bc0f3 a ontology:game;
+       auPif:name "Blazing Angels: Squadrons of WWII";
+       auPif:releaseDate 2006-03-23;
+       auPif:developer "http://dbpedia.org/resource/Ubisoft_Bucharest";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Flight_simulator";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.blazing-angels.com";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jason_Graves";
+       
+
+resource:a26fa6db-67ef-488b-b23e-72b4826b5cae a ontology:game;
+       auPif:name "Blazing Angels 2: Secret Missions of WWII";
+       auPif:releaseDate 2007-09-06;
+       auPif:developer "http://dbpedia.org/resource/Ubisoft_Bucharest";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_3";
+       auPif:genre "http://dbpedia.org/resource/Flight_simulator";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.blazingangels2.com";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jason_Graves";
+       
+
+resource:154880ec-1c89-4306-b2e1-b8e0d2dca361 a ontology:game;
+       auPif:name "Bloodstained: Curse of the Moon";
+       auPif:releaseDate 2018-05-24;
+       auPif:developer "http://dbpedia.org/resource/Inti_Creates";
+       auPif:publisher "http://dbpedia.org/resource/Inti_Creates";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_3DS";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://curseofthemoon.com/en/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Ippo_Yamada";
+       
+
+resource:04d9a162-f742-419b-8306-bb6dbb992e92 a ontology:game;
+       auPif:name "Blue Dragon (video game)";
+       auPif:releaseDate 2006-12-07;
+       auPif:developer "http://dbpedia.org/resource/Mistwalker";
+       auPif:publisher "http://dbpedia.org/resource/Xbox_Game_Studios";
+       auPif:platform "http://dbpedia.org/resource/Xbox_360";
+       auPif:genre "http://dbpedia.org/resource/Role-playing_video_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20061030081506/http:/www.bluedragon.tv/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Nobuo_Uematsu";
+       
+
+resource:a0274a00-6799-4349-9eda-a4127210e504 a ontology:game;
+       auPif:name "Midnight Star: Renegade";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Industrial_Toys";
+       auPif:publisher "http://dbpedia.org/resource/Industrial_Toys";
+       auPif:platform "http://dbpedia.org/resource/IOS";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.industrialtoys.com";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Serj_Tankian";
+       
+
+resource:ebd86190-df4d-43e4-9b4f-c1d33a01080a a ontology:game;
+       auPif:name "Bloodstained: Ritual of the Night";
+       auPif:releaseDate 2019-06-18;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Netease";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/Metroidvania";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://playbloodstained.com";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:5f0f1aba-658f-43c5-8d82-0fd8b4c2db53 a ontology:game;
+       auPif:name "Quest 64";
+       auPif:releaseDate 1998-06-01;
+       auPif:developer "http://dbpedia.org/resource/Imagineer_(Japanese_company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_64";
+       auPif:genre "http://dbpedia.org/resource/Role-playing_video_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/19991206130936/http:/www.imagineer.co.jp/imagi_n/n64/eletale/index.html";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Masamichi_Amano";
+       
+
+resource:fe3908f2-970b-4b5c-bb8b-07750c064533 a ontology:game;
+       auPif:name "Rodea the Sky Soldier";
+       auPif:releaseDate 2015-04-02;
+       auPif:developer "http://dbpedia.org/resource/Prope";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Wii";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://nisamerica.com/games/rodea-the-sky-soldier/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takayuki_Nakamura";
+       
+
+resource:195258ba-b682-4013-8838-d2e83dcf17eb a ontology:game;
+       auPif:name "Blue Dragon: Awakened Shadow";
+       auPif:releaseDate 2009-10-08;
+       auPif:developer "http://dbpedia.org/resource/Mistwalker";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_DS";
+       auPif:genre "http://dbpedia.org/resource/Action_role-playing_video_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://bd.namco-ch.net/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Nobuo_Uematsu";
+       
+
+resource:733d77ea-9b23-40cf-badb-05bfb00c0abe a ontology:game;
+       auPif:name "Robonauts";
+       auPif:releaseDate 2017-09-15;
+       auPif:developer ;
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/Shooting_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://www.nintendo.com/games/detail/robonauts-switch/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Simon_Viklund";
+       
+
+resource:8f719f7a-c86d-4e53-9730-1982e40391cd a ontology:game;
+       auPif:name "Scorn (video game)";
+       auPif:releaseDate 2022-10-14;
+       auPif:developer ;
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Xbox_Series_X/S";
+       auPif:genre "http://dbpedia.org/resource/Survival_horror";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://scorn-game.com/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Billain";
+       
+
+resource:7dd9b8b1-96c6-4f28-9214-14d8e637215c a ontology:game;
+       auPif:name "Blood (video game)";
+       auPif:releaseDate 1997-03-06;
+       auPif:developer ;
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/MS-DOS";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://web.archive.org/web/20120617191814/http:/www.lith.com/Games/Blood";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Daniel_Bernstein";
+       
+
+resource:c2accb91-3438-475f-b29f-1264040d4c35 a ontology:game;
+       auPif:name "Pyre (video game)";
+       auPif:releaseDate 2017-07-25;
+       auPif:developer "http://dbpedia.org/resource/Supergiant_Games";
+       auPif:publisher "http://dbpedia.org/resource/Supergiant_Games";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Action_role-playing_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "https://www.supergiantgames.com/games/pyre/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Darren_Korb";
+       
+
+resource:2b95d987-2fa4-4930-b52d-64ace35636df a ontology:game;
+       auPif:name "Robinson: The Journey";
+       auPif:releaseDate 2016-11-08;
+       auPif:developer "http://dbpedia.org/resource/Crytek";
+       auPif:publisher "http://dbpedia.org/resource/Crytek";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre ;
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite "http://www.robinsonthegame.com/";
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jesper_Kyd";
+       
+
+resource:dedb3931-be49-4427-890c-d8f3203fa9dc a ontology:game;
+       auPif:name "Call of Duty: Advanced Warfare";
+       auPif:releaseDate 2014-11-04;
+       auPif:developer "http://dbpedia.org/resource/Sledgehammer_Games";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_3";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Harry_Gregson-Williams";
+       
+
+resource:ae78c18e-2801-4638-93ef-886084f8834d a ontology:game;
+       auPif:name "Call of Duty: Black Ops";
+       auPif:releaseDate 2010-11-09;
+       auPif:developer "http://dbpedia.org/resource/Treyarch";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/Wii";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Sean_Murray_(composer)";
+       
+
+resource:dff4fd3c-3708-4207-8dbb-e7b661b93b1d a ontology:game;
+       auPif:name "Call of Duty: Black Ops II";
+       auPif:releaseDate 2012-11-13;
+       auPif:developer "http://dbpedia.org/resource/Treyarch";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/Wii_U";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jack_Wall_(composer)";
+       
+
+resource:c174de96-a9ef-4607-aad4-f7a5a383e0a1 a ontology:game;
+       auPif:name "Call of Duty: Black Ops III";
+       auPif:releaseDate 2015-11-06;
+       auPif:developer "http://dbpedia.org/resource/Treyarch";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/MacOS";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jack_Wall_(composer)";
+       
+
+resource:11f22185-c520-419e-a2c8-da1015a56cf2 a ontology:game;
+       auPif:name "Call of Duty: Finest Hour";
+       auPif:releaseDate 2004-11-16;
+       auPif:developer "http://dbpedia.org/resource/Spark_Unlimited";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/GameCube";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michael_Giacchino";
+       
+
+resource:e620ddbe-f432-4714-8d25-6f5e26c5d87d a ontology:game;
+       auPif:name "Call of Duty: Ghosts";
+       auPif:releaseDate 2013-11-05;
+       auPif:developer "http://dbpedia.org/resource/Infinity_Ward";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/Wii_U";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/David_Buckley";
+       
+
+resource:1731dd7b-79b3-4804-b34a-151a95a90d9e a ontology:game;
+       auPif:name "Call of Duty: Infinite Warfare";
+       auPif:releaseDate 2016-11-04;
+       auPif:developer "http://dbpedia.org/resource/Infinity_Ward";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Sarah_Schachner";
+       
+
+resource:64dd8273-e7b5-40c3-8706-c3b030abb652 a ontology:game;
+       auPif:name "Call of Duty: United Offensive";
+       auPif:releaseDate 2004-09-14;
+       auPif:developer "http://dbpedia.org/resource/Gray_Matter_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/MacOS";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michael_Giacchino";
+       
+
+resource:05cc7bb5-5cd2-418e-a6a4-abdbca66ee53 a ontology:game;
+       auPif:name "Call of Duty: World at War";
+       auPif:releaseDate 2008-11-11;
+       auPif:developer "http://dbpedia.org/resource/Treyarch";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/Wii";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Sean_Murray_(composer)";
+       
+
+resource:8b3bb0d2-e34a-4146-a9aa-ccc0a7a4f0e6 a ontology:game;
+       auPif:name "Call of Duty 2: Big Red One";
+       auPif:releaseDate 2005-11-01;
+       auPif:developer "http://dbpedia.org/resource/Treyarch";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/GameCube";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Graeme_Revell";
+       
+
+resource:b0f4c1d8-fd4b-4f09-b0de-9f48e572aacd a ontology:game;
+       auPif:name "Call of Duty 3";
+       auPif:releaseDate 2006-11-07;
+       auPif:developer "http://dbpedia.org/resource/Treyarch";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/Wii";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Joel_Goldsmith";
+       
+
+resource:7e1a7195-ac09-42b9-98d1-e6b18e3ecda6 a ontology:game;
+       auPif:name "Call of Duty 4: Modern Warfare";
+       auPif:releaseDate 2007-11-05;
+       auPif:developer "http://dbpedia.org/resource/Infinity_Ward";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/Mac_OS_X";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Stephen_Barton";
+       
+
+resource:7b3f6133-51df-4527-9b7f-b62b554be81b a ontology:game;
+       auPif:name "Captain Toad: Treasure Tracker";
+       auPif:releaseDate 2014-11-13;
+       auPif:developer "http://dbpedia.org/resource/Nintendo_EAD_Tokyo";
+       auPif:publisher "http://dbpedia.org/resource/Nintendo";
+       auPif:platform "http://dbpedia.org/resource/Wii_U";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Mario_(franchise)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Mahito_Yokota";
+       
+
+resource:7e8e4096-18ea-4ae2-b05b-735ff92e3ab8 a ontology:game;
+       auPif:name "Captain Tsubasa Vol. II: Super Striker";
+       auPif:releaseDate 1990-07-20;
+       auPif:developer "http://dbpedia.org/resource/Tecmo";
+       auPif:publisher "http://dbpedia.org/resource/Tecmo";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Entertainment_System";
+       auPif:genre "http://dbpedia.org/resource/Role-playing_video_game";
+       auPif:series "http://dbpedia.org/resource/Captain_Tsubasa";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Keiji_Yamagishi";
+       
+
+resource:e5ac813f-31bf-4011-a71e-a03780ff900f a ontology:game;
+       auPif:name "Castlevania: Bloodlines";
+       auPif:releaseDate 1994-03-17;
+       auPif:developer "http://dbpedia.org/resource/Konami";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/Sega_Genesis";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Castlevania";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:0e52e478-2fd0-4aae-acc1-9ead8867118b a ontology:game;
+       auPif:name "Castlevania: Portrait of Ruin";
+       auPif:releaseDate 2006-11-16;
+       auPif:developer "http://dbpedia.org/resource/Konami";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_DS";
+       auPif:genre "http://dbpedia.org/resource/Platform-adventure";
+       auPif:series "http://dbpedia.org/resource/Castlevania";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Yuzo_Koshiro";
+       
+
+resource:b9fcfb13-3414-469c-a744-bdcbb9fbab65 a ontology:game;
+       auPif:name "Castlevania: Symphony of the Night";
+       auPif:releaseDate 1997-03-20;
+       auPif:developer "http://dbpedia.org/resource/Konami_Computer_Entertainment_Tokyo";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/Android_(operating_system)";
+       auPif:genre "http://dbpedia.org/resource/Action_role-playing";
+       auPif:series "http://dbpedia.org/resource/Castlevania";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:efd63d93-d840-4599-b974-a2432657d005 a ontology:game;
+       auPif:name "Castlevania (1986 video game)";
+       auPif:releaseDate 1986-09-26;
+       auPif:developer "http://dbpedia.org/resource/Konami";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Castlevania";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Kinuyo_Yamashita";
+       
+
+resource:29233f4b-491c-4a3f-9666-6a4429e54f0e a ontology:game;
+       auPif:name "Bejeweled 3";
+       auPif:releaseDate 2010-12-07;
+       auPif:developer "http://dbpedia.org/resource/PopCap_Games";
+       auPif:publisher "http://dbpedia.org/resource/PopCap_Games";
+       auPif:platform "http://dbpedia.org/resource/Android_(operating_system)";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Bejeweled_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Allister_Brimble";
+       
+
+resource:a649a0b5-bda7-405b-90eb-39cb139bc9df a ontology:game;
+       auPif:name "Power Rangers Dino Thunder (video game)";
+       auPif:releaseDate 2004-08-31;
+       auPif:developer "http://dbpedia.org/resource/Natsume_(company)";
+       auPif:publisher "http://dbpedia.org/resource/THQ";
+       auPif:platform "http://dbpedia.org/resource/GameCube";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series "http://dbpedia.org/resource/Power_Rangers";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Inon_Zur";
+       
+
+resource:3cdc414c-4669-480b-89f8-6a8b6d87c73c a ontology:game;
+       auPif:name "Prince of Persia: The Forgotten Sands (Wii)";
+       auPif:releaseDate 2010-05-18;
+       auPif:developer "http://dbpedia.org/resource/Ubisoft_Quebec";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/Wii";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series "http://dbpedia.org/resource/Prince_of_Persia";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tom_Salta";
+       
+
+resource:48e17737-15f7-460d-98ed-d398311ee844 a ontology:game;
+       auPif:name "Prince of Persia: The Two Thrones";
+       auPif:releaseDate 2005-12-01;
+       auPif:developer "http://dbpedia.org/resource/Ubisoft_Casablanca";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/Mobile_game";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Prince_of_Persia";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Stuart_Chatwood";
+       
+
+resource:1d0e7fc1-6f49-4e4d-b994-db499ec61644 a ontology:game;
+       auPif:name "Prince of Persia: Warrior Within";
+       auPif:releaseDate 2004-12-02;
+       auPif:developer "http://dbpedia.org/resource/Ubisoft_Montreal";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/Mobile_game";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Prince_of_Persia";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Stuart_Chatwood";
+       
+
+resource:abceb40a-460f-409d-98f2-dbbde6149a31 a ontology:game;
+       auPif:name "Prince of Persia (2008 video game)";
+       auPif:releaseDate 2008-12-02;
+       auPif:developer "http://dbpedia.org/resource/Ubisoft_Montreal";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/Mac_OS_X";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Prince_of_Persia";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Stuart_Chatwood";
+       
+
+resource:03bba544-43d4-497f-97f2-7297bf73daa5 a ontology:game;
+       auPif:name "Prinny: Can I Really Be the Hero?";
+       auPif:releaseDate 2008-11-20;
+       auPif:developer "http://dbpedia.org/resource/Nippon_Ichi_Software";
+       auPif:publisher "http://dbpedia.org/resource/Nippon_Ichi_Software";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Switch";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Disgaea";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tenpei_Sato";
+       
+
+resource:1303588a-435b-4477-93f1-cf16e4fd6b7b a ontology:game;
+       auPif:name "Pro Evolution Soccer (video game)";
+       auPif:releaseDate 2001-03-15;
+       auPif:developer "http://dbpedia.org/resource/Konami";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/PlayStation";
+       auPif:genre "http://dbpedia.org/resource/Sports_game";
+       auPif:series "http://dbpedia.org/resource/Pro_Evolution_Soccer";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:6994ec83-40dc-4327-8cd9-7b540e1fad68 a ontology:game;
+       auPif:name "Punch-Out!! (NES)";
+       auPif:releaseDate 1987-09-18;
+       auPif:developer "http://dbpedia.org/resource/Nintendo_Integrated_Research_&_Development";
+       auPif:publisher "http://dbpedia.org/resource/Nintendo";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series "http://dbpedia.org/resource/Punch-Out!!";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Akito_Nakatsuka";
+       
+
+resource:e9fcfd4e-fcda-4250-bd6b-46342ad19368 a ontology:game;
+       auPif:name "Putt-Putt Enters the Race";
+       auPif:releaseDate 1999-01-14;
+       auPif:developer "http://dbpedia.org/resource/Humongous_Entertainment";
+       auPif:publisher "http://dbpedia.org/resource/Humongous_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Android_(operating_system)";
+       auPif:genre "http://dbpedia.org/resource/Adventure_game";
+       auPif:series "http://dbpedia.org/resource/Putt-Putt_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tom_McGurk";
+       
+
+resource:38975d0f-bd3c-4422-a7df-057739d9a72a a ontology:game;
+       auPif:name "Quake Champions";
+       auPif:releaseDate 2022-08-18;
+       auPif:developer "http://dbpedia.org/resource/Id_Software";
+       auPif:publisher "http://dbpedia.org/resource/Bethesda_Softworks";
+       auPif:platform "http://dbpedia.org/resource/Microsoft_Windows";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Quake_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Andrew_Hulshult";
+       
+
+resource:80252ac8-5398-4805-8113-925cb28eb43a a ontology:game;
+       auPif:name "RoboCop (1988 video game)";
+       auPif:releaseDate 1989-12-12;
+       auPif:developer "http://dbpedia.org/resource/Game_Boy";
+       auPif:publisher "http://dbpedia.org/resource/MS-DOS";
+       auPif:platform "http://dbpedia.org/resource/Commodore_64";
+       auPif:genre "http://dbpedia.org/resource/Beat_'em_up";
+       auPif:series "http://dbpedia.org/resource/List_of_RoboCop_video_games";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Game_Boy";
+       
+
+resource:fccd3181-4950-4fff-bc5b-bc1b8b5485bd a ontology:game;
+       auPif:name "Rockman EXE WS";
+       auPif:releaseDate 2003-02-08;
+       auPif:developer "http://dbpedia.org/resource/Tose_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Bandai";
+       auPif:platform "http://dbpedia.org/resource/WonderSwan_Color";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Mega_Man_Battle_Network";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Akari_Kaida";
+       
+
+resource:31df1dbe-1cde-40ff-a15f-953bd237458a a ontology:game;
+       auPif:name "Romance of the Three Kingdoms 12";
+       auPif:releaseDate 2012-12-13;
+       auPif:developer "http://dbpedia.org/resource/Koei_Tecmo";
+       auPif:publisher "http://dbpedia.org/resource/Koei_Tecmo";
+       auPif:platform "http://dbpedia.org/resource/Wii_U";
+       auPif:genre "http://dbpedia.org/resource/Strategy_game";
+       auPif:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Masako_Otsuka";
+       
+
+resource:b7684f50-46e8-487b-8b4f-be3312fab870 a ontology:game;
+       auPif:name "Romance of the Three Kingdoms II";
+       auPif:releaseDate 1990-11-02;
+       auPif:developer "http://dbpedia.org/resource/Koei";
+       auPif:publisher "http://dbpedia.org/resource/Koei";
+       auPif:platform "http://dbpedia.org/resource/MS-DOS";
+       auPif:genre "http://dbpedia.org/resource/Turn-based_strategy";
+       auPif:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Minoru_Mukaiya";
+       
+
+resource:3bc8e815-d5a8-4760-94ea-d3b599c369d4 a ontology:game;
+       auPif:name "Romance of the Three Kingdoms III: Dragon of Destiny";
+       auPif:releaseDate 1992-02-05;
+       auPif:developer "http://dbpedia.org/resource/Koei";
+       auPif:publisher "http://dbpedia.org/resource/Koei";
+       auPif:platform "http://dbpedia.org/resource/MS-DOS";
+       auPif:genre "http://dbpedia.org/resource/Turn-based_strategy";
+       auPif:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Minoru_Mukaiya";
+       
+
+resource:9e92cd99-d856-40a3-84ef-1af2fbfe87c4 a ontology:game;
+       auPif:name "Romance of the Three Kingdoms X";
+       auPif:releaseDate 2004-07-02;
+       auPif:developer "http://dbpedia.org/resource/Koei";
+       auPif:publisher "http://dbpedia.org/resource/Koei";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Turn-based_strategy";
+       auPif:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Yoshihiro_Ike";
+       
+
+resource:00f2483e-7d94-4893-8e3b-43c53195df56 a ontology:game;
+       auPif:name "Romance of the Three Kingdoms XIV";
+       auPif:releaseDate 2020-01-16;
+       auPif:developer "http://dbpedia.org/resource/Koei_Tecmo";
+       auPif:publisher "http://dbpedia.org/resource/Koei_Tecmo";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Switch";
+       auPif:genre "http://dbpedia.org/resource/Strategy_video_game";
+       auPif:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Hideki_Sakamoto";
+       
+
+resource:bb7b7394-96db-483a-8845-62ef2ec0e753 a ontology:game;
+       auPif:name "Romancia";
+       auPif:releaseDate 1987-10-30;
+       auPif:developer "http://dbpedia.org/resource/Nihon_Falcom";
+       auPif:publisher "http://dbpedia.org/resource/Nihon_Falcom";
+       auPif:platform "http://dbpedia.org/resource/MSX";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series "http://dbpedia.org/resource/Dragon_Slayer_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Yuzo_Koshiro";
+       
+
+resource:3a94cb7e-e634-4c5e-874a-f1d20be6513c a ontology:game;
+       auPif:name "Rome: Total War";
+       auPif:releaseDate 2004-09-22;
+       auPif:developer "http://dbpedia.org/resource/Creative_Assembly";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/Android_(operating_system)";
+       auPif:genre "http://dbpedia.org/resource/Turn-based_strategy";
+       auPif:series "http://dbpedia.org/resource/Total_War_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jeff_van_Dyck";
+       
+
+resource:55d45fce-aeba-43f0-84b8-275a1807b1fd a ontology:game;
+       auPif:name "Rugrats: Search for Reptar";
+       auPif:releaseDate 2003-12-01;
+       auPif:developer "http://dbpedia.org/resource/N-Space";
+       auPif:publisher "http://dbpedia.org/resource/THQ";
+       auPif:platform "http://dbpedia.org/resource/MacOS";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Rugrats";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Mark_Mothersbaugh";
+       
+
+resource:427d9292-987e-44e4-807c-16112d64b8d2 a ontology:game;
+       auPif:name "Rugrats: Studio Tour";
+       auPif:releaseDate 1999-11-10;
+       auPif:developer "http://dbpedia.org/resource/N-Space";
+       auPif:publisher "http://dbpedia.org/resource/THQ";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_(console)";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series "http://dbpedia.org/resource/Rugrats";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Mark_Mothersbaugh";
+       
+
+resource:c66edd37-5e69-4b99-819d-cc30a322160d a ontology:game;
+       auPif:name "Saru! Get You! Million Monkeys";
+       auPif:releaseDate 2006-07-13;
+       auPif:developer "http://dbpedia.org/resource/Japan_Studio";
+       auPif:publisher "http://dbpedia.org/resource/Sony_Computer_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Ape_Escape";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Soichi_Terada";
+       
+
+resource:3e5b5467-847a-4716-96f9-924e1392a957 a ontology:game;
+       auPif:name "Batman: Arkham Asylum";
+       auPif:releaseDate 2009-08-25;
+       auPif:developer "http://dbpedia.org/resource/Rocksteady_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Eidos_Interactive";
+       auPif:platform "http://dbpedia.org/resource/Mac_OS_X";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure";
+       auPif:series "http://dbpedia.org/resource/Batman:_Arkham";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Ron_Fish";
+       
+
+resource:53f98762-a8b1-4ad4-8660-59d96d1b0454 a ontology:game;
+       auPif:name "Batman: Arkham City";
+       auPif:releaseDate 2011-10-18;
+       auPif:developer "http://dbpedia.org/resource/Rocksteady_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Warner_Bros._Interactive_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Wii_U";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure";
+       auPif:series "http://dbpedia.org/resource/Batman:_Arkham";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Ron_Fish";
+       
+
+resource:8b35b137-4d1d-49b9-a2cc-103a1d800498 a ontology:game;
+       auPif:name "Batman: Arkham Knight";
+       auPif:releaseDate 2015-06-23;
+       auPif:developer "http://dbpedia.org/resource/Rocksteady_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Warner_Bros._Interactive_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure";
+       auPif:series "http://dbpedia.org/resource/Batman:_Arkham";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/David_Buckley";
+       
+
+resource:8535a52f-aaf4-4607-8e30-3500fde41554 a ontology:game;
+       auPif:name "Batman: Arkham Origins";
+       auPif:releaseDate 2013-10-25;
+       auPif:developer "http://dbpedia.org/resource/WB_Games_Montréal";
+       auPif:publisher "http://dbpedia.org/resource/Warner_Bros._Interactive_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Wii_U";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure";
+       auPif:series "http://dbpedia.org/resource/Batman:_Arkham";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Christopher_Drake";
+       
+
+resource:464e3c30-139f-4ded-95ef-0cf35c1d5d9c a ontology:game;
+       auPif:name "Battlefield: Bad Company";
+       auPif:releaseDate 2008-06-23;
+       auPif:developer "http://dbpedia.org/resource/DICE_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_3";
+       auPif:genre "http://dbpedia.org/resource/Tactical_shooter";
+       auPif:series "http://dbpedia.org/resource/Battlefield_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Mikael_Karlsson_(composer)";
+       
+
+resource:2af42b48-c780-4261-80c6-ea0e4eb4c77e a ontology:game;
+       auPif:name "Battlefield 1";
+       auPif:releaseDate 2016-10-21;
+       auPif:developer "http://dbpedia.org/resource/DICE_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Battlefield_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Johan_Söderqvist";
+       
+
+resource:8c6a5b9c-448c-437a-ae6b-a3d30825d113 a ontology:game;
+       auPif:name "Battlefield 2042";
+       auPif:releaseDate 2021-11-19;
+       auPif:developer "http://dbpedia.org/resource/DICE_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Battlefield_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Hildur_Guðnadóttir";
+       
+
+resource:d75e725b-c35f-4da9-800a-445b7fe6ff12 a ontology:game;
+       auPif:name "Battlefield 2: Modern Combat";
+       auPif:releaseDate 2005-10-24;
+       auPif:developer "http://dbpedia.org/resource/DICE_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Battlefield_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Rupert_Gregson-Williams";
+       
+
+resource:a28fd9f7-9e63-44d6-ab42-8fc248d31da8 a ontology:game;
+       auPif:name "Battlefield Hardline";
+       auPif:releaseDate 2015-03-17;
+       auPif:developer "http://dbpedia.org/resource/Visceral_Games";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_3";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Battlefield_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Paul_Leonard-Morgan";
+       
+
+resource:f5a9ccf7-f6bd-4381-83ca-025e4f87e51f a ontology:game;
+       auPif:name "Battlefield V";
+       auPif:releaseDate 2018-11-20;
+       auPif:developer "http://dbpedia.org/resource/DICE_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/Battle_royale_game";
+       auPif:series "http://dbpedia.org/resource/Battlefield_(video_game_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Johan_Söderqvist";
+       
+
+resource:f0bf959e-b53d-49d9-873d-ba24c12ed776 a ontology:game;
+       auPif:name "Battles of Prince of Persia";
+       auPif:releaseDate 2005-12-06;
+       auPif:developer "http://dbpedia.org/resource/Ubisoft_Montreal";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_DS";
+       auPif:genre "http://dbpedia.org/resource/Turn-based_tactics";
+       auPif:series "http://dbpedia.org/resource/Prince_of_Persia";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Stuart_Chatwood";
+       
+
+resource:ca4d852a-e216-48ee-aa7c-764b49cb4201 a ontology:game;
+       auPif:name "Bejeweled 2";
+       auPif:releaseDate 2004-11-05;
+       auPif:developer "http://dbpedia.org/resource/Oberon_Media";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts";
+       auPif:platform "http://dbpedia.org/resource/Symbian%5E3";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Bejeweled_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Peter_Hajba";
+       
+
+resource:63edfb42-6c28-4f50-85a6-2e6bdff9aae6 a ontology:game;
+       auPif:name "Ben 10: Protector of Earth";
+       auPif:releaseDate 2007-10-30;
+       auPif:developer "http://dbpedia.org/resource/High_Voltage_Software";
+       auPif:publisher "http://dbpedia.org/resource/D3_Publisher";
+       auPif:platform "http://dbpedia.org/resource/Wii";
+       auPif:genre "http://dbpedia.org/resource/Beat_'em_up";
+       auPif:series "http://dbpedia.org/resource/Ben_10";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Andy_Sturmer";
+       
+
+resource:93cba844-4c25-46ed-b9c1-ca2220eaf151 a ontology:game;
+       auPif:name "Ben 10 Alien Force: Vilgax Attacks";
+       auPif:releaseDate 2009-10-27;
+       auPif:developer "http://dbpedia.org/resource/Papaya_Studio";
+       auPif:publisher "http://dbpedia.org/resource/D3_Publisher";
+       auPif:platform "http://dbpedia.org/resource/Wii";
+       auPif:genre "http://dbpedia.org/resource/Action_game";
+       auPif:series "http://dbpedia.org/resource/Ben_10";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Mark_Watters";
+       
+
+resource:52f669d9-b4d4-4865-b925-6a1d45610ab5 a ontology:game;
+       auPif:name "Ben 10 Ultimate Alien: Cosmic Destruction";
+       auPif:releaseDate 2010-10-05;
+       auPif:developer "http://dbpedia.org/resource/Papaya_Studio";
+       auPif:publisher "http://dbpedia.org/resource/D3_Publisher";
+       auPif:platform "http://dbpedia.org/resource/Wii";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series "http://dbpedia.org/resource/Ben_10";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Mark_Watters";
+       
+
+resource:d56afecd-b8ec-4d10-bb2b-6d22f5cb203d a ontology:game;
+       auPif:name "Bentley's Hackpack";
+       auPif:releaseDate 2013-02-05;
+       auPif:developer "http://dbpedia.org/resource/Sanzaru_Games";
+       auPif:publisher "http://dbpedia.org/resource/Sony_Computer_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_3";
+       auPif:genre "http://dbpedia.org/resource/Action_game";
+       auPif:series "http://dbpedia.org/resource/Sly_Cooper";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Peter_McConnell";
+       
+
+resource:b474369d-222c-45e4-87e0-4c8a0ee2a3f1 a ontology:game;
+       auPif:name "BioShock";
+       auPif:releaseDate 2007-08-21;
+       auPif:developer "http://dbpedia.org/resource/2K_Australia";
+       auPif:publisher "http://dbpedia.org/resource/2K_Games";
+       auPif:platform "http://dbpedia.org/resource/Mac_OS_X";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/BioShock_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Garry_Schyman";
+       
+
+resource:fb17e1d9-607c-40c3-9890-3dae5616a1a5 a ontology:game;
+       auPif:name "BioShock 2";
+       auPif:releaseDate 2010-02-09;
+       auPif:developer "http://dbpedia.org/resource/2K_Marin";
+       auPif:publisher "http://dbpedia.org/resource/2K_Games";
+       auPif:platform "http://dbpedia.org/resource/Mac_OS_X";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/BioShock_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Garry_Schyman";
+       
+
+resource:e64bf477-aeb7-454e-b536-b3168fc3290a a ontology:game;
+       auPif:name "BioShock Infinite";
+       auPif:releaseDate 2013-03-26;
+       auPif:developer "http://dbpedia.org/resource/Irrational_Games";
+       auPif:publisher "http://dbpedia.org/resource/2K_Games";
+       auPif:platform "http://dbpedia.org/resource/Linux";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/BioShock_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Garry_Schyman";
+       
+
+resource:0e6a417a-8dfe-4105-b755-e62e14f54975 a ontology:game;
+       auPif:name "Bionic Commando (1992 video game)";
+       auPif:releaseDate 1992-09-19;
+       auPif:developer "http://dbpedia.org/resource/Minakuchi_Engineering";
+       auPif:publisher "http://dbpedia.org/resource/Capcom";
+       auPif:platform "http://dbpedia.org/resource/Game_Boy";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Bionic_Commando";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Kouji_Murata";
+       
+
+resource:43ede6a5-684c-478f-81fc-b1a46d0d1dc6 a ontology:game;
+       auPif:name "Bionic Commando Rearmed";
+       auPif:releaseDate 2008-08-13;
+       auPif:developer "http://dbpedia.org/resource/Grin_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Capcom";
+       auPif:platform "http://dbpedia.org/resource/BlackBerry";
+       auPif:genre "http://dbpedia.org/resource/Metroidvania";
+       auPif:series "http://dbpedia.org/resource/Bionic_Commando";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Simon_Viklund";
+       
+
+resource:b7700706-c330-4cf5-9a3c-74fafb11c89b a ontology:game;
+       auPif:name "Bionic Commando Rearmed 2";
+       auPif:releaseDate 2011-02-01;
+       auPif:developer "http://dbpedia.org/resource/Fatshark";
+       auPif:publisher "http://dbpedia.org/resource/Capcom";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_3";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Bionic_Commando";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Simon_Viklund";
+       
+
+resource:6ec44af8-a271-4aa2-a2ec-41362e3efca7 a ontology:game;
+       auPif:name "Blade Runner (1997 video game)";
+       auPif:releaseDate 1997-11-14;
+       auPif:developer "http://dbpedia.org/resource/Alcon_Entertainment";
+       auPif:publisher "http://dbpedia.org/resource/Virgin_Interactive";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Switch";
+       auPif:genre "http://dbpedia.org/resource/Point-and-click_adventure";
+       auPif:series "http://dbpedia.org/resource/Blade_Runner_(franchise)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Frank_Klepacki";
+       
+
+resource:63c28931-36a3-4ed7-a0d6-c23055827541 a ontology:game;
+       auPif:name "Blaster Master (video game)";
+       auPif:releaseDate 1988-06-17;
+       auPif:developer "http://dbpedia.org/resource/Sunsoft";
+       auPif:publisher "http://dbpedia.org/resource/Sunsoft";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Entertainment_System";
+       auPif:genre "http://dbpedia.org/resource/Metroidvania";
+       auPif:series "http://dbpedia.org/resource/Blaster_Master";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Naoki_Kodaka";
+       
+
+resource:9d804f21-aac9-490d-944d-4f126f0d4e7f a ontology:game;
+       auPif:name "Bloody Roar (video game)";
+       auPif:releaseDate 1997-07-07;
+       auPif:developer "http://dbpedia.org/resource/Hudson_Soft";
+       auPif:publisher "http://dbpedia.org/resource/Hudson_Soft";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series "http://dbpedia.org/resource/Bloody_Roar";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takayuki_Negishi";
+       
+
+resource:c427aa78-9cd4-4d6b-b72a-9d91d0499d5e a ontology:game;
+       auPif:name "Call of Duty: Modern Warfare II (2022 video game)";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Infinity_Ward";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform "http://dbpedia.org/resource/Windows";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Sarah_Schachner";
+       
+
+resource:5b916580-8266-4012-bdae-2f2f210b4d7c a ontology:game;
+       auPif:name "Castlevania: The Dracula X Chronicles";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Konami";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_Portable";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Castlevania";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:cc363b3e-e0c9-40ad-8cc4-07d5518f05ce a ontology:game;
+       auPif:name "Professor Pac-Man";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Midway_Games";
+       auPif:publisher "http://dbpedia.org/resource/Midway_Games";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Quiz_game";
+       auPif:series "http://dbpedia.org/resource/List_of_Pac-Man_video_games";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Marc_Canter";
+       
+
+resource:b2be2639-618e-45f3-adbd-08259539bc97 a ontology:game;
+       auPif:name "RoboCop 3 (video game)";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Probe_Software";
+       auPif:publisher "http://dbpedia.org/resource/Commodore_64";
+       auPif:platform "http://dbpedia.org/resource/Commodore_64";
+       auPif:genre "http://dbpedia.org/resource/Shooter_game";
+       auPif:series "http://dbpedia.org/resource/List_of_RoboCop_video_games";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Master_System";
+       
+
+resource:060fd859-b617-4715-b660-8ee3d40121ae a ontology:game;
+       auPif:name "Cadence of Hyrule";
+       auPif:releaseDate 2019-06-13;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Nintendo";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Switch";
+       auPif:genre "http://dbpedia.org/resource/Roguelike";
+       auPif:series "http://dbpedia.org/resource/Crypt_of_the_NecroDancer";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Danny_Baranowsky";
+       
+
+resource:49a03c14-64d1-4f41-9251-0df5c9a50ff5 a ontology:game;
+       auPif:name "Castle of Illusion Starring Mickey Mouse (2013 video game)";
+       auPif:releaseDate 2013-09-03;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Sega";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_3";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Illusion_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Grant_Kirkhope";
+       
+
+resource:532b3663-ec78-4a01-b6b8-483b94f18027 a ontology:game;
+       auPif:name "Pro Evolution Soccer 2";
+       auPif:releaseDate 2002-04-25;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Sports_game";
+       auPif:series "http://dbpedia.org/resource/Pro_Evolution_Soccer";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michiru_Yamane";
+       
+
+resource:78c6d003-142a-4e10-bbda-4fe003446b4e a ontology:game;
+       auPif:name "Rockman & Forte Mirai kara no Chōsensha";
+       auPif:releaseDate 1999-10-21;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Namco_Bandai_Games";
+       auPif:platform "http://dbpedia.org/resource/WonderSwan";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Mega_Man_(original_series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Akari_Kaida";
+       
+
+resource:6b769f7c-1adb-4af3-8775-6e13d690434a a ontology:game;
+       auPif:name "Saturn Bomberman Fight!!";
+       auPif:releaseDate 1997-12-11;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Hudson_Soft";
+       auPif:platform "http://dbpedia.org/resource/Sega_Saturn";
+       auPif:genre "http://dbpedia.org/resource/List_of_maze_video_games";
+       auPif:series "http://dbpedia.org/resource/Bomberman";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jun_Chikuma";
+       
+
+resource:d5ff7450-c82f-47f9-97bd-42460443afd0 a ontology:game;
+       auPif:name "Battlefleet Gothic: Armada";
+       auPif:releaseDate 2016-04-21;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Focus_Home_Interactive";
+       auPif:platform "http://dbpedia.org/resource/Microsoft_Windows";
+       auPif:genre "http://dbpedia.org/resource/Real-time_tactics";
+       auPif:series "http://dbpedia.org/resource/Warhammer_40;
+       auPif:countryOfOrigin 000";
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer ;
+       
+
+resource:92290784-fd65-43ff-a51c-896d4c12cce6 a ontology:game;
+       auPif:name "Bishōjo Senshi Sailor Moon R (1993 video game)";
+       auPif:releaseDate 1993-12-29;
+       auPif:developer ;
+       auPif:publisher "http://dbpedia.org/resource/Bandai";
+       auPif:platform "http://dbpedia.org/resource/Super_Famicom";
+       auPif:genre "http://dbpedia.org/resource/Beat_'em_up";
+       auPif:series "http://dbpedia.org/resource/Sailor_Moon";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takanori_Arisawa";
+       
+
+resource:3094425c-2cd0-49d7-96aa-bb5630ae2e41 a ontology:game;
+       auPif:name "Call of Duty (video game)";
+       auPif:releaseDate 2003-10-29;
+       auPif:developer "http://dbpedia.org/resource/Aspyr";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/N-Gage_(device)";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Michael_Giacchino";
+       
+
+resource:e0b988e2-156f-48c6-af5e-1d91f113dde7 a ontology:game;
+       auPif:name "Professor Layton and the Azran Legacy";
+       auPif:releaseDate 2013-02-28;
+       auPif:developer "http://dbpedia.org/resource/Level-5_(company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_3DS";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Professor_Layton";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tomohito_Nishiura";
+       
+
+resource:4490e6a1-fe76-4041-a2af-f11dcce015cd a ontology:game;
+       auPif:name "Professor Layton and the Last Specter";
+       auPif:releaseDate 2009-11-26;
+       auPif:developer "http://dbpedia.org/resource/Level-5_(company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_DS";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Professor_Layton";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tomohito_Nishiura";
+       
+
+resource:4d888133-affa-4f78-8ee5-047dedb3041f a ontology:game;
+       auPif:name "Professor Layton vs. Phoenix Wright: Ace Attorney";
+       auPif:releaseDate 2012-11-29;
+       auPif:developer "http://dbpedia.org/resource/Capcom";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_3DS";
+       auPif:genre "http://dbpedia.org/resource/Visual_novel";
+       auPif:series "http://dbpedia.org/resource/Professor_Layton";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tomohito_Nishiura";
+       
+
+resource:5bb2f76a-55f5-4011-92c6-afc56e74b813 a ontology:game;
+       auPif:name "Psycho-Pass: Mandatory Happiness";
+       auPif:releaseDate 2015-05-28;
+       auPif:developer "http://dbpedia.org/resource/5pb.";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/Visual_novel";
+       auPif:series "http://dbpedia.org/resource/Psycho-Pass";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takeshi_Abo";
+       
+
+resource:ada2c17f-6953-457a-9562-f53c6746dad0 a ontology:game;
+       auPif:name "Puzzle & Dragons Z + Super Mario Bros. Edition";
+       auPif:releaseDate 2013-12-12;
+       auPif:developer "http://dbpedia.org/resource/GungHo_Online_Entertainment";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_3DS";
+       auPif:genre "http://dbpedia.org/resource/Puzzle_video_game";
+       auPif:series "http://dbpedia.org/resource/Puzzle_&_Dragons";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Kenji_Ito";
+       
+
+resource:f366da3d-c2c1-4b3c-b256-d123d968f4b3 a ontology:game;
+       auPif:name "Robotics;Notes DaSH";
+       auPif:releaseDate 2019-01-31;
+       auPif:developer "http://dbpedia.org/resource/Mages_(company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Switch";
+       auPif:genre "http://dbpedia.org/resource/Visual_novel";
+       auPif:series "http://dbpedia.org/resource/Science_Adventure";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takeshi_Abo";
+       
+
+resource:2cc68835-9879-4c62-864e-fb160c638c86 a ontology:game;
+       auPif:name "Samurai Western";
+       auPif:releaseDate 2005-01-01;
+       auPif:developer "http://dbpedia.org/resource/Acquire_(company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Action_role-playing";
+       auPif:series "http://dbpedia.org/resource/Way_of_the_Samurai";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Noriyuki_Asakura";
+       
+
+resource:913e453c-e9c4-46b2-865c-53bb1ac053bf a ontology:game;
+       auPif:name "Saturn Bomberman";
+       auPif:releaseDate 1996-07-19;
+       auPif:developer "http://dbpedia.org/resource/Hudson_Soft";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Sega_Saturn";
+       auPif:genre "http://dbpedia.org/resource/List_of_maze_video_games";
+       auPif:series "http://dbpedia.org/resource/Bomberman";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jun_Chikuma";
+       
+
+resource:3c4f975f-2ea7-44f7-8a3d-ccece877ce61 a ontology:game;
+       auPif:name "Bassin's Black Bass with Hank Parker";
+       auPif:releaseDate 1994-09-23;
+       auPif:developer "http://dbpedia.org/resource/STARFISH-SD_INC";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Super_NES";
+       auPif:genre "http://dbpedia.org/resource/Fishing_video_game";
+       auPif:series "http://dbpedia.org/resource/The_Black_Bass";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Akihiko_Mori";
+       
+
+resource:c7f24182-e6e2-4c7f-b158-aad43be0946f a ontology:game;
+       auPif:name "Battletoads/Double Dragon";
+       auPif:releaseDate 1993-12-01;
+       auPif:developer "http://dbpedia.org/resource/Rare_(company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Game_Boy";
+       auPif:genre "http://dbpedia.org/resource/Beat_'em_up";
+       auPif:series "http://dbpedia.org/resource/Battletoads";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/David_Wise_(composer)";
+       
+
+resource:5179b6e1-2b86-4be9-bed3-558640d8e9b2 a ontology:game;
+       auPif:name "Battletoads (Game Boy video game)";
+       auPif:releaseDate 1994-01-07;
+       auPif:developer "http://dbpedia.org/resource/Rare_(company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Game_Boy";
+       auPif:genre "http://dbpedia.org/resource/Action_game";
+       auPif:series "http://dbpedia.org/resource/Battletoads";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/David_Wise_(composer)";
+       
+
+resource:9f456850-5e5d-496d-aad6-893c5a8d01b0 a ontology:game;
+       auPif:name "Battletoads in Battlemaniacs";
+       auPif:releaseDate 1994-01-07;
+       auPif:developer "http://dbpedia.org/resource/Rare_(company)";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Master_System";
+       auPif:genre "http://dbpedia.org/resource/Beat_'em_up";
+       auPif:series "http://dbpedia.org/resource/Battletoads";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/David_Wise_(composer)";
+       
+
+resource:fee39439-e691-4941-a7eb-6a0f3d1df5e6 a ontology:game;
+       auPif:name "Bishōjo Senshi Sailor Moon S: Jōgai Rantō!? Shuyaku Sōdatsusen";
+       auPif:releaseDate 1994-12-14;
+       auPif:developer "http://dbpedia.org/resource/Arc_System_Works";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Super_Famicom";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series "http://dbpedia.org/resource/Sailor_Moon";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takanori_Arisawa";
+       
+
+resource:82469830-54d5-4689-ab7f-2310a91db879 a ontology:game;
+       auPif:name "Blair Witch Volume II: The Legend of Coffin Rock";
+       auPif:releaseDate 2000-10-30;
+       auPif:developer "http://dbpedia.org/resource/Human_Head_Studios";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Microsoft_Windows";
+       auPif:genre "http://dbpedia.org/resource/Survival_horror";
+       auPif:series "http://dbpedia.org/resource/Blair_Witch";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Rom_Di_Prisco";
+       
+
+resource:c81715b7-e6cd-4d58-be1c-4055a53ec142 a ontology:game;
+       auPif:name "BlazBlue: Calamity Trigger";
+       auPif:releaseDate 2008-11-19;
+       auPif:developer "http://dbpedia.org/resource/Arc_System_Works";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series "http://dbpedia.org/resource/BlazBlue";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Daisuke_Ishiwatari";
+       
+
+resource:22129ef5-7705-4034-8acf-e1727203bb4e a ontology:game;
+       auPif:name "BlazBlue: Central Fiction";
+       auPif:releaseDate 2015-11-19;
+       auPif:developer "http://dbpedia.org/resource/Arc_System_Works";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series "http://dbpedia.org/resource/BlazBlue";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Daisuke_Ishiwatari";
+       
+
+resource:b59bc525-4e28-44ad-be08-faec82761704 a ontology:game;
+       auPif:name "BlazBlue: Continuum Shift";
+       auPif:releaseDate 2009-11-20;
+       auPif:developer "http://dbpedia.org/resource/Arc_System_Works";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series "http://dbpedia.org/resource/BlazBlue";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Daisuke_Ishiwatari";
+       
+
+resource:61133297-6330-4dc2-9d05-a817b6829580 a ontology:game;
+       auPif:name "Bloody Roar 3";
+       auPif:releaseDate 2001-03-01;
+       auPif:developer "http://dbpedia.org/resource/Eighting";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series "http://dbpedia.org/resource/Bloody_Roar";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takayuki_Negishi";
+       
+
+resource:e3697bc1-263f-4576-b3d6-be3a04330ee2 a ontology:game;
+       auPif:name "RoboCop 2 (video game)";
+       auPif:releaseDate ;
+       auPif:developer "http://dbpedia.org/resource/Game_Boy";
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Shooter_game";
+       auPif:series "http://dbpedia.org/resource/List_of_RoboCop_video_games";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Game_Boy";
+       
+
+resource:d4917a9b-cb66-42de-a9dc-7a87c743ac39 a ontology:game;
+       auPif:name "Bishōjo Senshi Sailor Moon: Another Story";
+       auPif:releaseDate 1995-09-22;
+       auPif:developer ;
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/Super_Famicom";
+       auPif:genre "http://dbpedia.org/resource/Role-playing_video_game";
+       auPif:series "http://dbpedia.org/resource/Sailor_Moon";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takanori_Arisawa";
+       
+
+resource:2ea159eb-1d4d-4b69-b299-afce4f0dfefe a ontology:game;
+       auPif:name "Bishōjo Senshi Sailor Moon SuperS: Shin Shuyaku Sōdatsusen";
+       auPif:releaseDate 1996-03-08;
+       auPif:developer ;
+       auPif:publisher ;
+       auPif:platform "http://dbpedia.org/resource/PlayStation_(console)";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series "http://dbpedia.org/resource/Sailor_Moon";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Takanori_Arisawa";
+       
+
+resource:8f7842a9-9a78-4df2-a953-a7c886165861 a ontology:game;
+       auPif:name "Call of Duty: Black Ops 4";
+       auPif:releaseDate 2018-10-12;
+       auPif:developer "http://dbpedia.org/resource/Treyarch";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Battle_royale_game";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jack_Wall_(composer)";
+       
+
+resource:51cfe345-630a-4fd8-9d00-3f8a49c2c87e a ontology:game;
+       auPif:name "Call of Duty: Modern Warfare (2019 video game)";
+       auPif:releaseDate 2019-10-25;
+       auPif:developer "http://dbpedia.org/resource/Infinity_Ward";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Sarah_Schachner";
+       
+
+resource:ba50a782-a274-4f90-b6ba-af5c04b6c0fc a ontology:game;
+       auPif:name "Call of Duty: Modern Warfare 2";
+       auPif:releaseDate 2009-11-10;
+       auPif:developer "http://dbpedia.org/resource/Beenox";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Lorne_Balfe";
+       
+
+resource:12122cb5-cda0-4912-95d8-6632b61cbb00 a ontology:game;
+       auPif:name "Call of Duty: WWII";
+       auPif:releaseDate 2017-11-03;
+       auPif:developer "http://dbpedia.org/resource/Sledgehammer_Games";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Call_of_Duty";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Wilbert_Roget_II";
+       
+
+resource:66f98559-c366-44e9-897f-4e1e7483f96c a ontology:game;
+       auPif:name "Prince of Persia: The Fallen King";
+       auPif:releaseDate 2008-12-02;
+       auPif:developer "http://dbpedia.org/resource/Ubisoft_Casablanca";
+       auPif:publisher "http://dbpedia.org/resource/Ubisoft";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series "http://dbpedia.org/resource/Prince_of_Persia";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Inon_Zur";
+       
+
+resource:a8c5b080-a91f-4296-ae0c-1af097e5250c a ontology:game;
+       auPif:name "Quake II";
+       auPif:releaseDate 1997-12-09;
+       auPif:developer "http://dbpedia.org/resource/Id_Software";
+       auPif:publisher "http://dbpedia.org/resource/Activision";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series "http://dbpedia.org/resource/Quake_(series)";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Sascha_Dikiciyan";
+       
+
+resource:736dfdc1-8a42-44f2-b068-16aaef1972d8 a ontology:game;
+       auPif:name "Bayonetta 2";
+       auPif:releaseDate 2014-09-20;
+       auPif:developer "http://dbpedia.org/resource/PlatinumGames";
+       auPif:publisher "http://dbpedia.org/resource/Nintendo";
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Hack_and_slash";
+       auPif:series "http://dbpedia.org/resource/Bayonetta";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Norihiko_Hibino";
+       
+
+resource:7817611a-4091-436e-9153-8e0564ff8723 a ontology:game;
+       auPif:name "Sam & Max Save the World";
+       auPif:releaseDate 2006-10-17;
+       auPif:developer "http://dbpedia.org/resource/Telltale_Games";
+       auPif:publisher ;
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Graphic_adventure_game";
+       auPif:series "http://dbpedia.org/resource/Sam_&_Max";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jared_Emerson-Johnson";
+       
+
+resource:60e19d99-24fa-4d77-b3c8-33d8cdc3b7b2 a ontology:game;
+       auPif:name "Bayonetta (video game)";
+       auPif:releaseDate 2009-10-29;
+       auPif:developer "http://dbpedia.org/resource/PlatinumGames";
+       auPif:publisher ;
+       auPif:platform ;
+       auPif:genre "http://dbpedia.org/resource/Action-adventure";
+       auPif:series "http://dbpedia.org/resource/Bayonetta";
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Norihiko_Hibino";
+       
+
+resource:3a59ecbc-e991-478b-a40c-3426ee059dc2 a ontology:game;
+       auPif:name "Caladrius (video game)";
+       auPif:releaseDate 2013-04-25;
+       auPif:developer "http://dbpedia.org/resource/MOSS_(company)";
+       auPif:publisher "http://dbpedia.org/resource/MOSS_(company)";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Shoot_'em_up";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Manabu_Namiki";
+       
+
+resource:77b5db91-076c-48dc-bd30-658874f7cc8f a ontology:game;
+       auPif:name "California Speed (video game)";
+       auPif:releaseDate 1999-02-28;
+       auPif:developer "http://dbpedia.org/resource/Atari_Games";
+       auPif:publisher "http://dbpedia.org/resource/Atari_Games";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Racing_video_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Barry_Leitch";
+       
+
+resource:86d0844f-4c96-4545-abaa-30f4808422c9 a ontology:game;
+       auPif:name "Captain America: Super Soldier";
+       auPif:releaseDate 2011-07-15;
+       auPif:developer "http://dbpedia.org/resource/High_Voltage_Software";
+       auPif:publisher "http://dbpedia.org/resource/Sega";
+       auPif:platform "http://dbpedia.org/resource/Wii";
+       auPif:genre "http://dbpedia.org/resource/Beat_'em_up";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Bill_Brown_(composer)";
+       
+
+resource:1bbac825-5b3f-4991-af04-8c939db8ff28 a ontology:game;
+       auPif:name "Captain Planet and the Planeteers (video game)";
+       auPif:releaseDate 1992-08-20;
+       auPif:developer "http://dbpedia.org/resource/Chris_Gray_Enterprises";
+       auPif:publisher "http://dbpedia.org/resource/Mindscape_(company)";
+       auPif:platform "http://dbpedia.org/resource/ZX_Spectrum";
+       auPif:genre "http://dbpedia.org/resource/Action_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Ben_Daglish";
+       
+
+resource:4c967f48-8190-4667-83ba-0a5b79bc187d a ontology:game;
+       auPif:name "Captain Tsubasa 4: Pro no Rival Tachi";
+       auPif:releaseDate 1993-04-03;
+       auPif:developer "http://dbpedia.org/resource/Tecmo";
+       auPif:publisher "http://dbpedia.org/resource/Tecmo";
+       auPif:platform "http://dbpedia.org/resource/Super_Famicom";
+       auPif:genre "http://dbpedia.org/resource/Sports_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Hiroshi_Miyazaki";
+       
+
+resource:38559f9f-8ecc-4090-b8b7-618266add501 a ontology:game;
+       auPif:name "Captain Tsubasa 5: Hasha no Shōgō Campione";
+       auPif:releaseDate 1994-12-09;
+       auPif:developer "http://dbpedia.org/resource/Tecmo";
+       auPif:publisher "http://dbpedia.org/resource/Tecmo";
+       auPif:platform "http://dbpedia.org/resource/Super_Famicom";
+       auPif:genre "http://dbpedia.org/resource/Sports_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Hiroshi_Miyazaki";
+       
+
+resource:0dcf56d8-644e-4cca-b6e4-98c171f595b9 a ontology:game;
+       auPif:name "Carrier Command: Gaea Mission";
+       auPif:releaseDate 2012-09-28;
+       auPif:developer "http://dbpedia.org/resource/Bohemia_Interactive";
+       auPif:publisher "http://dbpedia.org/resource/Bohemia_Interactive";
+       auPif:platform "http://dbpedia.org/resource/Microsoft_Windows";
+       auPif:genre "http://dbpedia.org/resource/Action_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Troels_Brun_Folmann";
+       
+
+resource:2e95facd-66c5-4820-920c-129d497938ec a ontology:game;
+       auPif:name "Below (video game)";
+       auPif:releaseDate 2018-12-14;
+       auPif:developer "http://dbpedia.org/resource/Capybara_Games";
+       auPif:publisher "http://dbpedia.org/resource/Capybara_Games";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Jim_Guthrie_(singer-songwriter)";
+       
+
+resource:97cd0be9-1982-490c-8fd7-6632bb194cea a ontology:game;
+       auPif:name "Power Blade";
+       auPif:releaseDate 1990-04-20;
+       auPif:developer "http://dbpedia.org/resource/Natsume_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Taito";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_Entertainment_System";
+       auPif:genre "http://dbpedia.org/resource/Platform_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Kinuyo_Yamashita";
+       
+
+resource:e97dca87-b331-4e2f-bd09-6bd040b900a0 a ontology:game;
+       auPif:name "Power Rangers Zeo: Battle Racers";
+       auPif:releaseDate 1996-09-17;
+       auPif:developer "http://dbpedia.org/resource/Natsume_(company)";
+       auPif:publisher "http://dbpedia.org/resource/Namco_Bandai_Games";
+       auPif:platform "http://dbpedia.org/resource/Super_Nintendo_Entertainment_System";
+       auPif:genre "http://dbpedia.org/resource/Racing_video_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Hiroyuki_Iwatsuki";
+       
+
+resource:296366a8-f5aa-4b4c-814f-ac9ba81e7e1c a ontology:game;
+       auPif:name "Power Stone (video game)";
+       auPif:releaseDate 1999-02-13;
+       auPif:developer "http://dbpedia.org/resource/Capcom";
+       auPif:publisher "http://dbpedia.org/resource/Capcom";
+       auPif:platform "http://dbpedia.org/resource/Arcade_game";
+       auPif:genre "http://dbpedia.org/resource/Fighting_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Tetsuya_Shibata";
+       
+
+resource:bbbdf799-ece3-4245-8290-df66481e956e a ontology:game;
+       auPif:name "Poy Poy";
+       auPif:releaseDate 1997-06-12;
+       auPif:developer "http://dbpedia.org/resource/Konami";
+       auPif:publisher "http://dbpedia.org/resource/Konami";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_(console)";
+       auPif:genre "http://dbpedia.org/resource/Party_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Akira_Yamaoka";
+       
+
+resource:ff818518-2c27-438a-a467-2a3727f6c069 a ontology:game;
+       auPif:name "Predator: Hunting Grounds";
+       auPif:releaseDate 2020-04-24;
+       auPif:developer "http://dbpedia.org/resource/IllFonic";
+       auPif:publisher "http://dbpedia.org/resource/Sony_Interactive_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/Third-person_shooter";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Mark_Rutherford_(composer)";
+       
+
+resource:544dc6fa-c201-4f3e-9092-393641e2e8f0 a ontology:game;
+       auPif:name "Prey (2017 video game)";
+       auPif:releaseDate 2017-05-05;
+       auPif:developer "http://dbpedia.org/resource/Arkane_Studios";
+       auPif:publisher "http://dbpedia.org/resource/Bethesda_Softworks";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_4";
+       auPif:genre "http://dbpedia.org/resource/First-person_shooter";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Mick_Gordon_(composer)";
+       
+
+resource:0bf02a62-c3b7-491e-811b-4b0923f22213 a ontology:game;
+       auPif:name "Primal (video game)";
+       auPif:releaseDate 2003-03-25;
+       auPif:developer "http://dbpedia.org/resource/SCE_Cambridge_Studio";
+       auPif:publisher "http://dbpedia.org/resource/Sony_Computer_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/PlayStation_2";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/16Volt";
+       
+
+resource:5c4601ae-65c6-4bd4-830a-eb1934caf9e8 a ontology:game;
+       auPif:name "Prisoners of the Sun (video game)";
+       auPif:releaseDate 1997-02-09;
+       auPif:developer "http://dbpedia.org/resource/Bit_Managers";
+       auPif:publisher "http://dbpedia.org/resource/Infogrames_Multimedia";
+       auPif:platform "http://dbpedia.org/resource/SNES";
+       auPif:genre "http://dbpedia.org/resource/Adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Alberto_Jose_González";
+       
+
+resource:026278da-4816-410c-9eaa-75a59a5e43e2 a ontology:game;
+       auPif:name "Project Spark";
+       auPif:releaseDate 2014-10-07;
+       auPif:developer "http://dbpedia.org/resource/SkyBox_Labs";
+       auPif:publisher "http://dbpedia.org/resource/Microsoft_Studios";
+       auPif:platform "http://dbpedia.org/resource/Microsoft_Windows";
+       auPif:genre "http://dbpedia.org/resource/Action-adventure_game";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Laura_Karpman";
+       
+
+resource:de6351b4-60df-42b4-83b9-700f0031e7e9 a ontology:game;
+       auPif:name "Project X Zone 2";
+       auPif:releaseDate 2015-11-12;
+       auPif:developer "http://dbpedia.org/resource/Monolith_Soft";
+       auPif:publisher "http://dbpedia.org/resource/Bandai_Namco_Entertainment";
+       auPif:platform "http://dbpedia.org/resource/Nintendo_3DS";
+       auPif:genre "http://dbpedia.org/resource/Tactical_role-playing";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Yuzo_Koshiro";
+       
+
+resource:a0040aed-1084-4810-9203-ab391fef27a2 a ontology:game;
+       auPif:name "Psychic Detective (video game)";
+       auPif:releaseDate 1995-11-30;
+       auPif:developer "http://dbpedia.org/resource/Colossal_Pictures";
+       auPif:publisher "http://dbpedia.org/resource/Electronic_Arts_Studios";
+       auPif:platform "http://dbpedia.org/resource/3DO_Interactive_Multiplayer";
+       auPif:genre "http://dbpedia.org/resource/Interactive_movie";
+       auPif:series ;
+       auPif:countryOfOrigin ;
+       auPif:mainSubject ;
+       auPif:officialWebsite ;
+       auPif:designer ;
+       auPif:composer "http://dbpedia.org/resource/Patrick_Gleeson";
+       
+
