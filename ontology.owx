@@ -22,16 +22,7 @@
         <Class IRI="#Genre"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Name"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PDG"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Publisher"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SocialSiege"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Studio"/>
@@ -73,7 +64,13 @@
         <NamedIndividual IRI="#Activision"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Bethesda"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#COD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fallout"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="owl:characterName"/>
@@ -98,22 +95,32 @@
             <Class IRI="#Studio"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
-    <SubClassOf>
-        <Class IRI="#Name"/>
+    <ClassAssertion>
         <Class IRI="#Studio"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PDG"/>
+        <NamedIndividual IRI="#Activision"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Studio"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SocialSiege"/>
-        <Class IRI="#Studio"/>
-    </SubClassOf>
+        <NamedIndividual IRI="#Bethesda"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Video_Games"/>
         <NamedIndividual IRI="#COD"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_Games"/>
+        <NamedIndividual IRI="#Fallout"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedBy"/>
+        <NamedIndividual IRI="#COD"/>
+        <NamedIndividual IRI="#Activision"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedBy"/>
+        <NamedIndividual IRI="#Fallout"/>
+        <NamedIndividual IRI="#Bethesda"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#main_character"/>
         <NamedIndividual IRI="#COD"/>

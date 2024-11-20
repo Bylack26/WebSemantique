@@ -1,0 +1,166 @@
+@prefix : <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/> .
+
+<http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#characterName
+owl:characterName rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#rating
+owl:rating rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#series
+owl:series rdf:type owl:AnnotationProperty ;
+           owl:series ""@en .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#composedBy
+:composedBy rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            owl:inverseOf :hasComposed ;
+            rdfs:domain :Video_Games ;
+            rdfs:range :Composer .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#developedBy
+:developedBy rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             owl:inverseOf :hasDeveloped ;
+             rdfs:domain :Video_Games ;
+             rdfs:range :Studio .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#hasComposed
+:hasComposed rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Composer ;
+             rdfs:range :Video_Games .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#hasDeveloped
+:hasDeveloped rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Studio ;
+              rdfs:range :Video_Games .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#main_character
+:main_character rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :Video_Games ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#origin_country
+:origin_country rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Video_Games ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#rating
+:rating rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Video_Games ;
+        rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#release_date
+:release_date rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Video_Games ;
+              rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#serie
+:serie rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Video_Games ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#title
+:title rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Video_Games ;
+       rdfs:range xsd:Name .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Composer
+:Composer rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Designer
+:Designer rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Genre
+:Genre rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Publisher
+:Publisher rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Studio
+:Studio rdf:type owl:Class ;
+        owl:equivalentClass [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasDeveloped ;
+                              owl:someValuesFrom :Video_Games
+                            ] .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Video_Games
+:Video_Games rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :developedBy ;
+                                   owl:someValuesFrom :Studio
+                                 ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Activision
+:Activision rdf:type owl:NamedIndividual ,
+                     :Studio .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Bethesda
+:Bethesda rdf:type owl:NamedIndividual ,
+                   :Studio .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#COD
+:COD rdf:type owl:NamedIndividual ,
+              :Video_Games ;
+     :developedBy :Activision ;
+     :main_character "Mason" .
+
+
+###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Fallout
+:Fallout rdf:type owl:NamedIndividual ,
+                  :Video_Games ;
+         :developedBy :Bethesda .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
