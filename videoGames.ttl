@@ -1,4 +1,5 @@
 @prefix : <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -28,6 +29,10 @@ owl:series rdf:type owl:AnnotationProperty ;
 #################################################################
 #    Datatypes
 #################################################################
+
+###  http://dbpedia.org/ontology/Country
+<http://dbpedia.org/ontology/Country> rdf:type rdfs:Datatype .
+
 
 ###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/developer
 :developer rdf:type rdfs:Datatype .
@@ -72,45 +77,11 @@ owl:series rdf:type owl:AnnotationProperty ;
               rdfs:range <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> .
 
 
-###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/ofGenre
-:ofGenre rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf :VideoGames ;
-         rdfs:domain <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> ;
-         rdfs:range :Genre .
-
-
-###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/ofSeries
-:ofSeries rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf :VideoGames ;
-          rdfs:domain <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> ;
-          rdfs:range :Series .
-
-
-###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/onPlatform
-:onPlatform rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf :VideoGames ;
-            rdfs:domain <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> ;
-            rdfs:range :Platform .
-
-
 ###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/publishedBy
 :publishedBy rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf :VideoGames ;
              rdfs:domain <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> ;
              rdfs:range :Publisher .
-
-
-###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/releasedOn
-:releasedOn rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf :VideoGames ;
-            owl:inverseOf :support .
-
-
-###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/support
-:support rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf :VideoGames ;
-         rdfs:domain :Platform ;
-         rdfs:range <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> .
 
 
 #################################################################
@@ -131,11 +102,18 @@ owl:series rdf:type owl:AnnotationProperty ;
               rdfs:subPropertyOf :Platform .
 
 
+###  http://www.semanticweb.org/Games/ontology#platforms
+:platforms rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf :VideoGameProperty ;
+           rdfs:domain <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> ;
+           rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#countryOfOrigin
 <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#countryOfOrigin> rdf:type owl:DatatypeProperty ;
                                                                                           rdfs:subPropertyOf :VideoGameProperty ;
                                                                                           rdfs:domain <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> ;
-                                                                                          rdfs:range xsd:string .
+                                                                                          rdfs:range <http://dbpedia.org/ontology/Country> .
 
 
 ###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#name
@@ -236,12 +214,27 @@ owl:series rdf:type owl:AnnotationProperty ;
                                                                                                      owl:someValuesFrom :Publisher
                                                                                                    ] ,
                                                                                                    [ rdf:type owl:Restriction ;
-                                                                                                     owl:onProperty :releasedOn ;
+                                                                                                     owl:onProperty :platforms ;
                                                                                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                     owl:onClass :Platform
+                                                                                                     owl:onDataRange xsd:string
+                                                                                                   ] ,
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#countryOfOrigin> ;
+                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                     owl:onDataRange xsd:string
                                                                                                    ] ,
                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                      owl:onProperty <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#name> ;
+                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                     owl:onDataRange xsd:string
+                                                                                                   ] ,
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#releaseDate> ;
+                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                     owl:onDataRange xsd:dateTime
+                                                                                                   ] ,
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#series> ;
                                                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                                      owl:onDataRange xsd:string
                                                                                                    ] .
@@ -253,27 +246,45 @@ owl:series rdf:type owl:AnnotationProperty ;
                                    owl:onProperty :basedOn ;
                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                    owl:onClass <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game>
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :competitionName ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:string
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :cashPrize ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:float
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :date ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:dateTime
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :title ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:string
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :winner ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange xsd:string
                                  ] .
 
 
-###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/Genre
-:Genre rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/Platform
-:Platform rdf:type owl:Class ;
-          owl:equivalentClass [ rdf:type owl:Restriction ;
-                                owl:onProperty :support ;
-                                owl:someValuesFrom <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game>
-                              ] .
-
-
 ###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/Publisher
-:Publisher rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/Series
-:Series rdf:type owl:Class .
+:Publisher rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :hasPublished ;
+                                 owl:someValuesFrom <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game>
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :name ;
+                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:string
+                               ] .
 
 
 #################################################################
@@ -297,8 +308,7 @@ owl:series rdf:type owl:AnnotationProperty ;
 
 
 ###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/Battlefield
-:Battlefield rdf:type owl:NamedIndividual ,
-                      <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> .
+:Battlefield rdf:type owl:NamedIndividual .
 
 
 ###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/Skyrim

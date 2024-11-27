@@ -44,7 +44,11 @@ public class GenerateBookStoreGraph {
                     @prefix dcterms: <http://purl.org/dc/terms/> .
                     @prefix foaf: <http://xmlns.com/foaf/0.1/> .
                     @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
+                    @prefix ogo: <http://www.semanticweb.org/Games/ontology> .
+                    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+                    
+                    <http://www.semanticweb.org/Games/ontology> rdf:type owl:Ontology ;
+                        owl:imports <file://./ontoTurtle.ttl> .
                     """);
 
             String line;
@@ -80,23 +84,16 @@ public class GenerateBookStoreGraph {
                     "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
 
                     String authorTemplateRDF = """
-                            resource:%s a ontology:game;
-                                   auPif:name %s;
-                                   auPif:releaseDate %s;
-                                   auPif:developer %s;
-                                   auPif:publisher %s;
-                                   auPif:platform %s;
-                                   auPif:genre %s;
-                                   auPif:series %s;
-                                   auPif:countryOfOrigin %s;
-                                   auPif:mainSubject %s;
-                                   auPif:officialWebsite %s;
-                                   auPif:designer %s;
-                                   auPif:composer %s;
+                            ogo:%s a ogo:game;
+                                   ogo:name \"%s\"^^xsd:string;
+                                   ogo:releaseDate \"%s\"^^xsd:date;
+                                   ogo:platform %s;
+                                   ogo:genre \"%s\"^^xsd:string;
+                                   ogo:series \"%s\"^^xsd:string;
                                    \n
                                 """;
-                    bw.write(authorTemplateRDF.formatted(gameUUID, name, releaseDate, developer, publisher, platform,
-                            genre, series, countryOfOrigin, mainSubject, officialWebsite, designer, composer));
+                    bw.write(authorTemplateRDF.formatted(gameUUID, name, releaseDate, platform,
+                            genre, series));
 
                 }
             }
