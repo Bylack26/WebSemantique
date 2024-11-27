@@ -59,45 +59,46 @@ public class GenerateBookStoreGraph {
             while ((line = br.readLine()) != null) {
                 // System.out.println(line);
                 String[] lineTokens = line.split(",");
-                /*"game","name","releaseDate","developer","publisher","platform","genre","series",
+               
+                if (lineTokens.length > 12) {
+
+                    String game = removeQuote(lineTokens[0]);
+                    String name = removeQuote(lineTokens[1]);
+                    String releaseDate = removeQuote(lineTokens[2]);
+                    String developer = removeQuote(lineTokens[3]);
+                    String publisher = removeQuote(lineTokens[4]);
+                    String platform = removeQuote(lineTokens[5]);
+                    String genre = removeQuote(lineTokens[6]);
+                    String series = removeQuote(lineTokens[7]);
+                    String countryOfOrigin = removeQuote(lineTokens[8]);
+                    String mainSubject = removeQuote(lineTokens[9]);
+                    String officialWebsite = removeQuote(lineTokens[10]);
+                    String designer = removeQuote(lineTokens[11]);
+                    String composer = removeQuote(lineTokens[12]);
+
+                    UUID gameUUID = authors.get(game);
+                    if (gameUUID == null) {
+                        // this is the first occurence of this author
+                        // create triples describing him
+                        gameUUID = UUID.randomUUID();
+                        // store UUID in the map with authorFullName as key
+                        authors.put(game, gameUUID);
+                        /*"game","name","releaseDate","developer","publisher","platform","genre","series",
                         "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
 
-                String game = removeQuote(lineTokens[0]);
-                String name = removeQuote(lineTokens[1]);
-                String releaseDate = removeQuote(lineTokens[2]);
-                String developer = removeQuote(lineTokens[3]);
-                String publisher = removeQuote(lineTokens[4]);
-                String platform = removeQuote(lineTokens[5]);
-                String genre = removeQuote(lineTokens[6]);
-                String series = removeQuote(lineTokens[7]);
-                String countryOfOrigin = removeQuote(lineTokens[8]);
-                String mainSubject = removeQuote(lineTokens[9]);
-                String officialWebsite = removeQuote(lineTokens[10]);
-                String designer = removeQuote(lineTokens[11]);
-                String composer = removeQuote(lineTokens[12]);
+                        String authorTemplateRDF = """
+                                ogo:%s a ogo:Game;
+                                    ogo:name \"%s\"^^xsd:string;
+                                    ogo:releaseDate \"%s\"^^xsd:date;
+                                    ogo:platform %s;
+                                    ogo:genre \"%s\"^^xsd:string;
+                                    ogo:series \"%s\"^^xsd:string.
+                                    \n
+                                    """;
+                        bw.write(authorTemplateRDF.formatted(gameUUID, name, releaseDate, platform,
+                                genre, series));
 
-                UUID gameUUID = authors.get(game);
-                if (gameUUID == null) {
-                    // this is the first occurence of this author
-                    // create triples describing him
-                    gameUUID = UUID.randomUUID();
-                    // store UUID in the map with authorFullName as key
-                    authors.put(game, gameUUID);
-                    /*"game","name","releaseDate","developer","publisher","platform","genre","series",
-                    "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
-
-                    String authorTemplateRDF = """
-                            ogo:%s a ogo:Game;
-                                   ogo:name \"%s\"^^xsd:string;
-                                   ogo:releaseDate \"%s\"^^xsd:date;
-                                   ogo:platform %s;
-                                   ogo:genre \"%s\"^^xsd:string;
-                                   ogo:series \"%s\"^^xsd:string.
-                                   \n
-                                """;
-                    bw.write(authorTemplateRDF.formatted(gameUUID, name, releaseDate, platform,
-                            genre, series));
-
+                    }
                 }
             }
         }

@@ -8,1963 +8,1963 @@
 
 <http://www.semanticweb.org/Games/ontology> rdf:type owl:Ontology ;
     owl:imports <file://./ontoTurtle.ttl> .
-ogo:2ee49397-c7f3-4fd3-bc6a-a965622248d3 a ogo:Game;
-       ogo:name "Caesar IV"^^xsd:string;
-       ogo:releaseDate "2006-09-26"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
-       ogo:genre "http://dbpedia.org/resource/City-building_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/City_Building_Series"^^xsd:string.
-       
-
-ogo:163f2e0e-bae5-459a-a1d6-0731e1725380 a ogo:Game;
-       ogo:name "Bejeweled"^^xsd:string;
-       ogo:releaseDate "2001-05-30"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Facebook;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bejeweled_(series)"^^xsd:string.
-       
-
-ogo:ed6d6aad-01fe-4acf-9b2c-8f8ab19767d5 a ogo:Game;
-       ogo:name "RollerCoaster Tycoon 2"^^xsd:string;
-       ogo:releaseDate "2002-10-15"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
-       ogo:genre "http://dbpedia.org/resource/Construction_and_management_simulation"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/RollerCoaster_Tycoon"^^xsd:string.
-       
-
-ogo:21bd1c75-2401-479d-802b-02818ecbd26d a ogo:Game;
-       ogo:name "Romancing SaGa 2"^^xsd:string;
-       ogo:releaseDate "1993-12-10"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Xbox_One;
-       ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/SaGa"^^xsd:string.
-       
-
-ogo:a36e43d3-3b0f-4cec-af2e-e6e69aeefb8d a ogo:Game;
-       ogo:name "Samorost 2"^^xsd:string;
-       ogo:releaseDate "2005-12-08"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Linux;
-       ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Samorost"^^xsd:string.
-       
-
-ogo:78839a6e-d1a0-4d9d-9f2b-85a1fae732ff a ogo:Game;
-       ogo:name "Bejeweled Twist"^^xsd:string;
-       ogo:releaseDate "2008-10-27"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bejeweled_(series)"^^xsd:string.
-       
-
-ogo:53b3cbe2-a9d8-4702-8937-3ce6a79f7461 a ogo:Game;
-       ogo:name "Romancing SaGa"^^xsd:string;
-       ogo:releaseDate "1992-01-28"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/SaGa"^^xsd:string.
-       
-
-ogo:c4a6e8e1-3d5f-4d92-bebe-c342d8c20880 a ogo:Game;
-       ogo:name "Battlegrounds Mobile India"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Third-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/PUBG_Universe"^^xsd:string.
-       
-
-ogo:0f447fed-3ecf-495e-96d3-703ddab3fbd8 a ogo:Game;
-       ogo:name "Prince of Persia: The Sands of Time"^^xsd:string;
-       ogo:releaseDate "2003-10-28"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mobile_game;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
-       
-
-ogo:cd35c49b-061d-4e97-a5c4-445b6fa14af0 a ogo:Game;
-       ogo:name "Quake (video game)"^^xsd:string;
-       ogo:releaseDate "1996-06-22"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Classic_Mac_OS;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Quake_(series)"^^xsd:string.
-       
-
-ogo:d5e0e254-143a-45d5-8fc6-f2480cbee42e a ogo:Game;
-       ogo:name "Quake III Arena"^^xsd:string;
-       ogo:releaseDate "1999-12-02"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Classic_Mac_OS;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Quake_(series)"^^xsd:string.
-       
-
-ogo:38b187bd-b3f5-4bcd-bdd3-3596f74d5c54 a ogo:Game;
-       ogo:name "Quest for Glory V: Dragon Fire"^^xsd:string;
-       ogo:releaseDate "1998-12-07"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Macintosh;
-       ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Quest_for_Glory"^^xsd:string.
-       
-
-ogo:ea3e849a-048c-4336-9ba4-d95eeccd826d a ogo:Game;
-       ogo:name "Romancing SaGa 3"^^xsd:string;
-       ogo:releaseDate "1995-11-11"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Android_(operating_system);
-       ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/SaGa"^^xsd:string.
-       
-
-ogo:04161eb7-ae38-4c87-b31f-533d9b77b498 a ogo:Game;
-       ogo:name "San Francisco Rush: Extreme Racing"^^xsd:string;
-       ogo:releaseDate "1996-12-24"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Racing_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Rush_(video_game_series)"^^xsd:string.
-       
-
-ogo:8b2ed7a5-6718-42a7-b71f-ec3e144a49b8 a ogo:Game;
-       ogo:name "Sangokushi V"^^xsd:string;
-       ogo:releaseDate "1996-09-27"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MS-DOS;
-       ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
-       
-
-ogo:214637e2-e1a8-4a8c-bb07-354bda59a3e0 a ogo:Game;
-       ogo:name "Baseball (1983 video game)"^^xsd:string;
-       ogo:releaseDate "1983-12-07"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Sports_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/List_of_Mario_sports_games"^^xsd:string.
-       
-
-ogo:380395fc-ebb3-457b-baa8-80f4311bf21f a ogo:Game;
-       ogo:name "Batman: The Telltale Series"^^xsd:string;
-       ogo:releaseDate "2016-08-02"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Android_(operating_system);
-       ogo:genre "http://dbpedia.org/resource/Graphic_adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/List_of_Batman_video_games"^^xsd:string.
-       
-
-ogo:7b9fc1c2-b288-40e1-88dd-c1c9d52aeb82 a ogo:Game;
-       ogo:name "Bionic Commando (1987 video game)"^^xsd:string;
-       ogo:releaseDate "1987-03-20"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Platformer"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bionic_Commando"^^xsd:string.
-       
-
-ogo:7ba9c8fd-9372-4c80-8c17-5f15ccd52a1f a ogo:Game;
-       ogo:name "BlackSite: Area 51"^^xsd:string;
-       ogo:releaseDate "2007-11-12"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Windows;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Area_51_(series)"^^xsd:string.
-       
-
-ogo:63889cfd-d143-4b86-98ba-4f0228b44212 a ogo:Game;
-       ogo:name "Cannon Fodder (video game)"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Game_Boy_Color;
-       ogo:genre "http://dbpedia.org/resource/Shoot_'em_up"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Cannon_Fodder_(series)"^^xsd:string.
-       
-
-ogo:3a85a886-249f-4e37-a51d-44e015a89035 a ogo:Game;
-       ogo:name "Battletoads Arcade"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battletoads"^^xsd:string.
-       
-
-ogo:28e70dab-efc0-4a18-aed0-3a53333188e9 a ogo:Game;
-       ogo:name "RollerCoaster Tycoon Classic"^^xsd:string;
-       ogo:releaseDate "2016-12-22"^^xsd:date;
-       ogo:platform _Inc._(1993–present)";
-       ogo:genre "http://dbpedia.org/resource/MacOS"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Construction_and_management_simulation"^^xsd:string.
-       
-
-ogo:89d9be32-acfc-45eb-9af3-bdbae9ae2894 a ogo:Game;
-       ogo:name "San Francisco Rush 2049"^^xsd:string;
-       ogo:releaseDate "2000-09-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Racing_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Rush_(video_game_series)"^^xsd:string.
-       
-
-ogo:9446d1ed-3f19-45d6-94fa-2cae60fd658b a ogo:Game;
-       ogo:name "Battletoads (1991 video game)"^^xsd:string;
-       ogo:releaseDate "1991-06-01"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Game_Boy;
-       ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battletoads"^^xsd:string.
-       
-
-ogo:38715057-2649-4678-9710-200073df5ff8 a ogo:Game;
-       ogo:name "RollerCoaster Tycoon (video game)"^^xsd:string;
-       ogo:releaseDate "1999-03-22"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Windows;
-       ogo:genre "http://dbpedia.org/resource/Construction_and_management_simulation"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/RollerCoaster_Tycoon"^^xsd:string.
-       
-
-ogo:161a1140-b49a-4a38-b209-038de6d1d0e3 a ogo:Game;
-       ogo:name "Call of Duty: Modern Warfare 3"^^xsd:string;
-       ogo:releaseDate "2011-11-08"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:897666c0-f9a6-4e2a-8953-c97326f3eb2f a ogo:Game;
-       ogo:name "Sam & Max: The Devil's Playhouse"^^xsd:string;
-       ogo:releaseDate "2010-04-02"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Graphic_adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Sam_&_Max"^^xsd:string.
-       
-
-ogo:805c6276-83fe-47d4-8439-ca2f9fc55309 a ogo:Game;
-       ogo:name "Sam & Max Beyond Time and Space"^^xsd:string;
-       ogo:releaseDate "2007-11-08"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Graphic_adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Sam_&_Max"^^xsd:string.
-       
-
-ogo:40a62982-110f-41bc-b485-3c8727e7eb1a a ogo:Game;
-       ogo:name "Punch-Out!! (arcade game)"^^xsd:string;
-       ogo:releaseDate "1984-02-17"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre ""^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Punch-Out!!"^^xsd:string.
-       
-
-ogo:8ea260f5-1d65-4307-a5ad-68dd39c43ff7 a ogo:Game;
-       ogo:name "Prince of Persia (1989 video game)"^^xsd:string;
-       ogo:releaseDate "1989-10-03"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Apple_II_series;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:975db1b0-2c68-4880-b948-03f3bd424ff7 a ogo:Game;
-       ogo:name "Prototype (video game)"^^xsd:string;
-       ogo:releaseDate "2009-06-09"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_3;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:6a7d035a-b1e4-47ce-9931-8418abe19c8e a ogo:Game;
-       ogo:name "Pulseman"^^xsd:string;
-       ogo:releaseDate "1994-07-22"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Virtual_Console;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:40cde15e-fc7b-42fb-838f-e54d2876e9d7 a ogo:Game;
-       ogo:name "Putt-Putt Goes to the Moon"^^xsd:string;
-       ogo:releaseDate "2014-05-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Linux;
-       ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:961d7bc4-609c-4324-bdf6-ad626e45eec9 a ogo:Game;
-       ogo:name "Putt-Putt Saves the Zoo"^^xsd:string;
-       ogo:releaseDate "1995-08-10"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/DVD_player;
-       ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:cfae5a09-4396-413f-ba9a-1f7aad1df413 a ogo:Game;
-       ogo:name "Rocky Rodent"^^xsd:string;
-       ogo:releaseDate "1993-07-30"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Super_Nintendo_Entertainment_System;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:245dc42c-5752-41c7-a6ef-4d03bca4b3c3 a ogo:Game;
-       ogo:name "Rogue Galaxy"^^xsd:string;
-       ogo:releaseDate "2005-12-08"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:6fe83195-e084-43e4-af8b-99f4e914e1b1 a ogo:Game;
-       ogo:name "Beetlejuice (video game series)"^^xsd:string;
-       ogo:releaseDate "1990-07-13"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Game_Boy;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:42ace891-5071-4455-9bb2-69421238f609 a ogo:Game;
-       ogo:name "Beyond Good & Evil (video game)"^^xsd:string;
-       ogo:releaseDate "2003-11-11"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/GameCube;
-       ogo:genre "http://dbpedia.org/resource/Stealth_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:8323a34f-37f4-491c-b0bb-78c37078b640 a ogo:Game;
-       ogo:name "Billy Hatcher and the Giant Egg"^^xsd:string;
-       ogo:releaseDate "2003-09-23"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/GameCube;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:687f989d-147f-472a-99cc-49f215845d27 a ogo:Game;
-       ogo:name "Black & White (video game)"^^xsd:string;
-       ogo:releaseDate "2001-03-30"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mac_OS;
-       ogo:genre "http://dbpedia.org/resource/God_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:b3125052-ce1d-4be0-b4c5-26f62f4f287c a ogo:Game;
-       ogo:name "Quester"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Breakout_clone"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:38045ada-3f31-400d-aff7-8ae59a21a3e9 a ogo:Game;
-       ogo:name "Menace (video game)"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Commodore_64;
-       ogo:genre "http://dbpedia.org/resource/Scrolling_shooter"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:12b65a68-25c8-420b-9293-161bf9cd2896 a ogo:Game;
-       ogo:name "1943: The Battle of Midway"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Shoot_'em_up"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:f887f930-3d76-4d61-84cf-1378b2a71a26 a ogo:Game;
-       ogo:name "Battle Tank (video game)"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Entertainment_System;
-       ogo:genre "http://dbpedia.org/resource/Simulation_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:9f8b9157-9572-4971-9702-1345443dd961 a ogo:Game;
-       ogo:name "Project S-11"^^xsd:string;
-       ogo:releaseDate "2001-01-03"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Game_Boy_Color;
-       ogo:genre "http://dbpedia.org/resource/Shoot_'em_up"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:b94b43ae-77d4-469e-b079-dcfd05762821 a ogo:Game;
-       ogo:name "Power Drift"^^xsd:string;
-       ogo:releaseDate "1988-07-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Commodore_64;
-       ogo:genre "http://dbpedia.org/resource/Kart_racing_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:b398c493-3796-40f8-b863-b24b822ebdff a ogo:Game;
-       ogo:name "California Games"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Amstrad_CPC;
-       ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:ff25c427-4b92-4cef-a6b8-0ee98bd26c78 a ogo:Game;
-       ogo:name "Quantum Conundrum"^^xsd:string;
-       ogo:releaseDate "2012-06-21"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Puzzle-platform_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:cb98fdf7-93d7-4cb1-bf41-a3796f447d11 a ogo:Game;
-       ogo:name "Black & White 2"^^xsd:string;
-       ogo:releaseDate "2005-10-04"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/God_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:dba97daf-cab7-458b-9a8a-7fe14bbdc505 a ogo:Game;
-       ogo:name "Captain Blood (video game)"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:904c4ff4-c110-44a8-b387-08901dfb7644 a ogo:Game;
-       ogo:name "Captain Dynamo (video game)"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:c92f82a1-95f0-445e-9931-fa6ba86cfc78 a ogo:Game;
-       ogo:name "Canabalt"^^xsd:string;
-       ogo:releaseDate "2009-10-01"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Endless_runner"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:b121fe24-3b8f-4a96-b027-e30aa8119543 a ogo:Game;
-       ogo:name "Call of Duty: Modern Warfare 3 – Defiance"^^xsd:string;
-       ogo:releaseDate "2011-11-08"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_DS;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:da8a325d-53cd-4e7f-81df-bfa5838b6515 a ogo:Game;
-       ogo:name "Call of Duty: Vanguard"^^xsd:string;
-       ogo:releaseDate "2021-11-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:8fa48a69-baf8-4698-8ca3-575d567d886c a ogo:Game;
-       ogo:name "Call of Duty: World at War – Final Fronts"^^xsd:string;
-       ogo:releaseDate "2008-11-10"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:c573cbaf-6869-495f-93b6-8ccd804250b7 a ogo:Game;
-       ogo:name "Castlevania: Curse of Darkness"^^xsd:string;
-       ogo:releaseDate "2005-11-01"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
-       
-
-ogo:6ad94e6e-eeed-49cb-867c-41e09caf2b1a a ogo:Game;
-       ogo:name "Castlevania: Dawn of Sorrow"^^xsd:string;
-       ogo:releaseDate "2005-08-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mobile_phone;
-       ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
-       
-
-ogo:c4e3f75c-2cc9-4886-997b-8f26300ba7e4 a ogo:Game;
-       ogo:name "Castlevania: Lament of Innocence"^^xsd:string;
-       ogo:releaseDate "2003-10-21"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
-       
-
-ogo:ce095f01-6c71-4178-ad35-e6fe6ae3fdee a ogo:Game;
-       ogo:name "Castlevania: Order of Ecclesia"^^xsd:string;
-       ogo:releaseDate "2008-10-21"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_DS;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
-       
-
-ogo:7a24503d-0475-42ca-99b2-5da3aec58551 a ogo:Game;
-       ogo:name "Professor Layton and the Curious Village"^^xsd:string;
-       ogo:releaseDate "2007-02-15"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mobile_game;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
-       
-
-ogo:426c25a1-9171-4742-95be-4a76b0804201 a ogo:Game;
-       ogo:name "Project CARS (video game)"^^xsd:string;
-       ogo:releaseDate "2015-05-06"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/Sim_racing"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Project_CARS"^^xsd:string.
-       
-
-ogo:3ad116da-1d6e-4de4-988c-f7b4d572c6d0 a ogo:Game;
-       ogo:name "Puyo Puyo Champions"^^xsd:string;
-       ogo:releaseDate "2018-10-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Puyo_Puyo"^^xsd:string.
-       
-
-ogo:ce3224eb-8f6b-46c9-8487-694afd47015c a ogo:Game;
-       ogo:name "Rockman EXE 4.5 Real Operation"^^xsd:string;
-       ogo:releaseDate "2004-08-06"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Game_Boy_Advance;
-       ogo:genre "http://dbpedia.org/resource/Real-time_tactics"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Mega_Man_Battle_Network"^^xsd:string.
-       
-
-ogo:8def0016-44d2-4408-bee1-9fa5f7cd6615 a ogo:Game;
-       ogo:name "Romance of the Three Kingdoms XI"^^xsd:string;
-       ogo:releaseDate "2006-03-17"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii;
-       ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
-       
-
-ogo:d133df8f-dccc-4df3-81f8-bd14626d6b21 a ogo:Game;
-       ogo:name "Rome: Total War: Barbarian Invasion"^^xsd:string;
-       ogo:releaseDate "2005-09-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MacOS;
-       ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Total_War_(video_game_series)"^^xsd:string.
-       
-
-ogo:8d853190-07de-4692-83e2-38ef10e7cba8 a ogo:Game;
-       ogo:name "Samorost 3"^^xsd:string;
-       ogo:releaseDate "2016-03-24"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Android_(operating_system);
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Samorost"^^xsd:string.
-       
-
-ogo:f829543c-653c-4bdb-beac-0e380bfde4ba a ogo:Game;
-       ogo:name "Saru! Get You! SaruSaru Big Mission"^^xsd:string;
-       ogo:releaseDate "2007-07-26"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_Portable;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Ape_Escape"^^xsd:string.
-       
-
-ogo:c4a8d952-63f3-4c28-a434-28ea15df814b a ogo:Game;
-       ogo:name "Myst Online: Uru Live"^^xsd:string;
-       ogo:releaseDate "2007-02-15"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mac_OS_X;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Myst_(series)"^^xsd:string.
-       
-
-ogo:ad7a54fc-9e67-46ee-bf47-e0722e6adcc8 a ogo:Game;
-       ogo:name "Project CARS 2"^^xsd:string;
-       ogo:releaseDate "2017-09-22"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/Sim_racing"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Project_CARS"^^xsd:string.
-       
-
-ogo:a3999f09-dea3-4960-92db-a98a75ea0ec8 a ogo:Game;
-       ogo:name "Battlefield 2142"^^xsd:string;
-       ogo:releaseDate "2006-10-17"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MacOS;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
-       
-
-ogo:dac30df6-43bc-43d3-88ba-dedd567ee8c1 a ogo:Game;
-       ogo:name "Before Crisis: Final Fantasy VII"^^xsd:string;
-       ogo:releaseDate "2004-09-24"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mobile_game;
-       ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Compilation_of_Final_Fantasy_VII"^^xsd:string.
-       
-
-ogo:1615f267-d555-494e-8b38-6292d2fd2dd8 a ogo:Game;
-       ogo:name "Berserk: Millennium Falcon Hen Seima Senki no Shō"^^xsd:string;
-       ogo:releaseDate "2004-10-07"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Berserk_(manga)"^^xsd:string.
-       
-
-ogo:e340b645-b285-4108-a959-5be546de65e3 a ogo:Game;
-       ogo:name "Bit.Trip Void"^^xsd:string;
-       ogo:releaseDate "2009-10-27"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mac_OS_X;
-       ogo:genre "http://dbpedia.org/resource/Shoot_'em_up"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bit.Trip"^^xsd:string.
-       
-
-ogo:1bba13ed-41eb-4d90-8048-7625fdd3aaaa a ogo:Game;
-       ogo:name "Black Rock Shooter: The Game"^^xsd:string;
-       ogo:releaseDate "2011-08-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_Portable;
-       ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Black_Rock_Shooter"^^xsd:string.
-       
-
-ogo:289ffc5d-7735-400e-9f2d-11148dc4464e a ogo:Game;
-       ogo:name "Bladestorm: The Hundred Years' War"^^xsd:string;
-       ogo:releaseDate "2007-08-30"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_3;
-       ogo:genre "http://dbpedia.org/resource/Real-time_tactics"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Dynasty_Warriors"^^xsd:string.
-       
-
-ogo:bb3170e0-e31b-48d9-ac6b-95f276181158 a ogo:Game;
-       ogo:name "Blood Will Tell"^^xsd:string;
-       ogo:releaseDate "2004-09-09"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Dororo"^^xsd:string.
-       
-
-ogo:0bf326d8-2d02-4a23-b2a0-29955b900ed5 a ogo:Game;
-       ogo:name "Castlevania: The Adventure ReBirth"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/WiiWare;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
-       
-
-ogo:7a795604-df2d-44a3-b7ee-30bf91b6ca0b a ogo:Game;
-       ogo:name "Call of Duty 2"^^xsd:string;
-       ogo:releaseDate "2005-10-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mobile_game;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:5cc1a3f0-faae-42bd-9cf3-51cf75fcbd2f a ogo:Game;
-       ogo:name "Professor Layton and the Diabolical Box"^^xsd:string;
-       ogo:releaseDate "2007-11-29"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Android_(operating_system);
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
-       
-
-ogo:75451cfb-53b1-4311-a82b-eb5258da439a a ogo:Game;
-       ogo:name "Professor Layton and the Miracle Mask"^^xsd:string;
-       ogo:releaseDate "2011-02-26"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
-       
-
-ogo:e402662a-c502-41f8-bd5f-4a37ccf152f7 a ogo:Game;
-       ogo:name "Professor Layton and the Unwound Future"^^xsd:string;
-       ogo:releaseDate "2008-11-27"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Android_(operating_system);
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
-       
-
-ogo:22beb9e3-7397-439c-9066-8fd658dfc742 a ogo:Game;
-       ogo:name "Robotics;Notes"^^xsd:string;
-       ogo:releaseDate "2012-06-28"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
-       ogo:genre "http://dbpedia.org/resource/Visual_novel"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Science_Adventure"^^xsd:string.
-       
-
-ogo:7f3724ea-21d7-46e1-913d-17758611a961 a ogo:Game;
-       ogo:name "MU Legend"^^xsd:string;
-       ogo:releaseDate "2017-03-23"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
-       ogo:genre "http://dbpedia.org/resource/Fantasy"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Mu_Online"^^xsd:string.
-       
-
-ogo:4c3aa42b-da3b-4b62-8bd1-b33f92bf3b58 a ogo:Game;
-       ogo:name "Beyond Divinity"^^xsd:string;
-       ogo:releaseDate "2004-04-28"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MacOS;
-       ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Divinity_(series)"^^xsd:string.
-       
-
-ogo:10a72c40-2d8d-4a1f-9d46-602b5be2a0de a ogo:Game;
-       ogo:name "BloodRayne: Betrayal"^^xsd:string;
-       ogo:releaseDate "2011-09-06"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/BloodRayne"^^xsd:string.
-       
-
-ogo:c3bb0a13-9545-46fd-8639-4f5ed86843dc a ogo:Game;
-       ogo:name "Bloody Roar 2"^^xsd:string;
-       ogo:releaseDate "1999-01-28"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bloody_Roar"^^xsd:string.
-       
-
-ogo:2270e7d2-4f15-4774-98e7-35cd9de278b9 a ogo:Game;
-       ogo:name "Blue Dragon Plus"^^xsd:string;
-       ogo:releaseDate "2008-09-04"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_DS;
-       ogo:genre "http://dbpedia.org/resource/Tactical_role-playing_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Blue_Dragon_(video_game)"^^xsd:string.
-       
-
-ogo:8bc35341-2e66-4146-91e8-da5d620001f4 a ogo:Game;
-       ogo:name "Call of Duty: Black Ops Cold War"^^xsd:string;
-       ogo:releaseDate "2020-11-13"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:a1af98c9-d7f0-41a3-8eea-cc19ca80562c a ogo:Game;
-       ogo:name "Powerstar Golf"^^xsd:string;
-       ogo:releaseDate "2013-11-22"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Xbox_One;
-       ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:f70debba-ee5e-4574-915f-706f1c453c2f a ogo:Game;
-       ogo:name "Prey (2006 video game)"^^xsd:string;
-       ogo:releaseDate "2006-07-11"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Linux;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:4b64d70d-ae90-4cb7-b821-683913c246ff a ogo:Game;
-       ogo:name "Project Snowblind"^^xsd:string;
-       ogo:releaseDate "2005-02-22"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:9a6bd60c-5acf-4a07-8278-065184688818 a ogo:Game;
-       ogo:name "Puppeteer (video game)"^^xsd:string;
-       ogo:releaseDate "2013-09-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_3;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:63176b40-ffbd-4e91-9c30-058dc0bc41c5 a ogo:Game;
-       ogo:name "Puzzle & Dragons"^^xsd:string;
-       ogo:releaseDate "2012-11-08"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Android_(operating_system);
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:e7cb57dc-1537-4127-8103-15909f0b1df8 a ogo:Game;
-       ogo:name "Rumble Roses"^^xsd:string;
-       ogo:releaseDate "2004-11-09"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:0b45d37d-efb1-4346-9f16-e3d3b8dd3dfa a ogo:Game;
-       ogo:name "Samurai Champloo: Sidetracked"^^xsd:string;
-       ogo:releaseDate "2006-02-23"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:a69f9e63-3edc-4e24-8c42-8cabedea7fdd a ogo:Game;
-       ogo:name "Sands of Destruction"^^xsd:string;
-       ogo:releaseDate "2008-09-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_DS;
-       ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:b9c7573e-737c-44f2-827c-779c2f3d8da4 a ogo:Game;
-       ogo:name "Sangokushi Sōsōden"^^xsd:string;
-       ogo:releaseDate "1998-12-11"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mobile_phone;
-       ogo:genre "http://dbpedia.org/resource/Tactical_role-playing_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:51c36b6c-00a6-41fe-b6c4-6e8691f8cb42 a ogo:Game;
-       ogo:name "Baten Kaitos: Eternal Wings and the Lost Ocean"^^xsd:string;
-       ogo:releaseDate "2003-12-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/GameCube;
-       ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:6835d41e-aa18-401f-980d-f5642141b4ce a ogo:Game;
-       ogo:name "Battle Stadium D.O.N"^^xsd:string;
-       ogo:releaseDate "2006-07-20"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_GameCube;
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:10b866c4-b94d-488a-906d-c2bf7b4f7ce5 a ogo:Game;
-       ogo:name "Battlestations: Midway"^^xsd:string;
-       ogo:releaseDate "2007-01-30"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MacOS;
-       ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:5c915351-e818-4c69-a495-aee16dd533c2 a ogo:Game;
-       ogo:name "Battlestations: Pacific"^^xsd:string;
-       ogo:releaseDate "2009-05-12"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MacOS;
-       ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:e792f79f-22b4-4d03-b0e7-84117c58ea29 a ogo:Game;
-       ogo:name "Beaterator"^^xsd:string;
-       ogo:releaseDate "2009-09-29"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_Portable;
-       ogo:genre "http://dbpedia.org/resource/Music_video_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:a5b676b8-587f-4462-84fa-9a393b2b4bcb a ogo:Game;
-       ogo:name "Black Sigil: Blade of the Exiled"^^xsd:string;
-       ogo:releaseDate "2009-06-09"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_DS;
-       ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:7d870c48-7005-495a-9968-fce93cf392ec a ogo:Game;
-       ogo:name "Blake Stone: Aliens of Gold"^^xsd:string;
-       ogo:releaseDate "1993-12-03"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Linux;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:484bb7f1-267a-4751-8369-a3ef5f11bf48 a ogo:Game;
-       ogo:name "Blazing Angels: Squadrons of WWII"^^xsd:string;
-       ogo:releaseDate "2006-03-23"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Flight_simulator"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:d3135c83-0a7f-4f12-9bda-f6d6c0502634 a ogo:Game;
-       ogo:name "Blazing Angels 2: Secret Missions of WWII"^^xsd:string;
-       ogo:releaseDate "2007-09-06"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_3;
-       ogo:genre "http://dbpedia.org/resource/Flight_simulator"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:ae93c750-cdda-4e92-98ed-e0c35065b517 a ogo:Game;
-       ogo:name "Bloodstained: Curse of the Moon"^^xsd:string;
-       ogo:releaseDate "2018-05-24"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:6334be0a-0a4e-4764-ac0d-ae363ced280e a ogo:Game;
-       ogo:name "Blue Dragon (video game)"^^xsd:string;
-       ogo:releaseDate "2006-12-07"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Xbox_360;
-       ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:554b90f7-203d-4fdc-af2e-16853f601730 a ogo:Game;
-       ogo:name "Midnight Star: Renegade"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/IOS;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:f12b3fc0-99dc-47ed-878d-c58f9285a109 a ogo:Game;
-       ogo:name "Bloodstained: Ritual of the Night"^^xsd:string;
-       ogo:releaseDate "2019-06-18"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/Metroidvania"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:136c669e-3344-44d9-8370-f8a59b03d7d0 a ogo:Game;
-       ogo:name "Quest 64"^^xsd:string;
-       ogo:releaseDate "1998-06-01"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_64;
-       ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:d0c03e9d-6a83-4da0-8168-b7861b6c0245 a ogo:Game;
-       ogo:name "Rodea the Sky Soldier"^^xsd:string;
-       ogo:releaseDate "2015-04-02"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:3e8e25ba-a18a-46dc-ba15-01c6b5116b80 a ogo:Game;
-       ogo:name "Blue Dragon: Awakened Shadow"^^xsd:string;
-       ogo:releaseDate "2009-10-08"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_DS;
-       ogo:genre "http://dbpedia.org/resource/Action_role-playing_video_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:e48db0da-97a0-441d-8663-49e75a435db3 a ogo:Game;
-       ogo:name "Robonauts"^^xsd:string;
-       ogo:releaseDate "2017-09-15"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/Shooting_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:571f89ea-8233-4d39-bc89-00296985ee2f a ogo:Game;
-       ogo:name "Scorn (video game)"^^xsd:string;
-       ogo:releaseDate "2022-10-14"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Xbox_Series_X/S;
-       ogo:genre "http://dbpedia.org/resource/Survival_horror"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:0572a0d7-0b4c-4180-91ac-3b3b0acdc4b1 a ogo:Game;
-       ogo:name "Blood (video game)"^^xsd:string;
-       ogo:releaseDate "1997-03-06"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MS-DOS;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:b3ef6b1b-88ba-4b33-88e7-22fc0cf7d8b4 a ogo:Game;
-       ogo:name "Pyre (video game)"^^xsd:string;
-       ogo:releaseDate "2017-07-25"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:96584e83-3f71-4ace-82aa-e56bcac2c7bc a ogo:Game;
-       ogo:name "Robinson: The Journey"^^xsd:string;
-       ogo:releaseDate "2016-11-08"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre ""^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:78fc3997-7e50-4f1b-825b-7f04f1f6eb4d a ogo:Game;
-       ogo:name "Call of Duty: Advanced Warfare"^^xsd:string;
-       ogo:releaseDate "2014-11-04"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_3;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:3b0e561c-0db8-485f-984c-cb2ea7ce6909 a ogo:Game;
-       ogo:name "Call of Duty: Black Ops"^^xsd:string;
-       ogo:releaseDate "2010-11-09"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:dc9190b6-ead8-4b6b-b6c7-3924f72bdd09 a ogo:Game;
-       ogo:name "Call of Duty: Black Ops II"^^xsd:string;
-       ogo:releaseDate "2012-11-13"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii_U;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:87e89d21-56f4-4476-a80c-9ef95bc6cd0c a ogo:Game;
-       ogo:name "Call of Duty: Black Ops III"^^xsd:string;
-       ogo:releaseDate "2015-11-06"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MacOS;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:0527169d-d577-4e47-b815-f10ed193e6b7 a ogo:Game;
-       ogo:name "Call of Duty: Finest Hour"^^xsd:string;
-       ogo:releaseDate "2004-11-16"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/GameCube;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:2145af55-6fb3-4fe2-95f4-5c2006347edc a ogo:Game;
-       ogo:name "Call of Duty: Ghosts"^^xsd:string;
-       ogo:releaseDate "2013-11-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii_U;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:fc0d3884-66ad-4934-be20-b19b8a2cf54d a ogo:Game;
-       ogo:name "Call of Duty: Infinite Warfare"^^xsd:string;
-       ogo:releaseDate "2016-11-04"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:54ff5b9e-b15c-45e1-b58b-2e27997d9e48 a ogo:Game;
-       ogo:name "Call of Duty: United Offensive"^^xsd:string;
-       ogo:releaseDate "2004-09-14"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MacOS;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:52093ca0-efdf-46c6-97af-606f8340d5ae a ogo:Game;
-       ogo:name "Call of Duty: World at War"^^xsd:string;
-       ogo:releaseDate "2008-11-11"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:be662586-24d2-4b31-bf11-221428e8cc42 a ogo:Game;
-       ogo:name "Call of Duty 2: Big Red One"^^xsd:string;
-       ogo:releaseDate "2005-11-01"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/GameCube;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:0e2e7e8c-6024-49fb-b8a2-02ab42484644 a ogo:Game;
-       ogo:name "Call of Duty 3"^^xsd:string;
-       ogo:releaseDate "2006-11-07"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:12ffea66-14ef-4847-aba5-6859657e9b9e a ogo:Game;
-       ogo:name "Call of Duty 4: Modern Warfare"^^xsd:string;
-       ogo:releaseDate "2007-11-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mac_OS_X;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:10ca6709-b824-4dd9-bba9-58ade75aacd4 a ogo:Game;
-       ogo:name "Captain Toad: Treasure Tracker"^^xsd:string;
-       ogo:releaseDate "2014-11-13"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii_U;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Mario_(franchise)"^^xsd:string.
-       
-
-ogo:1b897c53-fa39-4fd3-a5b8-545a209f8b57 a ogo:Game;
-       ogo:name "Captain Tsubasa Vol. II: Super Striker"^^xsd:string;
-       ogo:releaseDate "1990-07-20"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Entertainment_System;
-       ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Captain_Tsubasa"^^xsd:string.
-       
-
-ogo:13e5ff37-6427-4f74-85be-611d6149c718 a ogo:Game;
-       ogo:name "Castlevania: Bloodlines"^^xsd:string;
-       ogo:releaseDate "1994-03-17"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Sega_Genesis;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
-       
-
-ogo:6d515b4a-f358-4c59-94d8-d09fdb63e6df a ogo:Game;
-       ogo:name "Castlevania: Portrait of Ruin"^^xsd:string;
-       ogo:releaseDate "2006-11-16"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_DS;
-       ogo:genre "http://dbpedia.org/resource/Platform-adventure"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
-       
-
-ogo:5d804f2d-1155-4e53-bedd-a9102ea10eef a ogo:Game;
-       ogo:name "Castlevania: Symphony of the Night"^^xsd:string;
-       ogo:releaseDate "1997-03-20"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Android_(operating_system);
-       ogo:genre "http://dbpedia.org/resource/Action_role-playing"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
-       
-
-ogo:49a87085-f521-4b87-8da9-c3661fdcd0a2 a ogo:Game;
-       ogo:name "Castlevania (1986 video game)"^^xsd:string;
-       ogo:releaseDate "1986-09-26"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
-       
-
-ogo:5aade302-ead1-49a7-a9d4-8a420de1cc4f a ogo:Game;
-       ogo:name "Bejeweled 3"^^xsd:string;
-       ogo:releaseDate "2010-12-07"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Android_(operating_system);
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bejeweled_(series)"^^xsd:string.
-       
-
-ogo:fec24c91-168c-4058-9020-bdbde709d67d a ogo:Game;
-       ogo:name "Power Rangers Dino Thunder (video game)"^^xsd:string;
-       ogo:releaseDate "2004-08-31"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/GameCube;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Power_Rangers"^^xsd:string.
-       
-
-ogo:8dcf5041-1460-4730-b2f1-f8ebd08f264a a ogo:Game;
-       ogo:name "Prince of Persia: The Forgotten Sands (Wii)"^^xsd:string;
-       ogo:releaseDate "2010-05-18"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
-       
-
-ogo:e282cee9-6a77-4624-90b7-ff65cc71206e a ogo:Game;
-       ogo:name "Prince of Persia: The Two Thrones"^^xsd:string;
-       ogo:releaseDate "2005-12-01"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mobile_game;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
-       
-
-ogo:cd39236c-00b0-418c-b8ff-0f9ece03830e a ogo:Game;
-       ogo:name "Prince of Persia: Warrior Within"^^xsd:string;
-       ogo:releaseDate "2004-12-02"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mobile_game;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
-       
-
-ogo:3f44d615-82ad-4b91-b5d3-d7687057b576 a ogo:Game;
-       ogo:name "Prince of Persia (2008 video game)"^^xsd:string;
-       ogo:releaseDate "2008-12-02"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mac_OS_X;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
-       
-
-ogo:dcc4d2b1-6cd2-47ea-a65e-f03b5ece3176 a ogo:Game;
-       ogo:name "Prinny: Can I Really Be the Hero?"^^xsd:string;
-       ogo:releaseDate "2008-11-20"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Disgaea"^^xsd:string.
-       
-
-ogo:93bcaac4-c92a-41f3-9cef-bae60b855978 a ogo:Game;
-       ogo:name "Pro Evolution Soccer (video game)"^^xsd:string;
-       ogo:releaseDate "2001-03-15"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation;
-       ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Pro_Evolution_Soccer"^^xsd:string.
-       
-
-ogo:8e731131-d477-4650-8889-2f01e23acbce a ogo:Game;
-       ogo:name "Punch-Out!! (NES)"^^xsd:string;
-       ogo:releaseDate "1987-09-18"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Punch-Out!!"^^xsd:string.
-       
-
-ogo:9f824a30-7779-4ace-b8dc-cb278eeedcc1 a ogo:Game;
-       ogo:name "Putt-Putt Enters the Race"^^xsd:string;
-       ogo:releaseDate "1999-01-14"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Android_(operating_system);
-       ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Putt-Putt_(series)"^^xsd:string.
-       
-
-ogo:d9f05eea-2a84-41e5-97ba-432d80a0b310 a ogo:Game;
-       ogo:name "Quake Champions"^^xsd:string;
-       ogo:releaseDate "2022-08-18"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Quake_(series)"^^xsd:string.
-       
-
-ogo:e949ae3d-d204-4dea-9802-a8995ec9a437 a ogo:Game;
-       ogo:name "RoboCop (1988 video game)"^^xsd:string;
-       ogo:releaseDate "1989-12-12"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Commodore_64;
-       ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/List_of_RoboCop_video_games"^^xsd:string.
-       
-
-ogo:0f589b0f-9556-4a5d-ad43-f8628e978e02 a ogo:Game;
-       ogo:name "Rockman EXE WS"^^xsd:string;
-       ogo:releaseDate "2003-02-08"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/WonderSwan_Color;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Mega_Man_Battle_Network"^^xsd:string.
-       
-
-ogo:4ea5d1c9-4ce3-46c7-8710-883c0c18cf92 a ogo:Game;
-       ogo:name "Romance of the Three Kingdoms 12"^^xsd:string;
-       ogo:releaseDate "2012-12-13"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii_U;
-       ogo:genre "http://dbpedia.org/resource/Strategy_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
-       
-
-ogo:d03188b7-70e5-43b0-9148-471d68bd3972 a ogo:Game;
-       ogo:name "Romance of the Three Kingdoms II"^^xsd:string;
-       ogo:releaseDate "1990-11-02"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MS-DOS;
-       ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
-       
-
-ogo:733dca2b-2e33-4f88-a06f-a2c1f0326bb4 a ogo:Game;
-       ogo:name "Romance of the Three Kingdoms III: Dragon of Destiny"^^xsd:string;
-       ogo:releaseDate "1992-02-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MS-DOS;
-       ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
-       
-
-ogo:778322ff-9c9b-4a42-99b8-1d5944509ed5 a ogo:Game;
-       ogo:name "Romance of the Three Kingdoms X"^^xsd:string;
-       ogo:releaseDate "2004-07-02"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
-       
-
-ogo:06c96fde-34ef-49bc-b058-c9b12e7c3aaf a ogo:Game;
-       ogo:name "Romance of the Three Kingdoms XIV"^^xsd:string;
-       ogo:releaseDate "2020-01-16"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
-       ogo:genre "http://dbpedia.org/resource/Strategy_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
-       
-
-ogo:a8f20516-5387-4230-ade0-1fa1789e6172 a ogo:Game;
-       ogo:name "Romancia"^^xsd:string;
-       ogo:releaseDate "1987-10-30"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MSX;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Dragon_Slayer_(series)"^^xsd:string.
-       
-
-ogo:044a1be6-a31b-4ae3-bfe2-63d269119d21 a ogo:Game;
-       ogo:name "Rome: Total War"^^xsd:string;
-       ogo:releaseDate "2004-09-22"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Android_(operating_system);
-       ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Total_War_(video_game_series)"^^xsd:string.
-       
-
-ogo:f98872e0-d398-4f99-9c95-37098e8b949b a ogo:Game;
-       ogo:name "Rugrats: Search for Reptar"^^xsd:string;
-       ogo:releaseDate "2003-12-01"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/MacOS;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Rugrats"^^xsd:string.
-       
-
-ogo:951260e2-17da-4d72-8797-8fdfd42f9197 a ogo:Game;
-       ogo:name "Rugrats: Studio Tour"^^xsd:string;
-       ogo:releaseDate "1999-11-10"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_(console);
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Rugrats"^^xsd:string.
-       
-
-ogo:a1301bce-d42d-4bae-bb08-ba450ffd902d a ogo:Game;
-       ogo:name "Saru! Get You! Million Monkeys"^^xsd:string;
-       ogo:releaseDate "2006-07-13"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Ape_Escape"^^xsd:string.
-       
-
-ogo:d4c83283-ad01-4db4-99f3-5071660f4846 a ogo:Game;
-       ogo:name "Batman: Arkham Asylum"^^xsd:string;
-       ogo:releaseDate "2009-08-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mac_OS_X;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Batman:_Arkham"^^xsd:string.
-       
-
-ogo:20299108-9031-45fa-942d-b2a17572b3ee a ogo:Game;
-       ogo:name "Batman: Arkham City"^^xsd:string;
-       ogo:releaseDate "2011-10-18"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii_U;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Batman:_Arkham"^^xsd:string.
-       
-
-ogo:49614776-b845-4f92-9579-58783c38ce12 a ogo:Game;
-       ogo:name "Batman: Arkham Knight"^^xsd:string;
-       ogo:releaseDate "2015-06-23"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Batman:_Arkham"^^xsd:string.
-       
-
-ogo:8be86a9a-198e-46b8-bb69-bf6798dfd20d a ogo:Game;
-       ogo:name "Batman: Arkham Origins"^^xsd:string;
-       ogo:releaseDate "2013-10-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii_U;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Batman:_Arkham"^^xsd:string.
-       
-
-ogo:42b571af-8f75-4dc4-8cc4-0f30cf2a9d00 a ogo:Game;
-       ogo:name "Battlefield: Bad Company"^^xsd:string;
-       ogo:releaseDate "2008-06-23"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_3;
-       ogo:genre "http://dbpedia.org/resource/Tactical_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
-       
-
-ogo:a7bde9b2-6e41-429a-830b-951acabf642c a ogo:Game;
-       ogo:name "Battlefield 1"^^xsd:string;
-       ogo:releaseDate "2016-10-21"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
-       
-
-ogo:1507de5c-3b01-4d3d-8fe5-94f5fc059d2c a ogo:Game;
-       ogo:name "Battlefield 2042"^^xsd:string;
-       ogo:releaseDate "2021-11-19"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
-       
-
-ogo:0a6a109e-8fab-4927-b858-7b92e1f1df93 a ogo:Game;
-       ogo:name "Battlefield 2: Modern Combat"^^xsd:string;
-       ogo:releaseDate "2005-10-24"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
-       
-
-ogo:e42cf234-8329-49f9-8832-7218fa5d3c24 a ogo:Game;
-       ogo:name "Battlefield Hardline"^^xsd:string;
-       ogo:releaseDate "2015-03-17"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_3;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
-       
-
-ogo:6a2bc881-1abb-4e63-8502-1e3567596ccd a ogo:Game;
-       ogo:name "Battlefield V"^^xsd:string;
-       ogo:releaseDate "2018-11-20"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/Battle_royale_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
-       
-
-ogo:ea5220b3-4cbf-4826-af08-f497c88f97e9 a ogo:Game;
-       ogo:name "Battles of Prince of Persia"^^xsd:string;
-       ogo:releaseDate "2005-12-06"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_DS;
-       ogo:genre "http://dbpedia.org/resource/Turn-based_tactics"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
-       
-
-ogo:7035ca9d-d8d2-47e9-815b-4bcd206eff68 a ogo:Game;
-       ogo:name "Bejeweled 2"^^xsd:string;
-       ogo:releaseDate "2004-11-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Symbian%5E3;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bejeweled_(series)"^^xsd:string.
-       
-
-ogo:affbb440-60af-479c-84a5-4863d0c49d63 a ogo:Game;
-       ogo:name "Ben 10: Protector of Earth"^^xsd:string;
-       ogo:releaseDate "2007-10-30"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii;
-       ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Ben_10"^^xsd:string.
-       
-
-ogo:9eb7700f-f027-4417-9120-db8ff2d84ede a ogo:Game;
-       ogo:name "Ben 10 Alien Force: Vilgax Attacks"^^xsd:string;
-       ogo:releaseDate "2009-10-27"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii;
-       ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Ben_10"^^xsd:string.
-       
-
-ogo:19c60bd6-92b1-4d20-a539-f25d748b3585 a ogo:Game;
-       ogo:name "Ben 10 Ultimate Alien: Cosmic Destruction"^^xsd:string;
-       ogo:releaseDate "2010-10-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Ben_10"^^xsd:string.
-       
-
-ogo:67042b64-b8f3-4991-8b44-68f857a178cf a ogo:Game;
-       ogo:name "Bentley's Hackpack"^^xsd:string;
-       ogo:releaseDate "2013-02-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_3;
-       ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Sly_Cooper"^^xsd:string.
-       
-
-ogo:c52aa1be-a433-4d00-b66f-8a648890caf5 a ogo:Game;
-       ogo:name "BioShock"^^xsd:string;
-       ogo:releaseDate "2007-08-21"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mac_OS_X;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/BioShock_(series)"^^xsd:string.
-       
-
-ogo:b93de691-93c0-4c98-923a-2feccc923a2a a ogo:Game;
-       ogo:name "BioShock 2"^^xsd:string;
-       ogo:releaseDate "2010-02-09"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Mac_OS_X;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/BioShock_(series)"^^xsd:string.
-       
-
-ogo:25924459-c6d2-4bab-9385-db4bd248caac a ogo:Game;
-       ogo:name "BioShock Infinite"^^xsd:string;
-       ogo:releaseDate "2013-03-26"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Linux;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/BioShock_(series)"^^xsd:string.
-       
-
-ogo:677ac6b5-4087-4f1b-8d6f-16b8802f1cfa a ogo:Game;
-       ogo:name "Bionic Commando (1992 video game)"^^xsd:string;
-       ogo:releaseDate "1992-09-19"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Game_Boy;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bionic_Commando"^^xsd:string.
-       
-
-ogo:f7610b98-32ae-4237-b1f9-f4e01de7db81 a ogo:Game;
-       ogo:name "Bionic Commando Rearmed"^^xsd:string;
-       ogo:releaseDate "2008-08-13"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/BlackBerry;
-       ogo:genre "http://dbpedia.org/resource/Metroidvania"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bionic_Commando"^^xsd:string.
-       
-
-ogo:534055e9-0250-4848-bc75-652b0c9b7c7c a ogo:Game;
-       ogo:name "Bionic Commando Rearmed 2"^^xsd:string;
-       ogo:releaseDate "2011-02-01"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_3;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bionic_Commando"^^xsd:string.
-       
-
-ogo:e7477e5f-2e18-4d41-b9cb-be77c9f66413 a ogo:Game;
-       ogo:name "Blade Runner (1997 video game)"^^xsd:string;
-       ogo:releaseDate "1997-11-14"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
-       ogo:genre "http://dbpedia.org/resource/Point-and-click_adventure"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Blade_Runner_(franchise)"^^xsd:string.
-       
-
-ogo:10d95324-1170-4910-bd76-b62b33350f6b a ogo:Game;
-       ogo:name "Blaster Master (video game)"^^xsd:string;
-       ogo:releaseDate "1988-06-17"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Entertainment_System;
-       ogo:genre "http://dbpedia.org/resource/Metroidvania"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Blaster_Master"^^xsd:string.
-       
-
-ogo:0027e7c7-fedf-4db4-9cab-ceea603be994 a ogo:Game;
-       ogo:name "Bloody Roar (video game)"^^xsd:string;
-       ogo:releaseDate "1997-07-07"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bloody_Roar"^^xsd:string.
-       
-
-ogo:da72e391-03ea-4e75-a5c6-fbbeebbaf454 a ogo:Game;
-       ogo:name "Call of Duty: Modern Warfare II (2022 video game)"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Windows;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:3ca1926f-1d58-47c4-bfad-eaf96cbbf690 a ogo:Game;
-       ogo:name "Castlevania: The Dracula X Chronicles"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_Portable;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
-       
-
-ogo:84835efb-8330-4f84-86d0-6b870ec3dfa5 a ogo:Game;
-       ogo:name "Professor Pac-Man"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Quiz_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/List_of_Pac-Man_video_games"^^xsd:string.
-       
-
-ogo:61eb5287-14b0-4fc4-a509-585cd26f54bd a ogo:Game;
-       ogo:name "RoboCop 3 (video game)"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Commodore_64;
-       ogo:genre "http://dbpedia.org/resource/Shooter_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/List_of_RoboCop_video_games"^^xsd:string.
-       
-
-ogo:4aa64f1d-fba5-42c6-a984-33b4ad5c87ff a ogo:Game;
-       ogo:name "Cadence of Hyrule"^^xsd:string;
-       ogo:releaseDate "2019-06-13"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
-       ogo:genre "http://dbpedia.org/resource/Roguelike"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Crypt_of_the_NecroDancer"^^xsd:string.
-       
-
-ogo:b3268ecf-d9fe-4ab7-b11a-4e8b662c818c a ogo:Game;
-       ogo:name "Castle of Illusion Starring Mickey Mouse (2013 video game)"^^xsd:string;
-       ogo:releaseDate "2013-09-03"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_3;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Illusion_(series)"^^xsd:string.
-       
-
-ogo:bf1e9b99-699e-489d-8d24-f76fb9d62da0 a ogo:Game;
-       ogo:name "Pro Evolution Soccer 2"^^xsd:string;
-       ogo:releaseDate "2002-04-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Pro_Evolution_Soccer"^^xsd:string.
-       
-
-ogo:35dd36b3-5cdf-4e70-993d-209315e5062f a ogo:Game;
-       ogo:name "Rockman & Forte Mirai kara no Chōsensha"^^xsd:string;
-       ogo:releaseDate "1999-10-21"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/WonderSwan;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Mega_Man_(original_series)"^^xsd:string.
-       
-
-ogo:2de2eb94-cedc-44ac-ad73-9dc637ffa2be a ogo:Game;
-       ogo:name "Saturn Bomberman Fight!!"^^xsd:string;
-       ogo:releaseDate "1997-12-11"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Sega_Saturn;
-       ogo:genre "http://dbpedia.org/resource/List_of_maze_video_games"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bomberman"^^xsd:string.
-       
-
-ogo:9f427435-4ec5-4227-bb9f-2f2fb4107a94 a ogo:Game;
-       ogo:name "Battlefleet Gothic: Armada"^^xsd:string;
-       ogo:releaseDate "2016-04-21"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
-       ogo:genre "http://dbpedia.org/resource/Real-time_tactics"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Warhammer_4"^^xsd:string.
-       
-
-ogo:dda79f04-1a44-45c5-a94b-5c23e4dc0725 a ogo:Game;
-       ogo:name "Bishōjo Senshi Sailor Moon R (1993 video game)"^^xsd:string;
-       ogo:releaseDate "1993-12-29"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Super_Famicom;
-       ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Sailor_Moon"^^xsd:string.
-       
-
-ogo:62dfa448-d08b-4cc1-8f56-b6db29f67de9 a ogo:Game;
-       ogo:name "Call of Duty (video game)"^^xsd:string;
-       ogo:releaseDate "2003-10-29"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/N-Gage_(device);
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:22320186-5b92-4451-94f4-0c4facf4bd42 a ogo:Game;
-       ogo:name "Professor Layton and the Azran Legacy"^^xsd:string;
-       ogo:releaseDate "2013-02-28"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
-       
-
-ogo:86d4097b-5836-431d-9289-8564f433695b a ogo:Game;
-       ogo:name "Professor Layton and the Last Specter"^^xsd:string;
-       ogo:releaseDate "2009-11-26"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_DS;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
-       
-
-ogo:1db51752-d8d5-4f9d-94f2-060f3251391f a ogo:Game;
-       ogo:name "Professor Layton vs. Phoenix Wright: Ace Attorney"^^xsd:string;
-       ogo:releaseDate "2012-11-29"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
-       ogo:genre "http://dbpedia.org/resource/Visual_novel"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
-       
-
-ogo:b0c20b5b-6b92-4990-ae10-49c5882eea2f a ogo:Game;
-       ogo:name "Psycho-Pass: Mandatory Happiness"^^xsd:string;
-       ogo:releaseDate "2015-05-28"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/Visual_novel"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Psycho-Pass"^^xsd:string.
-       
-
-ogo:0498a47c-ae90-45b0-93e5-447cf31b3df7 a ogo:Game;
-       ogo:name "Puzzle & Dragons Z + Super Mario Bros. Edition"^^xsd:string;
-       ogo:releaseDate "2013-12-12"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
-       ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Puzzle_&_Dragons"^^xsd:string.
-       
-
-ogo:7e18fe62-ad32-4460-97f0-386bc748519b a ogo:Game;
-       ogo:name "Robotics;Notes DaSH"^^xsd:string;
-       ogo:releaseDate "2019-01-31"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
-       ogo:genre "http://dbpedia.org/resource/Visual_novel"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Science_Adventure"^^xsd:string.
-       
-
-ogo:06a4461c-5ad0-4e31-9e73-b027adfc6000 a ogo:Game;
-       ogo:name "Samurai Western"^^xsd:string;
-       ogo:releaseDate "2005-01-01"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Action_role-playing"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Way_of_the_Samurai"^^xsd:string.
-       
-
-ogo:72fae1d5-f2dc-4456-a6f7-50a1af7ef63c a ogo:Game;
-       ogo:name "Saturn Bomberman"^^xsd:string;
-       ogo:releaseDate "1996-07-19"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Sega_Saturn;
-       ogo:genre "http://dbpedia.org/resource/List_of_maze_video_games"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bomberman"^^xsd:string.
-       
-
-ogo:9fbfe4ce-9c60-4cc8-99ff-954512788c82 a ogo:Game;
-       ogo:name "Bassin's Black Bass with Hank Parker"^^xsd:string;
-       ogo:releaseDate "1994-09-23"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Super_NES;
-       ogo:genre "http://dbpedia.org/resource/Fishing_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/The_Black_Bass"^^xsd:string.
-       
-
-ogo:e2469954-24f1-45a9-8240-b7771f4d6272 a ogo:Game;
-       ogo:name "Battletoads/Double Dragon"^^xsd:string;
-       ogo:releaseDate "1993-12-01"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Game_Boy;
-       ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battletoads"^^xsd:string.
-       
-
-ogo:f565131e-021a-4feb-9e36-c2ef71b61243 a ogo:Game;
-       ogo:name "Battletoads (Game Boy video game)"^^xsd:string;
-       ogo:releaseDate "1994-01-07"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Game_Boy;
-       ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battletoads"^^xsd:string.
-       
-
-ogo:069758be-b76c-41a1-8609-8182bc4a4136 a ogo:Game;
-       ogo:name "Battletoads in Battlemaniacs"^^xsd:string;
-       ogo:releaseDate "1994-01-07"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Master_System;
-       ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Battletoads"^^xsd:string.
-       
-
-ogo:ed0fd4c2-1e1c-4ffe-b907-0c16c3a16aa0 a ogo:Game;
-       ogo:name "Bishōjo Senshi Sailor Moon S: Jōgai Rantō!? Shuyaku Sōdatsusen"^^xsd:string;
-       ogo:releaseDate "1994-12-14"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Super_Famicom;
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Sailor_Moon"^^xsd:string.
-       
-
-ogo:6adc65a1-9e7f-478b-9048-1e1f159cc2c5 a ogo:Game;
-       ogo:name "Blair Witch Volume II: The Legend of Coffin Rock"^^xsd:string;
-       ogo:releaseDate "2000-10-30"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
-       ogo:genre "http://dbpedia.org/resource/Survival_horror"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Blair_Witch"^^xsd:string.
-       
-
-ogo:53e57c8e-a733-48d0-81c4-54ce93a652c7 a ogo:Game;
-       ogo:name "BlazBlue: Calamity Trigger"^^xsd:string;
-       ogo:releaseDate "2008-11-19"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/BlazBlue"^^xsd:string.
-       
-
-ogo:978fdced-b3f6-410a-a56e-409f96772ee4 a ogo:Game;
-       ogo:name "BlazBlue: Central Fiction"^^xsd:string;
-       ogo:releaseDate "2015-11-19"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/BlazBlue"^^xsd:string.
-       
-
-ogo:03edbb9f-b9be-4ccb-8023-de1127cac33c a ogo:Game;
-       ogo:name "BlazBlue: Continuum Shift"^^xsd:string;
-       ogo:releaseDate "2009-11-20"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/BlazBlue"^^xsd:string.
-       
-
-ogo:2435ffce-f0e6-4e6f-8517-261b2b330059 a ogo:Game;
-       ogo:name "Bloody Roar 3"^^xsd:string;
-       ogo:releaseDate "2001-03-01"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bloody_Roar"^^xsd:string.
-       
-
-ogo:814d1586-bbc2-4c8b-b751-9daeddb11bd4 a ogo:Game;
-       ogo:name "RoboCop 2 (video game)"^^xsd:string;
-       ogo:releaseDate ""^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Shooter_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/List_of_RoboCop_video_games"^^xsd:string.
-       
-
-ogo:39dcb041-c7bc-4524-a961-66c7ffbf8132 a ogo:Game;
-       ogo:name "Bishōjo Senshi Sailor Moon: Another Story"^^xsd:string;
-       ogo:releaseDate "1995-09-22"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Super_Famicom;
-       ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Sailor_Moon"^^xsd:string.
-       
-
-ogo:ce374de2-6f64-4b85-a281-564ea63f9a9f a ogo:Game;
-       ogo:name "Bishōjo Senshi Sailor Moon SuperS: Shin Shuyaku Sōdatsusen"^^xsd:string;
-       ogo:releaseDate "1996-03-08"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_(console);
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Sailor_Moon"^^xsd:string.
-       
-
-ogo:7579d366-b4e1-48aa-8b52-5957c0c272cd a ogo:Game;
-       ogo:name "Call of Duty: Black Ops 4"^^xsd:string;
-       ogo:releaseDate "2018-10-12"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Battle_royale_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:5b86d7f0-4da1-4747-a228-7412b8ddea8e a ogo:Game;
-       ogo:name "Call of Duty: Modern Warfare (2019 video game)"^^xsd:string;
-       ogo:releaseDate "2019-10-25"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:ad831e0a-8441-4883-844f-8998f2491362 a ogo:Game;
-       ogo:name "Call of Duty: Modern Warfare 2"^^xsd:string;
-       ogo:releaseDate "2009-11-10"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:e9f16c8c-8ff6-4230-8b7e-ddcedb181176 a ogo:Game;
-       ogo:name "Call of Duty: WWII"^^xsd:string;
-       ogo:releaseDate "2017-11-03"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
-       
-
-ogo:a22de688-bb5a-4fe1-a81e-7070ab33e26e a ogo:Game;
-       ogo:name "Prince of Persia: The Fallen King"^^xsd:string;
-       ogo:releaseDate "2008-12-02"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
-       
-
-ogo:67f927dc-8f2d-45c1-a7e9-e0eb28f3448f a ogo:Game;
-       ogo:name "Quake II"^^xsd:string;
-       ogo:releaseDate "1997-12-09"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Quake_(series)"^^xsd:string.
-       
-
-ogo:9c58d1d4-d675-434d-bc7f-d5df6b118e24 a ogo:Game;
-       ogo:name "Bayonetta 2"^^xsd:string;
-       ogo:releaseDate "2014-09-20"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Hack_and_slash"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bayonetta"^^xsd:string.
-       
-
-ogo:d78c6544-dc6f-4a10-8107-cf0863ac3f9d a ogo:Game;
-       ogo:name "Sam & Max Save the World"^^xsd:string;
-       ogo:releaseDate "2006-10-17"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Graphic_adventure_game"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Sam_&_Max"^^xsd:string.
-       
-
-ogo:b3336f44-8c3e-48c4-9092-a9949fafc1ad a ogo:Game;
-       ogo:name "Bayonetta (video game)"^^xsd:string;
-       ogo:releaseDate "2009-10-29"^^xsd:date;
-       ogo:platform ;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure"^^xsd:string;
-       ogo:series "http://dbpedia.org/resource/Bayonetta"^^xsd:string.
-       
-
-ogo:041ee045-ad29-4622-8574-9ee6e62cfa20 a ogo:Game;
-       ogo:name "Caladrius (video game)"^^xsd:string;
-       ogo:releaseDate "2013-04-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Shoot_'em_up"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:2c0936f2-e780-4771-869d-8434e9c628fc a ogo:Game;
-       ogo:name "California Speed (video game)"^^xsd:string;
-       ogo:releaseDate "1999-02-28"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Racing_video_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:8e1b0a9d-5efe-4bd6-8440-5e302fe7d461 a ogo:Game;
-       ogo:name "Captain America: Super Soldier"^^xsd:string;
-       ogo:releaseDate "2011-07-15"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Wii;
-       ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:c7f7232a-609b-42d3-806d-fe4d08046dd9 a ogo:Game;
-       ogo:name "Captain Planet and the Planeteers (video game)"^^xsd:string;
-       ogo:releaseDate "1992-08-20"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/ZX_Spectrum;
-       ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:3ccd110d-ec29-4715-8e32-d4027ea24321 a ogo:Game;
-       ogo:name "Captain Tsubasa 4: Pro no Rival Tachi"^^xsd:string;
-       ogo:releaseDate "1993-04-03"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Super_Famicom;
-       ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:dd7a784e-d4a3-4bae-a6dc-ada7f5761158 a ogo:Game;
-       ogo:name "Captain Tsubasa 5: Hasha no Shōgō Campione"^^xsd:string;
-       ogo:releaseDate "1994-12-09"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Super_Famicom;
-       ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:15346097-5c8e-4ff7-bff9-07d9d8109ef2 a ogo:Game;
-       ogo:name "Carrier Command: Gaea Mission"^^xsd:string;
-       ogo:releaseDate "2012-09-28"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
-       ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:5ae4b878-44db-440b-b35d-a35fa5311cc7 a ogo:Game;
-       ogo:name "Below (video game)"^^xsd:string;
-       ogo:releaseDate "2018-12-14"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:37f4dcdc-1365-4b98-a37a-44aa771912c4 a ogo:Game;
-       ogo:name "Power Blade"^^xsd:string;
-       ogo:releaseDate "1990-04-20"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_Entertainment_System;
-       ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:fabd4099-11b1-4a4f-a342-732d940a4b22 a ogo:Game;
-       ogo:name "Power Rangers Zeo: Battle Racers"^^xsd:string;
-       ogo:releaseDate "1996-09-17"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Super_Nintendo_Entertainment_System;
-       ogo:genre "http://dbpedia.org/resource/Racing_video_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:b84a2a52-13c8-446f-814a-ff7644210256 a ogo:Game;
-       ogo:name "Power Stone (video game)"^^xsd:string;
-       ogo:releaseDate "1999-02-13"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Arcade_game;
-       ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:ee25387e-54c0-4134-9657-9130c46b4195 a ogo:Game;
-       ogo:name "Poy Poy"^^xsd:string;
-       ogo:releaseDate "1997-06-12"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_(console);
-       ogo:genre "http://dbpedia.org/resource/Party_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:a9843681-c2b6-421e-9fe8-76447acae006 a ogo:Game;
-       ogo:name "Predator: Hunting Grounds"^^xsd:string;
-       ogo:releaseDate "2020-04-24"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/Third-person_shooter"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:e91a5036-1dc8-4974-b178-b108e00e26d6 a ogo:Game;
-       ogo:name "Prey (2017 video game)"^^xsd:string;
-       ogo:releaseDate "2017-05-05"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_4;
-       ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:9af889d3-1dfa-42eb-a11f-6147a5d2d469 a ogo:Game;
-       ogo:name "Primal (video game)"^^xsd:string;
-       ogo:releaseDate "2003-03-25"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/PlayStation_2;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:3e75c0b8-db81-4622-98fb-a18ec834ca56 a ogo:Game;
-       ogo:name "Prisoners of the Sun (video game)"^^xsd:string;
-       ogo:releaseDate "1997-02-09"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/SNES;
-       ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:1b597cfa-2da9-46d0-87b6-9e7cfb1dd6c7 a ogo:Game;
-       ogo:name "Project Spark"^^xsd:string;
-       ogo:releaseDate "2014-10-07"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
-       ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:6072be59-18fc-4c9d-a6bb-8bfc59108413 a ogo:Game;
-       ogo:name "Project X Zone 2"^^xsd:string;
-       ogo:releaseDate "2015-11-12"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
-       ogo:genre "http://dbpedia.org/resource/Tactical_role-playing"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
-
-ogo:5e2c9417-833c-4b00-8ccd-ff8e871f827d a ogo:Game;
-       ogo:name "Psychic Detective (video game)"^^xsd:string;
-       ogo:releaseDate "1995-11-30"^^xsd:date;
-       ogo:platform http://dbpedia.org/resource/3DO_Interactive_Multiplayer;
-       ogo:genre "http://dbpedia.org/resource/Interactive_movie"^^xsd:string;
-       ogo:series ""^^xsd:string.
-       
+ogo:f05eab75-8b19-42e4-b85f-1a3e2616e480 a ogo:Game;
+    ogo:name "Caesar IV"^^xsd:string;
+    ogo:releaseDate "2006-09-26"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
+    ogo:genre "http://dbpedia.org/resource/City-building_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/City_Building_Series"^^xsd:string.
+    
+
+ogo:a5f768e0-8f5d-4c43-a456-ce5f27cca704 a ogo:Game;
+    ogo:name "Bejeweled"^^xsd:string;
+    ogo:releaseDate "2001-05-30"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Facebook;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bejeweled_(series)"^^xsd:string.
+    
+
+ogo:1e515a9f-43b2-4da4-8b0f-686331be432f a ogo:Game;
+    ogo:name "RollerCoaster Tycoon 2"^^xsd:string;
+    ogo:releaseDate "2002-10-15"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
+    ogo:genre "http://dbpedia.org/resource/Construction_and_management_simulation"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/RollerCoaster_Tycoon"^^xsd:string.
+    
+
+ogo:24bbde44-dc6f-46b9-8d57-86d8467fbb76 a ogo:Game;
+    ogo:name "Romancing SaGa 2"^^xsd:string;
+    ogo:releaseDate "1993-12-10"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Xbox_One;
+    ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/SaGa"^^xsd:string.
+    
+
+ogo:af0d1aa2-7f8d-4ee7-9845-11ac2793121b a ogo:Game;
+    ogo:name "Samorost 2"^^xsd:string;
+    ogo:releaseDate "2005-12-08"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Linux;
+    ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Samorost"^^xsd:string.
+    
+
+ogo:344a5043-2199-40da-9614-3f849f254b90 a ogo:Game;
+    ogo:name "Bejeweled Twist"^^xsd:string;
+    ogo:releaseDate "2008-10-27"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bejeweled_(series)"^^xsd:string.
+    
+
+ogo:93ca7487-1c1c-4a93-8ee7-24f63fac2e5a a ogo:Game;
+    ogo:name "Romancing SaGa"^^xsd:string;
+    ogo:releaseDate "1992-01-28"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/SaGa"^^xsd:string.
+    
+
+ogo:4ace417b-07ad-40d1-8778-8328919e8ec1 a ogo:Game;
+    ogo:name "Battlegrounds Mobile India"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Third-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/PUBG_Universe"^^xsd:string.
+    
+
+ogo:d1e9933b-b521-4ca8-8115-f43e4330e99a a ogo:Game;
+    ogo:name "Prince of Persia: The Sands of Time"^^xsd:string;
+    ogo:releaseDate "2003-10-28"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mobile_game;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
+    
+
+ogo:3b0fc44f-52a4-4d26-8031-e4abb3e83791 a ogo:Game;
+    ogo:name "Quake (video game)"^^xsd:string;
+    ogo:releaseDate "1996-06-22"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Classic_Mac_OS;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Quake_(series)"^^xsd:string.
+    
+
+ogo:616b977f-808e-47ec-9cbc-5be47683bdc4 a ogo:Game;
+    ogo:name "Quake III Arena"^^xsd:string;
+    ogo:releaseDate "1999-12-02"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Classic_Mac_OS;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Quake_(series)"^^xsd:string.
+    
+
+ogo:a22d1a6e-ce1a-4664-adf4-f757f64dfa19 a ogo:Game;
+    ogo:name "Quest for Glory V: Dragon Fire"^^xsd:string;
+    ogo:releaseDate "1998-12-07"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Macintosh;
+    ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Quest_for_Glory"^^xsd:string.
+    
+
+ogo:d67c9f12-0589-429c-aedc-e7fec5334d15 a ogo:Game;
+    ogo:name "Romancing SaGa 3"^^xsd:string;
+    ogo:releaseDate "1995-11-11"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Android_(operating_system);
+    ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/SaGa"^^xsd:string.
+    
+
+ogo:b3109888-c6a5-4c60-923f-dcd07f53d3cf a ogo:Game;
+    ogo:name "San Francisco Rush: Extreme Racing"^^xsd:string;
+    ogo:releaseDate "1996-12-24"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Racing_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Rush_(video_game_series)"^^xsd:string.
+    
+
+ogo:2fab2ebe-5bcd-40c7-bf89-20ac58b88499 a ogo:Game;
+    ogo:name "Sangokushi V"^^xsd:string;
+    ogo:releaseDate "1996-09-27"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MS-DOS;
+    ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
+    
+
+ogo:2a24020c-2898-46ec-9d4c-01ae26548051 a ogo:Game;
+    ogo:name "Baseball (1983 video game)"^^xsd:string;
+    ogo:releaseDate "1983-12-07"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Sports_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/List_of_Mario_sports_games"^^xsd:string.
+    
+
+ogo:057fd905-fdc2-4851-ac55-c61f42c40816 a ogo:Game;
+    ogo:name "Batman: The Telltale Series"^^xsd:string;
+    ogo:releaseDate "2016-08-02"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Android_(operating_system);
+    ogo:genre "http://dbpedia.org/resource/Graphic_adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/List_of_Batman_video_games"^^xsd:string.
+    
+
+ogo:457062e9-6f79-47d5-8eee-e463a2d2e6c1 a ogo:Game;
+    ogo:name "Bionic Commando (1987 video game)"^^xsd:string;
+    ogo:releaseDate "1987-03-20"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Platformer"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bionic_Commando"^^xsd:string.
+    
+
+ogo:404ba818-0049-4351-8506-60b16c33a086 a ogo:Game;
+    ogo:name "BlackSite: Area 51"^^xsd:string;
+    ogo:releaseDate "2007-11-12"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Windows;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Area_51_(series)"^^xsd:string.
+    
+
+ogo:5c1fa9bb-8f21-46aa-9412-92c6d4fc150b a ogo:Game;
+    ogo:name "Cannon Fodder (video game)"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Game_Boy_Color;
+    ogo:genre "http://dbpedia.org/resource/Shoot_'em_up"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Cannon_Fodder_(series)"^^xsd:string.
+    
+
+ogo:8785e8a2-2a1a-4523-94c9-41927da8dac9 a ogo:Game;
+    ogo:name "Battletoads Arcade"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battletoads"^^xsd:string.
+    
+
+ogo:2918dff7-50e1-45c0-a3f7-5a0e872eef19 a ogo:Game;
+    ogo:name "RollerCoaster Tycoon Classic"^^xsd:string;
+    ogo:releaseDate "2016-12-22"^^xsd:date;
+    ogo:platform _Inc._(1993–present)";
+    ogo:genre "http://dbpedia.org/resource/MacOS"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Construction_and_management_simulation"^^xsd:string.
+    
+
+ogo:e0d52c49-899d-41af-98aa-971c3b9a27de a ogo:Game;
+    ogo:name "San Francisco Rush 2049"^^xsd:string;
+    ogo:releaseDate "2000-09-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Racing_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Rush_(video_game_series)"^^xsd:string.
+    
+
+ogo:19a25382-18fd-4049-a0fd-6cfce8d92ed9 a ogo:Game;
+    ogo:name "Battletoads (1991 video game)"^^xsd:string;
+    ogo:releaseDate "1991-06-01"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Game_Boy;
+    ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battletoads"^^xsd:string.
+    
+
+ogo:e2f4ef25-8de4-4f23-a1d3-69fd4d732b3a a ogo:Game;
+    ogo:name "RollerCoaster Tycoon (video game)"^^xsd:string;
+    ogo:releaseDate "1999-03-22"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Windows;
+    ogo:genre "http://dbpedia.org/resource/Construction_and_management_simulation"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/RollerCoaster_Tycoon"^^xsd:string.
+    
+
+ogo:12207341-47fe-45cb-b8ac-14723b17f64f a ogo:Game;
+    ogo:name "Call of Duty: Modern Warfare 3"^^xsd:string;
+    ogo:releaseDate "2011-11-08"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:0b256b72-f594-49d9-b74f-5348927bd0a9 a ogo:Game;
+    ogo:name "Sam & Max: The Devil's Playhouse"^^xsd:string;
+    ogo:releaseDate "2010-04-02"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Graphic_adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Sam_&_Max"^^xsd:string.
+    
+
+ogo:2acf99fb-b2a8-462d-9ad6-064582ef44b7 a ogo:Game;
+    ogo:name "Sam & Max Beyond Time and Space"^^xsd:string;
+    ogo:releaseDate "2007-11-08"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Graphic_adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Sam_&_Max"^^xsd:string.
+    
+
+ogo:bd6c16d0-e2fd-414d-b721-962d965caf33 a ogo:Game;
+    ogo:name "Punch-Out!! (arcade game)"^^xsd:string;
+    ogo:releaseDate "1984-02-17"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre ""^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Punch-Out!!"^^xsd:string.
+    
+
+ogo:80ce09cf-b0f7-440f-bc20-1160bdc1c0ac a ogo:Game;
+    ogo:name "Prince of Persia (1989 video game)"^^xsd:string;
+    ogo:releaseDate "1989-10-03"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Apple_II_series;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:018da574-b52f-4428-833a-23b515e3e370 a ogo:Game;
+    ogo:name "Prototype (video game)"^^xsd:string;
+    ogo:releaseDate "2009-06-09"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_3;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:0fd7a9d9-3bfa-4aa6-b997-4ee40448212b a ogo:Game;
+    ogo:name "Pulseman"^^xsd:string;
+    ogo:releaseDate "1994-07-22"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Virtual_Console;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:4881b1a4-abed-43fe-a663-f048a66d82cf a ogo:Game;
+    ogo:name "Putt-Putt Goes to the Moon"^^xsd:string;
+    ogo:releaseDate "2014-05-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Linux;
+    ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:af54e944-9dbc-40f9-83c4-6574ca9dd023 a ogo:Game;
+    ogo:name "Putt-Putt Saves the Zoo"^^xsd:string;
+    ogo:releaseDate "1995-08-10"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/DVD_player;
+    ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:b4c1e962-68f0-4599-b77a-f49d51b6e813 a ogo:Game;
+    ogo:name "Rocky Rodent"^^xsd:string;
+    ogo:releaseDate "1993-07-30"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Super_Nintendo_Entertainment_System;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:834e1b4b-c66b-44d0-bea6-8c7e01eedf7c a ogo:Game;
+    ogo:name "Rogue Galaxy"^^xsd:string;
+    ogo:releaseDate "2005-12-08"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:3db33977-c235-42c5-a4be-fd1e78e36fdc a ogo:Game;
+    ogo:name "Beetlejuice (video game series)"^^xsd:string;
+    ogo:releaseDate "1990-07-13"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Game_Boy;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:3170b657-232e-4178-8465-1b1a493d1788 a ogo:Game;
+    ogo:name "Beyond Good & Evil (video game)"^^xsd:string;
+    ogo:releaseDate "2003-11-11"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/GameCube;
+    ogo:genre "http://dbpedia.org/resource/Stealth_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:de38f207-9c49-499f-8573-2475f4669c85 a ogo:Game;
+    ogo:name "Billy Hatcher and the Giant Egg"^^xsd:string;
+    ogo:releaseDate "2003-09-23"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/GameCube;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:25be4403-c2bb-4c06-b26e-a5222e89e037 a ogo:Game;
+    ogo:name "Black & White (video game)"^^xsd:string;
+    ogo:releaseDate "2001-03-30"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mac_OS;
+    ogo:genre "http://dbpedia.org/resource/God_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:cdf11e04-e417-4263-87d4-09aa46108394 a ogo:Game;
+    ogo:name "Quester"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Breakout_clone"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:ceda508a-e7f0-4296-b6e4-ad85ddc2f64a a ogo:Game;
+    ogo:name "Menace (video game)"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Commodore_64;
+    ogo:genre "http://dbpedia.org/resource/Scrolling_shooter"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:7ef3701d-53a9-4db3-8e39-bf4f67bf656b a ogo:Game;
+    ogo:name "1943: The Battle of Midway"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Shoot_'em_up"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:e258afc6-daf2-41d1-a647-b611b78706d3 a ogo:Game;
+    ogo:name "Battle Tank (video game)"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Entertainment_System;
+    ogo:genre "http://dbpedia.org/resource/Simulation_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:4d996230-0412-4e14-8dfe-2bbeb0638c45 a ogo:Game;
+    ogo:name "Project S-11"^^xsd:string;
+    ogo:releaseDate "2001-01-03"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Game_Boy_Color;
+    ogo:genre "http://dbpedia.org/resource/Shoot_'em_up"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:11ce189a-0c94-4f11-a7ce-ed958daa6188 a ogo:Game;
+    ogo:name "Power Drift"^^xsd:string;
+    ogo:releaseDate "1988-07-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Commodore_64;
+    ogo:genre "http://dbpedia.org/resource/Kart_racing_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:045237ea-c304-4a2d-998d-6e0443294259 a ogo:Game;
+    ogo:name "California Games"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Amstrad_CPC;
+    ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:667e5ea0-993f-4294-b1dd-76f8641b6edd a ogo:Game;
+    ogo:name "Quantum Conundrum"^^xsd:string;
+    ogo:releaseDate "2012-06-21"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Puzzle-platform_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:0b282371-f5bd-49dc-9982-fe42f05aec4a a ogo:Game;
+    ogo:name "Black & White 2"^^xsd:string;
+    ogo:releaseDate "2005-10-04"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/God_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:b5744571-8401-4de9-8716-17e3013b6a5e a ogo:Game;
+    ogo:name "Captain Blood (video game)"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:5227d7d3-d2d1-46f7-8211-2e6d575a35f1 a ogo:Game;
+    ogo:name "Captain Dynamo (video game)"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:65288b37-6bf3-4d52-875a-d37ec37a2d2a a ogo:Game;
+    ogo:name "Canabalt"^^xsd:string;
+    ogo:releaseDate "2009-10-01"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Endless_runner"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:00050cb6-fd5a-44da-9a49-2aec6457f75d a ogo:Game;
+    ogo:name "Call of Duty: Modern Warfare 3 – Defiance"^^xsd:string;
+    ogo:releaseDate "2011-11-08"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_DS;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:8f5c8b40-7c97-4635-833e-0ba17bdcff26 a ogo:Game;
+    ogo:name "Call of Duty: Vanguard"^^xsd:string;
+    ogo:releaseDate "2021-11-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:4339f10c-8fde-4170-ac95-fa3598e201fe a ogo:Game;
+    ogo:name "Call of Duty: World at War – Final Fronts"^^xsd:string;
+    ogo:releaseDate "2008-11-10"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:02fc87ff-50f1-4bfb-982e-91cc74acfa80 a ogo:Game;
+    ogo:name "Castlevania: Curse of Darkness"^^xsd:string;
+    ogo:releaseDate "2005-11-01"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
+    
+
+ogo:d28930a7-3443-4dc7-86e8-01319b4d5e1c a ogo:Game;
+    ogo:name "Castlevania: Dawn of Sorrow"^^xsd:string;
+    ogo:releaseDate "2005-08-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mobile_phone;
+    ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
+    
+
+ogo:ba0bab4e-05ef-45a6-92af-8b88fd8cbd40 a ogo:Game;
+    ogo:name "Castlevania: Lament of Innocence"^^xsd:string;
+    ogo:releaseDate "2003-10-21"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
+    
+
+ogo:24de34fa-dfb9-4be5-8c68-7584882fb980 a ogo:Game;
+    ogo:name "Castlevania: Order of Ecclesia"^^xsd:string;
+    ogo:releaseDate "2008-10-21"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_DS;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
+    
+
+ogo:0398c7db-74b2-40c1-a4f3-aaadf5f1ec48 a ogo:Game;
+    ogo:name "Professor Layton and the Curious Village"^^xsd:string;
+    ogo:releaseDate "2007-02-15"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mobile_game;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
+    
+
+ogo:d41edac3-092e-4dfa-983d-64b34bd0c434 a ogo:Game;
+    ogo:name "Project CARS (video game)"^^xsd:string;
+    ogo:releaseDate "2015-05-06"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/Sim_racing"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Project_CARS"^^xsd:string.
+    
+
+ogo:1a1a7854-738b-4a38-8940-acb2e802a064 a ogo:Game;
+    ogo:name "Puyo Puyo Champions"^^xsd:string;
+    ogo:releaseDate "2018-10-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Puyo_Puyo"^^xsd:string.
+    
+
+ogo:45877238-ab1e-4857-85ff-b7fe6bfa08d4 a ogo:Game;
+    ogo:name "Rockman EXE 4.5 Real Operation"^^xsd:string;
+    ogo:releaseDate "2004-08-06"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Game_Boy_Advance;
+    ogo:genre "http://dbpedia.org/resource/Real-time_tactics"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Mega_Man_Battle_Network"^^xsd:string.
+    
+
+ogo:1ba25198-4519-4d86-9e91-203ad511c294 a ogo:Game;
+    ogo:name "Romance of the Three Kingdoms XI"^^xsd:string;
+    ogo:releaseDate "2006-03-17"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii;
+    ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
+    
+
+ogo:cd65a2ef-350b-4d0e-969a-7f80a50d2db7 a ogo:Game;
+    ogo:name "Rome: Total War: Barbarian Invasion"^^xsd:string;
+    ogo:releaseDate "2005-09-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MacOS;
+    ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Total_War_(video_game_series)"^^xsd:string.
+    
+
+ogo:cc3cd095-9d6f-4416-80d8-28f841011e6b a ogo:Game;
+    ogo:name "Samorost 3"^^xsd:string;
+    ogo:releaseDate "2016-03-24"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Android_(operating_system);
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Samorost"^^xsd:string.
+    
+
+ogo:52a5742e-f64f-4974-a980-f85e00a2edc2 a ogo:Game;
+    ogo:name "Saru! Get You! SaruSaru Big Mission"^^xsd:string;
+    ogo:releaseDate "2007-07-26"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_Portable;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Ape_Escape"^^xsd:string.
+    
+
+ogo:300d8967-0480-484c-84c8-51460f1a9686 a ogo:Game;
+    ogo:name "Myst Online: Uru Live"^^xsd:string;
+    ogo:releaseDate "2007-02-15"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mac_OS_X;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Myst_(series)"^^xsd:string.
+    
+
+ogo:33d9bcaf-97dc-4f53-8387-507e0749d9f9 a ogo:Game;
+    ogo:name "Project CARS 2"^^xsd:string;
+    ogo:releaseDate "2017-09-22"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/Sim_racing"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Project_CARS"^^xsd:string.
+    
+
+ogo:5673f1fe-3427-4f8b-86af-a9536a24050e a ogo:Game;
+    ogo:name "Battlefield 2142"^^xsd:string;
+    ogo:releaseDate "2006-10-17"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MacOS;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
+    
+
+ogo:ddf75f04-b37d-4be6-965f-ca9e11bce6a1 a ogo:Game;
+    ogo:name "Before Crisis: Final Fantasy VII"^^xsd:string;
+    ogo:releaseDate "2004-09-24"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mobile_game;
+    ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Compilation_of_Final_Fantasy_VII"^^xsd:string.
+    
+
+ogo:61b7289b-f094-4fcb-85cf-93052c28b0e2 a ogo:Game;
+    ogo:name "Berserk: Millennium Falcon Hen Seima Senki no Shō"^^xsd:string;
+    ogo:releaseDate "2004-10-07"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Berserk_(manga)"^^xsd:string.
+    
+
+ogo:931409d3-d217-462e-8b79-8266aedc2cef a ogo:Game;
+    ogo:name "Bit.Trip Void"^^xsd:string;
+    ogo:releaseDate "2009-10-27"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mac_OS_X;
+    ogo:genre "http://dbpedia.org/resource/Shoot_'em_up"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bit.Trip"^^xsd:string.
+    
+
+ogo:ab8890db-11a8-4ad5-a90c-6e1db6afa024 a ogo:Game;
+    ogo:name "Black Rock Shooter: The Game"^^xsd:string;
+    ogo:releaseDate "2011-08-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_Portable;
+    ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Black_Rock_Shooter"^^xsd:string.
+    
+
+ogo:468bdf4a-60dc-4bfc-ad59-ed2a24e3ee8c a ogo:Game;
+    ogo:name "Bladestorm: The Hundred Years' War"^^xsd:string;
+    ogo:releaseDate "2007-08-30"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_3;
+    ogo:genre "http://dbpedia.org/resource/Real-time_tactics"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Dynasty_Warriors"^^xsd:string.
+    
+
+ogo:e2ba6807-00fa-4f9d-aa24-3911df1cbc88 a ogo:Game;
+    ogo:name "Blood Will Tell"^^xsd:string;
+    ogo:releaseDate "2004-09-09"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Dororo"^^xsd:string.
+    
+
+ogo:08c6ece5-78f4-4c22-a141-971937201267 a ogo:Game;
+    ogo:name "Castlevania: The Adventure ReBirth"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/WiiWare;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
+    
+
+ogo:2c8b5514-e67d-4099-b4b6-35af8cc6d82b a ogo:Game;
+    ogo:name "Call of Duty 2"^^xsd:string;
+    ogo:releaseDate "2005-10-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mobile_game;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:2b26cc1b-4e8d-4e49-8183-31aa9a27b40e a ogo:Game;
+    ogo:name "Professor Layton and the Diabolical Box"^^xsd:string;
+    ogo:releaseDate "2007-11-29"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Android_(operating_system);
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
+    
+
+ogo:099f3e8d-924c-483b-b0fe-44c65bc3ff2a a ogo:Game;
+    ogo:name "Professor Layton and the Miracle Mask"^^xsd:string;
+    ogo:releaseDate "2011-02-26"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
+    
+
+ogo:f19c186a-7043-4d23-8766-bec812dcd253 a ogo:Game;
+    ogo:name "Professor Layton and the Unwound Future"^^xsd:string;
+    ogo:releaseDate "2008-11-27"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Android_(operating_system);
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
+    
+
+ogo:0720ab36-e67a-4a4e-a5b9-5e9c5dcd51b5 a ogo:Game;
+    ogo:name "Robotics;Notes"^^xsd:string;
+    ogo:releaseDate "2012-06-28"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
+    ogo:genre "http://dbpedia.org/resource/Visual_novel"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Science_Adventure"^^xsd:string.
+    
+
+ogo:505de970-c693-4344-a277-23cf90bb4731 a ogo:Game;
+    ogo:name "MU Legend"^^xsd:string;
+    ogo:releaseDate "2017-03-23"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
+    ogo:genre "http://dbpedia.org/resource/Fantasy"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Mu_Online"^^xsd:string.
+    
+
+ogo:db2bb721-4e70-4b52-931d-ebceae539203 a ogo:Game;
+    ogo:name "Beyond Divinity"^^xsd:string;
+    ogo:releaseDate "2004-04-28"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MacOS;
+    ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Divinity_(series)"^^xsd:string.
+    
+
+ogo:a70090c6-8c01-4a8f-9511-368ae37f9ff2 a ogo:Game;
+    ogo:name "BloodRayne: Betrayal"^^xsd:string;
+    ogo:releaseDate "2011-09-06"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/BloodRayne"^^xsd:string.
+    
+
+ogo:4eecedea-48dd-487e-9ac5-8fa808519ed3 a ogo:Game;
+    ogo:name "Bloody Roar 2"^^xsd:string;
+    ogo:releaseDate "1999-01-28"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bloody_Roar"^^xsd:string.
+    
+
+ogo:d737966b-6e17-488c-b4c7-e6912c277832 a ogo:Game;
+    ogo:name "Blue Dragon Plus"^^xsd:string;
+    ogo:releaseDate "2008-09-04"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_DS;
+    ogo:genre "http://dbpedia.org/resource/Tactical_role-playing_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Blue_Dragon_(video_game)"^^xsd:string.
+    
+
+ogo:2da64f58-4e44-49f1-aac5-700a613c2b10 a ogo:Game;
+    ogo:name "Call of Duty: Black Ops Cold War"^^xsd:string;
+    ogo:releaseDate "2020-11-13"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:32ab3edc-02b0-43e0-b427-3c63c425b942 a ogo:Game;
+    ogo:name "Powerstar Golf"^^xsd:string;
+    ogo:releaseDate "2013-11-22"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Xbox_One;
+    ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:e6cb6ef4-4a1a-44b8-96bc-c9b247b96b88 a ogo:Game;
+    ogo:name "Prey (2006 video game)"^^xsd:string;
+    ogo:releaseDate "2006-07-11"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Linux;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:47148576-0b70-49fd-8bed-47e0d0668ea1 a ogo:Game;
+    ogo:name "Project Snowblind"^^xsd:string;
+    ogo:releaseDate "2005-02-22"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:c3904406-8673-4d6f-aca5-dfe813cc846f a ogo:Game;
+    ogo:name "Puppeteer (video game)"^^xsd:string;
+    ogo:releaseDate "2013-09-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_3;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:ff8b2b77-3d89-4d32-be84-606aba1a5903 a ogo:Game;
+    ogo:name "Puzzle & Dragons"^^xsd:string;
+    ogo:releaseDate "2012-11-08"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Android_(operating_system);
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:602546a1-badc-44a0-9092-67c4505f776a a ogo:Game;
+    ogo:name "Rumble Roses"^^xsd:string;
+    ogo:releaseDate "2004-11-09"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:f5b1cbcf-b773-49ec-9fd0-5f6b48e52448 a ogo:Game;
+    ogo:name "Samurai Champloo: Sidetracked"^^xsd:string;
+    ogo:releaseDate "2006-02-23"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:036162dc-460b-407f-9c3f-749527357937 a ogo:Game;
+    ogo:name "Sands of Destruction"^^xsd:string;
+    ogo:releaseDate "2008-09-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_DS;
+    ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:8a048522-6b17-49c0-9cbd-a7bff165bf31 a ogo:Game;
+    ogo:name "Sangokushi Sōsōden"^^xsd:string;
+    ogo:releaseDate "1998-12-11"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mobile_phone;
+    ogo:genre "http://dbpedia.org/resource/Tactical_role-playing_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:e1681a67-3475-45e9-bde3-59b149cd5cad a ogo:Game;
+    ogo:name "Baten Kaitos: Eternal Wings and the Lost Ocean"^^xsd:string;
+    ogo:releaseDate "2003-12-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/GameCube;
+    ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:b54af43c-d191-4092-ba15-cb4ad69f7ac2 a ogo:Game;
+    ogo:name "Battle Stadium D.O.N"^^xsd:string;
+    ogo:releaseDate "2006-07-20"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_GameCube;
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:b47d3745-9dea-472b-840c-13bceae83e70 a ogo:Game;
+    ogo:name "Battlestations: Midway"^^xsd:string;
+    ogo:releaseDate "2007-01-30"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MacOS;
+    ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:e6b736a8-762f-4bdf-9ad3-a24ba9f4b14b a ogo:Game;
+    ogo:name "Battlestations: Pacific"^^xsd:string;
+    ogo:releaseDate "2009-05-12"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MacOS;
+    ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:4f56f75f-b5e6-4af8-8d71-cfc6aed894b7 a ogo:Game;
+    ogo:name "Beaterator"^^xsd:string;
+    ogo:releaseDate "2009-09-29"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_Portable;
+    ogo:genre "http://dbpedia.org/resource/Music_video_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:d98805ee-8be3-4347-8304-81ef8b784412 a ogo:Game;
+    ogo:name "Black Sigil: Blade of the Exiled"^^xsd:string;
+    ogo:releaseDate "2009-06-09"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_DS;
+    ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:e6b09cb0-d45a-4f13-8f20-2c5983c11041 a ogo:Game;
+    ogo:name "Blake Stone: Aliens of Gold"^^xsd:string;
+    ogo:releaseDate "1993-12-03"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Linux;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:abda846e-871d-40fa-81cb-2d3052e28b54 a ogo:Game;
+    ogo:name "Blazing Angels: Squadrons of WWII"^^xsd:string;
+    ogo:releaseDate "2006-03-23"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Flight_simulator"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:18f95cb0-1ff5-4e16-8c19-7e7963c1fa2c a ogo:Game;
+    ogo:name "Blazing Angels 2: Secret Missions of WWII"^^xsd:string;
+    ogo:releaseDate "2007-09-06"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_3;
+    ogo:genre "http://dbpedia.org/resource/Flight_simulator"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:52bcf320-488c-448b-8fdf-05c0b346fca0 a ogo:Game;
+    ogo:name "Bloodstained: Curse of the Moon"^^xsd:string;
+    ogo:releaseDate "2018-05-24"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:6e3af117-8a89-4cad-b395-13af01fcb47a a ogo:Game;
+    ogo:name "Blue Dragon (video game)"^^xsd:string;
+    ogo:releaseDate "2006-12-07"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Xbox_360;
+    ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:484b6ffa-4896-4c18-bf5a-d07a26adfc59 a ogo:Game;
+    ogo:name "Midnight Star: Renegade"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/IOS;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:6f3a1130-1f11-4137-bdca-9cd3e1dfada7 a ogo:Game;
+    ogo:name "Bloodstained: Ritual of the Night"^^xsd:string;
+    ogo:releaseDate "2019-06-18"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/Metroidvania"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:7c03d3c1-4a5d-4629-9baa-a2aaac8df27a a ogo:Game;
+    ogo:name "Quest 64"^^xsd:string;
+    ogo:releaseDate "1998-06-01"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_64;
+    ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:38c5b1ca-a9ab-4869-9706-9eb3449f4343 a ogo:Game;
+    ogo:name "Rodea the Sky Soldier"^^xsd:string;
+    ogo:releaseDate "2015-04-02"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:e84545c9-be63-4538-aaa9-3eb5fabcc2f9 a ogo:Game;
+    ogo:name "Blue Dragon: Awakened Shadow"^^xsd:string;
+    ogo:releaseDate "2009-10-08"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_DS;
+    ogo:genre "http://dbpedia.org/resource/Action_role-playing_video_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:4a36ee3f-60a7-46e2-8b25-0e2896257cdf a ogo:Game;
+    ogo:name "Robonauts"^^xsd:string;
+    ogo:releaseDate "2017-09-15"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/Shooting_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:3b4f3aae-cbec-4215-a333-1a6daac1df3d a ogo:Game;
+    ogo:name "Scorn (video game)"^^xsd:string;
+    ogo:releaseDate "2022-10-14"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Xbox_Series_X/S;
+    ogo:genre "http://dbpedia.org/resource/Survival_horror"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:5892df1a-3daa-4c7e-a9ea-eb7a1590906b a ogo:Game;
+    ogo:name "Blood (video game)"^^xsd:string;
+    ogo:releaseDate "1997-03-06"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MS-DOS;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:b3df4ff4-2786-41d1-a33d-53991b017a84 a ogo:Game;
+    ogo:name "Pyre (video game)"^^xsd:string;
+    ogo:releaseDate "2017-07-25"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Action_role-playing_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:49447e4a-d977-4a86-9d90-87dc2a1e7f46 a ogo:Game;
+    ogo:name "Robinson: The Journey"^^xsd:string;
+    ogo:releaseDate "2016-11-08"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre ""^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:a9224708-c254-4759-b7d1-b73fc41975ac a ogo:Game;
+    ogo:name "Call of Duty: Advanced Warfare"^^xsd:string;
+    ogo:releaseDate "2014-11-04"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_3;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:96203d41-e1f7-44c0-af50-db826924f411 a ogo:Game;
+    ogo:name "Call of Duty: Black Ops"^^xsd:string;
+    ogo:releaseDate "2010-11-09"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:c01c3d9c-3413-4c87-a054-467ac0d8c697 a ogo:Game;
+    ogo:name "Call of Duty: Black Ops II"^^xsd:string;
+    ogo:releaseDate "2012-11-13"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii_U;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:e15703ff-7975-47e0-933d-bde1e6e7115a a ogo:Game;
+    ogo:name "Call of Duty: Black Ops III"^^xsd:string;
+    ogo:releaseDate "2015-11-06"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MacOS;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:da216dca-04f9-46a0-8ac9-15fa91f778a8 a ogo:Game;
+    ogo:name "Call of Duty: Finest Hour"^^xsd:string;
+    ogo:releaseDate "2004-11-16"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/GameCube;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:f9223822-afad-4594-b811-18d83af94ffe a ogo:Game;
+    ogo:name "Call of Duty: Ghosts"^^xsd:string;
+    ogo:releaseDate "2013-11-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii_U;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:f4239e30-32d5-435c-a4e3-b849c0e1e4bd a ogo:Game;
+    ogo:name "Call of Duty: Infinite Warfare"^^xsd:string;
+    ogo:releaseDate "2016-11-04"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:bc7c5569-c26a-4a58-bac8-916dcfcb4cd3 a ogo:Game;
+    ogo:name "Call of Duty: United Offensive"^^xsd:string;
+    ogo:releaseDate "2004-09-14"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MacOS;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:e295ed24-749e-42d8-ad65-3e5a69691032 a ogo:Game;
+    ogo:name "Call of Duty: World at War"^^xsd:string;
+    ogo:releaseDate "2008-11-11"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:c31df86a-a9cb-44ab-9bc7-fb39e779437b a ogo:Game;
+    ogo:name "Call of Duty 2: Big Red One"^^xsd:string;
+    ogo:releaseDate "2005-11-01"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/GameCube;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:bb5bd827-6d5d-417d-bb06-1e2be391f9e3 a ogo:Game;
+    ogo:name "Call of Duty 3"^^xsd:string;
+    ogo:releaseDate "2006-11-07"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:0266c2e2-1743-4a87-a0e4-f2c3e03eb72f a ogo:Game;
+    ogo:name "Call of Duty 4: Modern Warfare"^^xsd:string;
+    ogo:releaseDate "2007-11-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mac_OS_X;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:ec9a8d50-54ee-4320-9b18-ad563533df9d a ogo:Game;
+    ogo:name "Captain Toad: Treasure Tracker"^^xsd:string;
+    ogo:releaseDate "2014-11-13"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii_U;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Mario_(franchise)"^^xsd:string.
+    
+
+ogo:c7b75396-860a-4a6e-bb7c-900e4576a115 a ogo:Game;
+    ogo:name "Captain Tsubasa Vol. II: Super Striker"^^xsd:string;
+    ogo:releaseDate "1990-07-20"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Entertainment_System;
+    ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Captain_Tsubasa"^^xsd:string.
+    
+
+ogo:a9034f2e-0406-4796-9f48-1e91c8df192d a ogo:Game;
+    ogo:name "Castlevania: Bloodlines"^^xsd:string;
+    ogo:releaseDate "1994-03-17"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Sega_Genesis;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
+    
+
+ogo:16e7f8dc-9d03-4a8e-a380-2a7ebed57032 a ogo:Game;
+    ogo:name "Castlevania: Portrait of Ruin"^^xsd:string;
+    ogo:releaseDate "2006-11-16"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_DS;
+    ogo:genre "http://dbpedia.org/resource/Platform-adventure"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
+    
+
+ogo:d6393a45-1f1d-4b27-a0b2-9e45538b1183 a ogo:Game;
+    ogo:name "Castlevania: Symphony of the Night"^^xsd:string;
+    ogo:releaseDate "1997-03-20"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Android_(operating_system);
+    ogo:genre "http://dbpedia.org/resource/Action_role-playing"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
+    
+
+ogo:be1cdf3f-9346-4a50-8ca8-db1c61fa4895 a ogo:Game;
+    ogo:name "Castlevania (1986 video game)"^^xsd:string;
+    ogo:releaseDate "1986-09-26"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
+    
+
+ogo:013fe36b-c68c-4ba5-aa99-7ce7453cb11f a ogo:Game;
+    ogo:name "Bejeweled 3"^^xsd:string;
+    ogo:releaseDate "2010-12-07"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Android_(operating_system);
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bejeweled_(series)"^^xsd:string.
+    
+
+ogo:2064701a-b91e-405d-aec8-3c5b894d9228 a ogo:Game;
+    ogo:name "Power Rangers Dino Thunder (video game)"^^xsd:string;
+    ogo:releaseDate "2004-08-31"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/GameCube;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Power_Rangers"^^xsd:string.
+    
+
+ogo:02804e1f-445b-4b18-93db-d364b28d5d17 a ogo:Game;
+    ogo:name "Prince of Persia: The Forgotten Sands (Wii)"^^xsd:string;
+    ogo:releaseDate "2010-05-18"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
+    
+
+ogo:3d57bf50-0b54-4417-8a9c-9e00a4fd84ae a ogo:Game;
+    ogo:name "Prince of Persia: The Two Thrones"^^xsd:string;
+    ogo:releaseDate "2005-12-01"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mobile_game;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
+    
+
+ogo:5257f8a1-06c9-4900-a6e7-e2606e040502 a ogo:Game;
+    ogo:name "Prince of Persia: Warrior Within"^^xsd:string;
+    ogo:releaseDate "2004-12-02"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mobile_game;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
+    
+
+ogo:c661b525-0c6f-4957-b67b-181f29e21282 a ogo:Game;
+    ogo:name "Prince of Persia (2008 video game)"^^xsd:string;
+    ogo:releaseDate "2008-12-02"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mac_OS_X;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
+    
+
+ogo:66c9ef9f-50a9-4d47-a993-3668b54a1241 a ogo:Game;
+    ogo:name "Prinny: Can I Really Be the Hero?"^^xsd:string;
+    ogo:releaseDate "2008-11-20"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Disgaea"^^xsd:string.
+    
+
+ogo:8ad9c73f-29f0-43e7-9c63-342a683c03b3 a ogo:Game;
+    ogo:name "Pro Evolution Soccer (video game)"^^xsd:string;
+    ogo:releaseDate "2001-03-15"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation;
+    ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Pro_Evolution_Soccer"^^xsd:string.
+    
+
+ogo:603d4b9a-420d-448b-81f8-45832bad630a a ogo:Game;
+    ogo:name "Punch-Out!! (NES)"^^xsd:string;
+    ogo:releaseDate "1987-09-18"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Punch-Out!!"^^xsd:string.
+    
+
+ogo:d14e12f0-8437-4938-a29f-0fd663228e9f a ogo:Game;
+    ogo:name "Putt-Putt Enters the Race"^^xsd:string;
+    ogo:releaseDate "1999-01-14"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Android_(operating_system);
+    ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Putt-Putt_(series)"^^xsd:string.
+    
+
+ogo:55aed791-900a-457b-a2ca-f75e8576ae1e a ogo:Game;
+    ogo:name "Quake Champions"^^xsd:string;
+    ogo:releaseDate "2022-08-18"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Quake_(series)"^^xsd:string.
+    
+
+ogo:419765a4-e595-4bd2-b93a-2cf0ef869a0f a ogo:Game;
+    ogo:name "RoboCop (1988 video game)"^^xsd:string;
+    ogo:releaseDate "1989-12-12"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Commodore_64;
+    ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/List_of_RoboCop_video_games"^^xsd:string.
+    
+
+ogo:249ec4db-75bc-4434-82d4-b0c1569df780 a ogo:Game;
+    ogo:name "Rockman EXE WS"^^xsd:string;
+    ogo:releaseDate "2003-02-08"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/WonderSwan_Color;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Mega_Man_Battle_Network"^^xsd:string.
+    
+
+ogo:5891ce1a-0f3e-408d-a4c0-91c07432aa79 a ogo:Game;
+    ogo:name "Romance of the Three Kingdoms 12"^^xsd:string;
+    ogo:releaseDate "2012-12-13"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii_U;
+    ogo:genre "http://dbpedia.org/resource/Strategy_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
+    
+
+ogo:80dd90c2-5021-46da-84f0-2829bc323d1c a ogo:Game;
+    ogo:name "Romance of the Three Kingdoms II"^^xsd:string;
+    ogo:releaseDate "1990-11-02"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MS-DOS;
+    ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
+    
+
+ogo:ee565bca-0b21-4f5b-ba3c-24bebbd89a77 a ogo:Game;
+    ogo:name "Romance of the Three Kingdoms III: Dragon of Destiny"^^xsd:string;
+    ogo:releaseDate "1992-02-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MS-DOS;
+    ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
+    
+
+ogo:406f46ac-0877-4afb-96f5-59c17116f599 a ogo:Game;
+    ogo:name "Romance of the Three Kingdoms X"^^xsd:string;
+    ogo:releaseDate "2004-07-02"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
+    
+
+ogo:fc7b7de0-a3ab-4af9-91a4-b1626a57a1ca a ogo:Game;
+    ogo:name "Romance of the Three Kingdoms XIV"^^xsd:string;
+    ogo:releaseDate "2020-01-16"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
+    ogo:genre "http://dbpedia.org/resource/Strategy_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Romance_of_the_Three_Kingdoms_(video_game_series)"^^xsd:string.
+    
+
+ogo:2e9ee8e9-d36c-425b-be4d-1e7e53c17332 a ogo:Game;
+    ogo:name "Romancia"^^xsd:string;
+    ogo:releaseDate "1987-10-30"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MSX;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Dragon_Slayer_(series)"^^xsd:string.
+    
+
+ogo:4932f241-0d70-4c29-848f-38c37fcf5795 a ogo:Game;
+    ogo:name "Rome: Total War"^^xsd:string;
+    ogo:releaseDate "2004-09-22"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Android_(operating_system);
+    ogo:genre "http://dbpedia.org/resource/Turn-based_strategy"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Total_War_(video_game_series)"^^xsd:string.
+    
+
+ogo:7c766709-684c-44e7-bc32-44fd7cc73e23 a ogo:Game;
+    ogo:name "Rugrats: Search for Reptar"^^xsd:string;
+    ogo:releaseDate "2003-12-01"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/MacOS;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Rugrats"^^xsd:string.
+    
+
+ogo:91478086-e797-4864-92ff-1d61d3f265e0 a ogo:Game;
+    ogo:name "Rugrats: Studio Tour"^^xsd:string;
+    ogo:releaseDate "1999-11-10"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_(console);
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Rugrats"^^xsd:string.
+    
+
+ogo:51a3bcd3-3268-4a7b-9ccf-c046ac3277a5 a ogo:Game;
+    ogo:name "Saru! Get You! Million Monkeys"^^xsd:string;
+    ogo:releaseDate "2006-07-13"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Ape_Escape"^^xsd:string.
+    
+
+ogo:aa269cd7-8dd6-42e9-bbbb-5edbf023002c a ogo:Game;
+    ogo:name "Batman: Arkham Asylum"^^xsd:string;
+    ogo:releaseDate "2009-08-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mac_OS_X;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Batman:_Arkham"^^xsd:string.
+    
+
+ogo:5066512b-115e-473a-baea-319f2653f094 a ogo:Game;
+    ogo:name "Batman: Arkham City"^^xsd:string;
+    ogo:releaseDate "2011-10-18"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii_U;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Batman:_Arkham"^^xsd:string.
+    
+
+ogo:d51fd59a-cea5-4d32-a2df-c4d94c48091d a ogo:Game;
+    ogo:name "Batman: Arkham Knight"^^xsd:string;
+    ogo:releaseDate "2015-06-23"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Batman:_Arkham"^^xsd:string.
+    
+
+ogo:710a6340-ad63-44ad-ae0c-659f13f9a895 a ogo:Game;
+    ogo:name "Batman: Arkham Origins"^^xsd:string;
+    ogo:releaseDate "2013-10-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii_U;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Batman:_Arkham"^^xsd:string.
+    
+
+ogo:3084d67a-d22b-4af3-9a9a-7c33f6c10587 a ogo:Game;
+    ogo:name "Battlefield: Bad Company"^^xsd:string;
+    ogo:releaseDate "2008-06-23"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_3;
+    ogo:genre "http://dbpedia.org/resource/Tactical_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
+    
+
+ogo:ef87c42c-124b-452e-9c46-2476b985038e a ogo:Game;
+    ogo:name "Battlefield 1"^^xsd:string;
+    ogo:releaseDate "2016-10-21"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
+    
+
+ogo:30f2ddd6-b938-4c01-9491-1de9f963cdf0 a ogo:Game;
+    ogo:name "Battlefield 2042"^^xsd:string;
+    ogo:releaseDate "2021-11-19"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
+    
+
+ogo:2960c377-062e-408d-914d-d67f161ac95d a ogo:Game;
+    ogo:name "Battlefield 2: Modern Combat"^^xsd:string;
+    ogo:releaseDate "2005-10-24"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
+    
+
+ogo:214d7103-16de-4bbc-87ae-d6796f8d6e3c a ogo:Game;
+    ogo:name "Battlefield Hardline"^^xsd:string;
+    ogo:releaseDate "2015-03-17"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_3;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
+    
+
+ogo:9dd00a0c-dbb3-455a-a6aa-f1428471dfb5 a ogo:Game;
+    ogo:name "Battlefield V"^^xsd:string;
+    ogo:releaseDate "2018-11-20"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/Battle_royale_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battlefield_(video_game_series)"^^xsd:string.
+    
+
+ogo:91b96d83-899f-4027-b15a-b979d0b0d3ad a ogo:Game;
+    ogo:name "Battles of Prince of Persia"^^xsd:string;
+    ogo:releaseDate "2005-12-06"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_DS;
+    ogo:genre "http://dbpedia.org/resource/Turn-based_tactics"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
+    
+
+ogo:6ac1ba7a-45bb-4683-89b7-2d534dc4b7b8 a ogo:Game;
+    ogo:name "Bejeweled 2"^^xsd:string;
+    ogo:releaseDate "2004-11-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Symbian%5E3;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bejeweled_(series)"^^xsd:string.
+    
+
+ogo:9fca6839-dfbd-460f-852d-82194e4407aa a ogo:Game;
+    ogo:name "Ben 10: Protector of Earth"^^xsd:string;
+    ogo:releaseDate "2007-10-30"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii;
+    ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Ben_10"^^xsd:string.
+    
+
+ogo:9bf0757f-b0c5-48b4-bf5e-d49673381c32 a ogo:Game;
+    ogo:name "Ben 10 Alien Force: Vilgax Attacks"^^xsd:string;
+    ogo:releaseDate "2009-10-27"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii;
+    ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Ben_10"^^xsd:string.
+    
+
+ogo:6f4b1aef-8aba-4328-81c1-5d89438496e9 a ogo:Game;
+    ogo:name "Ben 10 Ultimate Alien: Cosmic Destruction"^^xsd:string;
+    ogo:releaseDate "2010-10-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Ben_10"^^xsd:string.
+    
+
+ogo:8eda4001-a2dd-4fb8-8d81-516015f78e8a a ogo:Game;
+    ogo:name "Bentley's Hackpack"^^xsd:string;
+    ogo:releaseDate "2013-02-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_3;
+    ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Sly_Cooper"^^xsd:string.
+    
+
+ogo:ce641c6b-b655-43b4-a4ba-8aca3aa8c5b9 a ogo:Game;
+    ogo:name "BioShock"^^xsd:string;
+    ogo:releaseDate "2007-08-21"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mac_OS_X;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/BioShock_(series)"^^xsd:string.
+    
+
+ogo:5e943fc8-72ad-4f7d-af34-c0721fa7fec4 a ogo:Game;
+    ogo:name "BioShock 2"^^xsd:string;
+    ogo:releaseDate "2010-02-09"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Mac_OS_X;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/BioShock_(series)"^^xsd:string.
+    
+
+ogo:51c08c85-628e-44fa-9f89-167a900afbfa a ogo:Game;
+    ogo:name "BioShock Infinite"^^xsd:string;
+    ogo:releaseDate "2013-03-26"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Linux;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/BioShock_(series)"^^xsd:string.
+    
+
+ogo:3368ab38-901b-4063-abe1-1c0aa9e2e966 a ogo:Game;
+    ogo:name "Bionic Commando (1992 video game)"^^xsd:string;
+    ogo:releaseDate "1992-09-19"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Game_Boy;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bionic_Commando"^^xsd:string.
+    
+
+ogo:05f7ec10-12d5-40e2-8845-c359122f9423 a ogo:Game;
+    ogo:name "Bionic Commando Rearmed"^^xsd:string;
+    ogo:releaseDate "2008-08-13"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/BlackBerry;
+    ogo:genre "http://dbpedia.org/resource/Metroidvania"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bionic_Commando"^^xsd:string.
+    
+
+ogo:999eefea-d530-4ad0-a2e9-af548e7ad85a a ogo:Game;
+    ogo:name "Bionic Commando Rearmed 2"^^xsd:string;
+    ogo:releaseDate "2011-02-01"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_3;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bionic_Commando"^^xsd:string.
+    
+
+ogo:e6f8d4f5-7597-4012-9723-f8425a0f57a9 a ogo:Game;
+    ogo:name "Blade Runner (1997 video game)"^^xsd:string;
+    ogo:releaseDate "1997-11-14"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
+    ogo:genre "http://dbpedia.org/resource/Point-and-click_adventure"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Blade_Runner_(franchise)"^^xsd:string.
+    
+
+ogo:02121c2a-0119-484a-9015-d896c2bfe5e2 a ogo:Game;
+    ogo:name "Blaster Master (video game)"^^xsd:string;
+    ogo:releaseDate "1988-06-17"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Entertainment_System;
+    ogo:genre "http://dbpedia.org/resource/Metroidvania"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Blaster_Master"^^xsd:string.
+    
+
+ogo:3846eb8f-3c43-4822-9a6b-d4f14c699af1 a ogo:Game;
+    ogo:name "Bloody Roar (video game)"^^xsd:string;
+    ogo:releaseDate "1997-07-07"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bloody_Roar"^^xsd:string.
+    
+
+ogo:2d5b70e5-6af3-42b0-9cc9-0456144637d0 a ogo:Game;
+    ogo:name "Call of Duty: Modern Warfare II (2022 video game)"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Windows;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:9ff333f6-e8ff-4c38-9057-326c8ecab846 a ogo:Game;
+    ogo:name "Castlevania: The Dracula X Chronicles"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_Portable;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Castlevania"^^xsd:string.
+    
+
+ogo:cc687f23-49b4-480d-8b27-8f31e59bc6a1 a ogo:Game;
+    ogo:name "Professor Pac-Man"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Quiz_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/List_of_Pac-Man_video_games"^^xsd:string.
+    
+
+ogo:f4cdf09d-1dcd-43c0-bf4d-aaa25733b159 a ogo:Game;
+    ogo:name "RoboCop 3 (video game)"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Commodore_64;
+    ogo:genre "http://dbpedia.org/resource/Shooter_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/List_of_RoboCop_video_games"^^xsd:string.
+    
+
+ogo:2343b39f-7a04-46c6-af1d-784d53c82399 a ogo:Game;
+    ogo:name "Cadence of Hyrule"^^xsd:string;
+    ogo:releaseDate "2019-06-13"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
+    ogo:genre "http://dbpedia.org/resource/Roguelike"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Crypt_of_the_NecroDancer"^^xsd:string.
+    
+
+ogo:207f05a4-7329-4b4e-8dd1-bfd3d2a29ae2 a ogo:Game;
+    ogo:name "Castle of Illusion Starring Mickey Mouse (2013 video game)"^^xsd:string;
+    ogo:releaseDate "2013-09-03"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_3;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Illusion_(series)"^^xsd:string.
+    
+
+ogo:9f6382cc-252d-48f2-8c04-70835a26bab5 a ogo:Game;
+    ogo:name "Pro Evolution Soccer 2"^^xsd:string;
+    ogo:releaseDate "2002-04-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Pro_Evolution_Soccer"^^xsd:string.
+    
+
+ogo:47cf8c02-c649-403d-bb86-afc2a1307e8a a ogo:Game;
+    ogo:name "Rockman & Forte Mirai kara no Chōsensha"^^xsd:string;
+    ogo:releaseDate "1999-10-21"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/WonderSwan;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Mega_Man_(original_series)"^^xsd:string.
+    
+
+ogo:0dcfcfe3-8c31-4cbf-b7c6-3e01939656a2 a ogo:Game;
+    ogo:name "Saturn Bomberman Fight!!"^^xsd:string;
+    ogo:releaseDate "1997-12-11"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Sega_Saturn;
+    ogo:genre "http://dbpedia.org/resource/List_of_maze_video_games"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bomberman"^^xsd:string.
+    
+
+ogo:571a817d-dde8-46fe-aa6e-4b438db6836d a ogo:Game;
+    ogo:name "Battlefleet Gothic: Armada"^^xsd:string;
+    ogo:releaseDate "2016-04-21"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
+    ogo:genre "http://dbpedia.org/resource/Real-time_tactics"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Warhammer_4"^^xsd:string.
+    
+
+ogo:d0e9aee6-6b88-4870-8bb2-1e13c11f1d4e a ogo:Game;
+    ogo:name "Bishōjo Senshi Sailor Moon R (1993 video game)"^^xsd:string;
+    ogo:releaseDate "1993-12-29"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Super_Famicom;
+    ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Sailor_Moon"^^xsd:string.
+    
+
+ogo:4720bac8-b107-43b4-bcf9-2457d2b268ab a ogo:Game;
+    ogo:name "Call of Duty (video game)"^^xsd:string;
+    ogo:releaseDate "2003-10-29"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/N-Gage_(device);
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:9b37e90b-a288-406e-bb6b-aaa9286ff12a a ogo:Game;
+    ogo:name "Professor Layton and the Azran Legacy"^^xsd:string;
+    ogo:releaseDate "2013-02-28"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
+    
+
+ogo:2e4e8e77-1515-4b2c-b7b7-f608f7292dc8 a ogo:Game;
+    ogo:name "Professor Layton and the Last Specter"^^xsd:string;
+    ogo:releaseDate "2009-11-26"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_DS;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
+    
+
+ogo:d03af992-df51-467b-81fc-61d75657c965 a ogo:Game;
+    ogo:name "Professor Layton vs. Phoenix Wright: Ace Attorney"^^xsd:string;
+    ogo:releaseDate "2012-11-29"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
+    ogo:genre "http://dbpedia.org/resource/Visual_novel"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Professor_Layton"^^xsd:string.
+    
+
+ogo:8995edca-4c2f-4a4e-9b1e-8c905a1e3a3b a ogo:Game;
+    ogo:name "Psycho-Pass: Mandatory Happiness"^^xsd:string;
+    ogo:releaseDate "2015-05-28"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/Visual_novel"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Psycho-Pass"^^xsd:string.
+    
+
+ogo:a6c41f5d-5624-4b5d-96d6-daf307741982 a ogo:Game;
+    ogo:name "Puzzle & Dragons Z + Super Mario Bros. Edition"^^xsd:string;
+    ogo:releaseDate "2013-12-12"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
+    ogo:genre "http://dbpedia.org/resource/Puzzle_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Puzzle_&_Dragons"^^xsd:string.
+    
+
+ogo:ce4cbe94-9bfe-4614-a39f-ad7d6365a03b a ogo:Game;
+    ogo:name "Robotics;Notes DaSH"^^xsd:string;
+    ogo:releaseDate "2019-01-31"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Switch;
+    ogo:genre "http://dbpedia.org/resource/Visual_novel"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Science_Adventure"^^xsd:string.
+    
+
+ogo:7b8de7b3-50d3-4a2a-af51-f0678ebdf26f a ogo:Game;
+    ogo:name "Samurai Western"^^xsd:string;
+    ogo:releaseDate "2005-01-01"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Action_role-playing"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Way_of_the_Samurai"^^xsd:string.
+    
+
+ogo:c12b739d-99a2-46ad-9877-13e7277ccfba a ogo:Game;
+    ogo:name "Saturn Bomberman"^^xsd:string;
+    ogo:releaseDate "1996-07-19"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Sega_Saturn;
+    ogo:genre "http://dbpedia.org/resource/List_of_maze_video_games"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bomberman"^^xsd:string.
+    
+
+ogo:b75716a7-7efd-4f91-9310-e23df9072633 a ogo:Game;
+    ogo:name "Bassin's Black Bass with Hank Parker"^^xsd:string;
+    ogo:releaseDate "1994-09-23"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Super_NES;
+    ogo:genre "http://dbpedia.org/resource/Fishing_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/The_Black_Bass"^^xsd:string.
+    
+
+ogo:d3859264-5b0d-4b1a-a9c9-f5087eed918d a ogo:Game;
+    ogo:name "Battletoads/Double Dragon"^^xsd:string;
+    ogo:releaseDate "1993-12-01"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Game_Boy;
+    ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battletoads"^^xsd:string.
+    
+
+ogo:53c553c8-502c-4477-8bd9-343e1faf9a36 a ogo:Game;
+    ogo:name "Battletoads (Game Boy video game)"^^xsd:string;
+    ogo:releaseDate "1994-01-07"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Game_Boy;
+    ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battletoads"^^xsd:string.
+    
+
+ogo:4ce6305f-d116-46fe-8abc-073f845f1d79 a ogo:Game;
+    ogo:name "Battletoads in Battlemaniacs"^^xsd:string;
+    ogo:releaseDate "1994-01-07"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Master_System;
+    ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Battletoads"^^xsd:string.
+    
+
+ogo:0e06bf79-9a8e-4b44-a486-17458a7be167 a ogo:Game;
+    ogo:name "Bishōjo Senshi Sailor Moon S: Jōgai Rantō!? Shuyaku Sōdatsusen"^^xsd:string;
+    ogo:releaseDate "1994-12-14"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Super_Famicom;
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Sailor_Moon"^^xsd:string.
+    
+
+ogo:77549f05-09a6-4b14-9b67-ff7a7ce3a0e9 a ogo:Game;
+    ogo:name "Blair Witch Volume II: The Legend of Coffin Rock"^^xsd:string;
+    ogo:releaseDate "2000-10-30"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
+    ogo:genre "http://dbpedia.org/resource/Survival_horror"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Blair_Witch"^^xsd:string.
+    
+
+ogo:d2955577-4bd4-4da4-85c7-7db6211c9941 a ogo:Game;
+    ogo:name "BlazBlue: Calamity Trigger"^^xsd:string;
+    ogo:releaseDate "2008-11-19"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/BlazBlue"^^xsd:string.
+    
+
+ogo:6df85a12-26d8-43bb-b08b-c8bf710d6ee5 a ogo:Game;
+    ogo:name "BlazBlue: Central Fiction"^^xsd:string;
+    ogo:releaseDate "2015-11-19"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/BlazBlue"^^xsd:string.
+    
+
+ogo:249e42d9-b58e-422d-8afc-7217cc26a04b a ogo:Game;
+    ogo:name "BlazBlue: Continuum Shift"^^xsd:string;
+    ogo:releaseDate "2009-11-20"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/BlazBlue"^^xsd:string.
+    
+
+ogo:afa9884d-cd5c-407d-b388-f15b9079fc66 a ogo:Game;
+    ogo:name "Bloody Roar 3"^^xsd:string;
+    ogo:releaseDate "2001-03-01"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bloody_Roar"^^xsd:string.
+    
+
+ogo:b0c98777-2fb5-4301-9c44-d3516233639c a ogo:Game;
+    ogo:name "RoboCop 2 (video game)"^^xsd:string;
+    ogo:releaseDate ""^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Shooter_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/List_of_RoboCop_video_games"^^xsd:string.
+    
+
+ogo:921bb743-9185-4cc1-871c-95df9de69be0 a ogo:Game;
+    ogo:name "Bishōjo Senshi Sailor Moon: Another Story"^^xsd:string;
+    ogo:releaseDate "1995-09-22"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Super_Famicom;
+    ogo:genre "http://dbpedia.org/resource/Role-playing_video_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Sailor_Moon"^^xsd:string.
+    
+
+ogo:f241b20d-6260-4568-862a-522e261871ba a ogo:Game;
+    ogo:name "Bishōjo Senshi Sailor Moon SuperS: Shin Shuyaku Sōdatsusen"^^xsd:string;
+    ogo:releaseDate "1996-03-08"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_(console);
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Sailor_Moon"^^xsd:string.
+    
+
+ogo:44682bc8-5612-47a7-8a49-b0e24104dd18 a ogo:Game;
+    ogo:name "Call of Duty: Black Ops 4"^^xsd:string;
+    ogo:releaseDate "2018-10-12"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Battle_royale_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:702063cd-66f6-40b7-888e-9e2549ae7e34 a ogo:Game;
+    ogo:name "Call of Duty: Modern Warfare (2019 video game)"^^xsd:string;
+    ogo:releaseDate "2019-10-25"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:c067a0f6-4a1f-4e29-8d0f-f4819a897124 a ogo:Game;
+    ogo:name "Call of Duty: Modern Warfare 2"^^xsd:string;
+    ogo:releaseDate "2009-11-10"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:92a898be-9fdc-4a2a-b101-5bf56d00970d a ogo:Game;
+    ogo:name "Call of Duty: WWII"^^xsd:string;
+    ogo:releaseDate "2017-11-03"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Call_of_Duty"^^xsd:string.
+    
+
+ogo:7bd29f20-c91a-46a3-8797-1b2f01e67770 a ogo:Game;
+    ogo:name "Prince of Persia: The Fallen King"^^xsd:string;
+    ogo:releaseDate "2008-12-02"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Prince_of_Persia"^^xsd:string.
+    
+
+ogo:9ef6bbca-73b7-4550-a3c6-19529baf37d3 a ogo:Game;
+    ogo:name "Quake II"^^xsd:string;
+    ogo:releaseDate "1997-12-09"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Quake_(series)"^^xsd:string.
+    
+
+ogo:c19bc379-a10c-4305-8f9a-87ad5b2099e3 a ogo:Game;
+    ogo:name "Bayonetta 2"^^xsd:string;
+    ogo:releaseDate "2014-09-20"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Hack_and_slash"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bayonetta"^^xsd:string.
+    
+
+ogo:40f421e8-522e-4002-b3a2-131c7ee96f36 a ogo:Game;
+    ogo:name "Sam & Max Save the World"^^xsd:string;
+    ogo:releaseDate "2006-10-17"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Graphic_adventure_game"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Sam_&_Max"^^xsd:string.
+    
+
+ogo:89eef9ca-0b6d-4920-b1d5-5835e9a82d78 a ogo:Game;
+    ogo:name "Bayonetta (video game)"^^xsd:string;
+    ogo:releaseDate "2009-10-29"^^xsd:date;
+    ogo:platform ;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure"^^xsd:string;
+    ogo:series "http://dbpedia.org/resource/Bayonetta"^^xsd:string.
+    
+
+ogo:18e44c75-d443-40f0-b38e-58412489de92 a ogo:Game;
+    ogo:name "Caladrius (video game)"^^xsd:string;
+    ogo:releaseDate "2013-04-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Shoot_'em_up"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:43540a3a-5a16-428f-bed0-6cc3dc9559fa a ogo:Game;
+    ogo:name "California Speed (video game)"^^xsd:string;
+    ogo:releaseDate "1999-02-28"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Racing_video_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:b37d9370-d463-4dd6-8c45-b469f5e0fe15 a ogo:Game;
+    ogo:name "Captain America: Super Soldier"^^xsd:string;
+    ogo:releaseDate "2011-07-15"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Wii;
+    ogo:genre "http://dbpedia.org/resource/Beat_'em_up"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:1a4d7308-a41a-4639-8348-62e71cd9e78b a ogo:Game;
+    ogo:name "Captain Planet and the Planeteers (video game)"^^xsd:string;
+    ogo:releaseDate "1992-08-20"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/ZX_Spectrum;
+    ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:99d16e95-fa08-49ab-bd2a-69bba30c04bc a ogo:Game;
+    ogo:name "Captain Tsubasa 4: Pro no Rival Tachi"^^xsd:string;
+    ogo:releaseDate "1993-04-03"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Super_Famicom;
+    ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:410070ea-b959-4684-b469-b874b9958c92 a ogo:Game;
+    ogo:name "Captain Tsubasa 5: Hasha no Shōgō Campione"^^xsd:string;
+    ogo:releaseDate "1994-12-09"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Super_Famicom;
+    ogo:genre "http://dbpedia.org/resource/Sports_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:9895d97c-99da-45fb-abdc-df4adac19b5f a ogo:Game;
+    ogo:name "Carrier Command: Gaea Mission"^^xsd:string;
+    ogo:releaseDate "2012-09-28"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
+    ogo:genre "http://dbpedia.org/resource/Action_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:8b38f0e2-5141-4611-bf48-aaa3c3fb66f1 a ogo:Game;
+    ogo:name "Below (video game)"^^xsd:string;
+    ogo:releaseDate "2018-12-14"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:901daecd-1425-426a-a334-b5d845485130 a ogo:Game;
+    ogo:name "Power Blade"^^xsd:string;
+    ogo:releaseDate "1990-04-20"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_Entertainment_System;
+    ogo:genre "http://dbpedia.org/resource/Platform_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:d78217ec-78dc-430e-8918-01863fff3606 a ogo:Game;
+    ogo:name "Power Rangers Zeo: Battle Racers"^^xsd:string;
+    ogo:releaseDate "1996-09-17"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Super_Nintendo_Entertainment_System;
+    ogo:genre "http://dbpedia.org/resource/Racing_video_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:3707c9ec-f3b7-438b-a30a-a00bb348b533 a ogo:Game;
+    ogo:name "Power Stone (video game)"^^xsd:string;
+    ogo:releaseDate "1999-02-13"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Arcade_game;
+    ogo:genre "http://dbpedia.org/resource/Fighting_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:3624d77d-816a-4e4b-ac80-1d749acf6632 a ogo:Game;
+    ogo:name "Poy Poy"^^xsd:string;
+    ogo:releaseDate "1997-06-12"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_(console);
+    ogo:genre "http://dbpedia.org/resource/Party_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:07af4cf0-b3f7-4888-b10e-9117c7bc47d2 a ogo:Game;
+    ogo:name "Predator: Hunting Grounds"^^xsd:string;
+    ogo:releaseDate "2020-04-24"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/Third-person_shooter"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:769e694f-c78f-42d1-9683-afba3535c9f7 a ogo:Game;
+    ogo:name "Prey (2017 video game)"^^xsd:string;
+    ogo:releaseDate "2017-05-05"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_4;
+    ogo:genre "http://dbpedia.org/resource/First-person_shooter"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:9a1b9f01-9260-415e-8616-3ec9df81e5d9 a ogo:Game;
+    ogo:name "Primal (video game)"^^xsd:string;
+    ogo:releaseDate "2003-03-25"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/PlayStation_2;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:055e6601-3bca-4174-87fb-7dbad7476f3e a ogo:Game;
+    ogo:name "Prisoners of the Sun (video game)"^^xsd:string;
+    ogo:releaseDate "1997-02-09"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/SNES;
+    ogo:genre "http://dbpedia.org/resource/Adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:f01d9374-3f70-47c8-8956-971264bb3120 a ogo:Game;
+    ogo:name "Project Spark"^^xsd:string;
+    ogo:releaseDate "2014-10-07"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Microsoft_Windows;
+    ogo:genre "http://dbpedia.org/resource/Action-adventure_game"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:72cba2ad-86d8-412a-ad8e-672951f04d73 a ogo:Game;
+    ogo:name "Project X Zone 2"^^xsd:string;
+    ogo:releaseDate "2015-11-12"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/Nintendo_3DS;
+    ogo:genre "http://dbpedia.org/resource/Tactical_role-playing"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
+
+ogo:fb6af297-1712-4018-a996-7bc1cda80ba9 a ogo:Game;
+    ogo:name "Psychic Detective (video game)"^^xsd:string;
+    ogo:releaseDate "1995-11-30"^^xsd:date;
+    ogo:platform http://dbpedia.org/resource/3DO_Interactive_Multiplayer;
+    ogo:genre "http://dbpedia.org/resource/Interactive_movie"^^xsd:string;
+    ogo:series ""^^xsd:string.
+    
 
