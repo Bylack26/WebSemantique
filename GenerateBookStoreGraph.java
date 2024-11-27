@@ -52,52 +52,53 @@ public class GenerateBookStoreGraph {
             while ((line = br.readLine()) != null) {
                 // System.out.println(line);
                 String[] lineTokens = line.split(",");
-                /*"game","name","releaseDate","developer","publisher","platform","genre","series",
+               
+                if (lineTokens.length > 12) {
+                    String game = removeQuote(lineTokens[0]);
+                    String name = removeQuote(lineTokens[1]);
+                    String releaseDate = removeQuote(lineTokens[2]);
+                    String developer = removeQuote(lineTokens[3]);
+                    String publisher = removeQuote(lineTokens[4]);
+                    String platform = removeQuote(lineTokens[5]);
+                    String genre = removeQuote(lineTokens[6]);
+                    String series = removeQuote(lineTokens[7]);
+                    String countryOfOrigin = removeQuote(lineTokens[8]);
+                    String mainSubject = removeQuote(lineTokens[9]);
+                    String officialWebsite = removeQuote(lineTokens[10]);
+                    String designer = removeQuote(lineTokens[11]);
+                    String composer = removeQuote(lineTokens[12]);
+                    
+
+                    UUID gameUUID = authors.get(game);
+                    if (gameUUID == null) {
+                        // this is the first occurence of this author
+                        // create triples describing him
+                        gameUUID = UUID.nameUUIDFromBytes(name.getBytes());
+                        // store UUID in the map with authorFullName as key
+                        authors.put(game, gameUUID);
+                        /*"game","name","releaseDate","developer","publisher","platform","genre","series",
                         "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
 
-                String game = removeQuote(lineTokens[0]);
-                String name = removeQuote(lineTokens[1]);
-                String releaseDate = removeQuote(lineTokens[2]);
-                String developer = removeQuote(lineTokens[3]);
-                String publisher = removeQuote(lineTokens[4]);
-                String platform = removeQuote(lineTokens[5]);
-                String genre = removeQuote(lineTokens[6]);
-                String series = removeQuote(lineTokens[7]);
-                String countryOfOrigin = removeQuote(lineTokens[8]);
-                String mainSubject = removeQuote(lineTokens[9]);
-                String officialWebsite = removeQuote(lineTokens[10]);
-                String designer = removeQuote(lineTokens[11]);
-                String composer = removeQuote(lineTokens[12]);
-
-                UUID gameUUID = authors.get(game);
-                if (gameUUID == null) {
-                    // this is the first occurence of this author
-                    // create triples describing him
-                    gameUUID = UUID.randomUUID();
-                    // store UUID in the map with authorFullName as key
-                    authors.put(game, gameUUID);
-                    /*"game","name","releaseDate","developer","publisher","platform","genre","series",
-                    "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
-
-                    String authorTemplateRDF = """
-                            resource:%s a ontology:game;
-                                   auPif:name %s;
-                                   auPif:releaseDate %s;
-                                   auPif:developer %s;
-                                   auPif:publisher %s;
-                                   auPif:platform %s;
-                                   auPif:genre %s;
-                                   auPif:series %s;
-                                   auPif:countryOfOrigin %s;
-                                   auPif:mainSubject %s;
-                                   auPif:officialWebsite %s;
-                                   auPif:designer %s;
-                                   auPif:composer %s;
-                                   \n
-                                """;
-                    bw.write(authorTemplateRDF.formatted(gameUUID, name, releaseDate, developer, publisher, platform,
-                            genre, series, countryOfOrigin, mainSubject, officialWebsite, designer, composer));
-
+                        String authorTemplateRDF = """
+                                resource:%s a ontology:game;
+                                    auPif:name %s;
+                                    auPif:releaseDate %s;
+                                    auPif:developer %s;
+                                    auPif:publisher %s;
+                                    auPif:platform %s;
+                                    auPif:genre %s;
+                                    auPif:series %s;
+                                    auPif:countryOfOrigin %s;
+                                    auPif:mainSubject %s;
+                                    auPif:officialWebsite %s;
+                                    auPif:designer %s;
+                                    auPif:composer %s;
+                                    \n
+                                    """;
+                        System.out.println(name);
+                        bw.write(authorTemplateRDF.formatted(gameUUID, name, releaseDate, developer, publisher, platform,
+                                genre, series, countryOfOrigin, mainSubject, officialWebsite, designer, composer));
+                    }
                 }
             }
         }
@@ -116,7 +117,7 @@ public class GenerateBookStoreGraph {
 
     public static void main(String[] args) throws IOException {
         try {
-            generateTurtle("video_Game.csv", "test.ttl");
+            generateTurtle("game_compet.csv", "test.ttl");
             System.out.println("RDF data has been generated");
         } catch (IOException e) {
             System.out.println("I/O Error while Generating RDF Data");
