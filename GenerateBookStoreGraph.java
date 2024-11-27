@@ -1,9 +1,12 @@
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.OpenOption;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -84,12 +87,12 @@ public class GenerateBookStoreGraph {
                     "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
 
                     String authorTemplateRDF = """
-                            ogo:%s a ogo:game;
+                            ogo:%s a ogo:Game;
                                    ogo:name \"%s\"^^xsd:string;
                                    ogo:releaseDate \"%s\"^^xsd:date;
                                    ogo:platform %s;
                                    ogo:genre \"%s\"^^xsd:string;
-                                   ogo:series \"%s\"^^xsd:string;
+                                   ogo:series \"%s\"^^xsd:string.
                                    \n
                                 """;
                     bw.write(authorTemplateRDF.formatted(gameUUID, name, releaseDate, platform,
@@ -114,6 +117,7 @@ public class GenerateBookStoreGraph {
     public static void main(String[] args) throws IOException {
         try {
             generateTurtle("video_Game.csv", "test.ttl");
+            generateCompetition("competitions_video_20.csv", "test.ttl");
             System.out.println("RDF data has been generated");
         } catch (IOException e) {
             System.out.println("I/O Error while Generating RDF Data");
@@ -121,5 +125,68 @@ public class GenerateBookStoreGraph {
         }
     }
 
+    public static void generateCompetition(String csvFileName, String turtleFileName) throws IOException {
+        try (
+            BufferedReader br = Files.newBufferedReader(Paths.get(csvFileName));
+            BufferedWriter bw = Files.newBufferedWriter(Paths.get(turtleFileName), StandardOpenOption.APPEND)) {
+            // using Files.newBufferedReader and Files.newBufferedWrite enforce charEncoding
+            // to UTF-8
+            // Files.newBufferedWriter(Paths.get(turtleFileName)) is equivalent to
+            // BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new
+            // FileOutputStream(turtleFileName), StandardCharsets.UTF_8));
+
+            // write prefixes
+
+
+            String line;
+            
+            br.readLine(); // to skip the column titles line
+            while ((line = br.readLine()) != null) {
+                // System.out.println(line);
+                System.out.println(line);
+                String[] lineTokens = line.split(",");
+                /*"game","name","releaseDate","developer","publisher","platform","genre","series",
+                        "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
+
+                String name = removeQuote(lineTokens[0]);
+                String date = removeQuote(lineTokens[1]);
+                String place = removeQuote(lineTokens[2]);
+                String game = removeQuote(lineTokens[3]);
+                String partic = removeQuote(lineTokens[4]); //Irrevelant
+                String winner = removeQuote(lineTokens[5]);
+                String cashPrize = removeQuote(lineTokens[6]);
+
+
+                UUID gameUUID = authors.get(game);
+                UUID competUUID = UUID.nameUUIDFromBytes(name.getBytes());
+                if (gameUUID != null) {
+                    // this is the first occurence of this author
+                    // create triples describing him
+                    // store UUID in the map with authorFullName as key
+                    /*"game","name","releaseDate","developer","publisher","platform","genre","series",
+                    "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
+
+                    String competitionTemplateRDF = """
+                            ogo:%s a ogo:Competition;
+                                ogo:competitionName \"%s\"^^xsd:string;
+                                ogo:date \"%s\"^^xsd:date;
+                                ogo:country %s;
+                                ogo:cashPrize \"%s\"^^xsd:float;
+                                ogo:winner \"%s\"^^xsd:string;
+                                ogo:basedOn ogo:%s.
+                                \n
+                                """;
+                    bw.write(competitionTemplateRDF.formatted(competUUID, name, date, place,
+                            cashPrize, winner, gameUUID));
+                    String relationTemplateRDF = """
+                            ogo:%s ogo:hasCompetition ogo:%s.
+                                \n
+                                """;
+                    bw.write(relationTemplateRDF.formatted(gameUUID, competUUID));
+
+                }
+            }
+        }
+    }
 }
 
