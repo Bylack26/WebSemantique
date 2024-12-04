@@ -118,7 +118,7 @@ public class GenerateBookStoreGraph {
         try {
             generateTurtle("game_compet.csv", "test.ttl");
             generateCompetition("competitions_video_20.csv", "test.ttl");
-            generatePublisher("publisher.csv", "test.ttl");
+            generatePublisher("publisherr.csv", "test.ttl");
             System.out.println("RDF data has been generated");
         } catch (IOException e) {
             System.out.println("I/O Error while Generating RDF Data");
@@ -217,41 +217,67 @@ public class GenerateBookStoreGraph {
                         "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
 
                 String name = removeQuote(lineTokens[0]);
-                String game = removeQuote(lineTokens[2]);
-
+                String game = removeQuote(lineTokens[1]);
+                String founder = removeQuote(lineTokens[2]);
+                String date = removeQuote(lineTokens[3]);
 
                 UUID gameUUID = authors.get(game);
                 UUID publiUUID = UUID.nameUUIDFromBytes(name.getBytes());
-                publisherHashMap.put(name, publiUUID);
-                if (gameUUID != null) {
-                // this is the first occurence of this author
-                // create triples describing him
-                // store UUID in the map with authorFullName as key
-                /*"game","name","releaseDate","developer","publisher","platform","genre","series",
-                "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
-                if(publisherHashMap.containsKey(name)){
-                    String competitionTemplateRDF = """
-                        ogo:%s a ogo:Publisher;
-                            rdfs:label \"%s\"^^xsd:string;
-                            ogo:hasPublished ogo:%s .
-                            \n
-                            """;
-                    bw.write(competitionTemplateRDF.formatted(publiUUID, name, gameUUID));
-                }
                 
-                String relationTemplateRDF = """
-                        ogo:%s ogo:publishedBy ogo:%s .
-                            \n
-                            """;
-                bw.write(relationTemplateRDF.formatted(gameUUID, publiUUID));
-
-                }else{
-                    String competitionTemplateRDF = """
+                if (gameUUID != null) {
+                    if(!publisherHashMap.containsKey(name)){
+                        String competitionTemplateRDF = """
                             ogo:%s a ogo:Publisher;
-                                rdfs:label \"%s\"^^xsd:string .
+                                rdfs:label \"%s\"^^xsd:string;
+                                ogo:fundation \"%s\"^^xsd:date
+                        """;
+                        if(!founder.isEmpty()){
+                            competitionTemplateRDF += """
+                                    ;
+                                    ogo:foundedBy <%s>
+                                    """;
+                        }
+                        competitionTemplateRDF += ".\n";
+                        bw.write(competitionTemplateRDF.formatted(publiUUID, name, date, founder));         
+                        publisherHashMap.put(name, publiUUID);
+                    }
+                    String relationTemplateRDF = """
+                            ogo:%s ogo:publishedBy ogo:%s .
                                 \n
                                 """;
-                    bw.write(competitionTemplateRDF.formatted(publiUUID, name, gameUUID));
+
+                                
+                    bw.write(relationTemplateRDF.formatted(gameUUID, publiUUID));
+                    String publisherHasPublisehd = """
+                                ogo:%s ogo:hasPublished ogo:%s .
+                                \n
+                                """;
+                    bw.write(publisherHasPublisehd.formatted(publiUUID, gameUUID ));
+                }else{
+                    if(!publisherHashMap.containsKey(name)){
+                        String competitionTemplateRDF = """
+                            ogo:%s a ogo:Publisher;
+                                rdfs:label \"%s\"^^xsd:string;
+                                ogo:fundation \"%s\"^^xsd:date
+                                """;
+                                if(!founder.isEmpty()){
+                                    competitionTemplateRDF += """ 
+                                            ;
+                                            ogo:foundedBy <%s>.
+                                            \n
+                                            """;
+                                            
+                                }else{
+                                    competitionTemplateRDF += """
+                                            .
+                                            \n
+                                            """;
+                                }
+                                bw.write(competitionTemplateRDF.formatted(publiUUID, name, date,founder));
+                        
+                        publisherHashMap.put(name, publiUUID);
+                    }
+                    
                 }
             }
         }
