@@ -49,7 +49,9 @@ public class GenerateBookStoreGraph {
                     @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
                     @prefix ogo: <http://www.semanticweb.org/Games/ontology> .
                     @prefix owl: <http://www.w3.org/2002/07/owl#> .
-                    
+                    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+                    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
                     <http://www.semanticweb.org/Games/ontology> rdf:type owl:Ontology ;
                         owl:imports <file://./ontoTurtle.ttl> .
                     """);
@@ -58,6 +60,7 @@ public class GenerateBookStoreGraph {
             br.readLine(); // to skip the column titles line
             while ((line = br.readLine()) != null) {
                 // System.out.println(line);
+                //System.out.println(line);
                 String[] lineTokens = line.split(",");
                
                 if (lineTokens.length > 12) {
@@ -76,23 +79,24 @@ public class GenerateBookStoreGraph {
                     String designer = removeQuote(lineTokens[11]);
                     String composer = removeQuote(lineTokens[12]);
 
-                    UUID gameUUID = authors.get(game);
+                    UUID gameUUID = authors.get(name);
+                    //System.out.println("Game exist: " + gameUUID);
                     if (gameUUID == null) {
                         // this is the first occurence of this author
                         // create triples describing him
-                        gameUUID = UUID.randomUUID();
+                        gameUUID = UUID.nameUUIDFromBytes(name.getBytes());
                         // store UUID in the map with authorFullName as key
-                        authors.put(game, gameUUID);
+                        authors.put(name, gameUUID);
                         /*"game","name","releaseDate","developer","publisher","platform","genre","series",
                         "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
-
+                        System.out.println(name);
                         String authorTemplateRDF = """
                                 ogo:%s a ogo:Game;
-                                    ogo:name \"%s\"^^xsd:string;
+                                    rdfs:label \"%s\"^^xsd:string;
                                     ogo:releaseDate \"%s\"^^xsd:date;
-                                    ogo:platform %s;
-                                    ogo:genre \"%s\"^^xsd:string;
-                                    ogo:series \"%s\"^^xsd:string.
+                                    ogo:platform <%s>;
+                                    ogo:genre <%s>;
+                                    ogo:series <%s>.
                                     \n
                                     """;
                         bw.write(authorTemplateRDF.formatted(gameUUID, name, releaseDate, platform,
@@ -117,8 +121,9 @@ public class GenerateBookStoreGraph {
 
     public static void main(String[] args) throws IOException {
         try {
-            generateTurtle("video_Game.csv", "test.ttl");
+            generateTurtle("game_compet.csv", "test.ttl");
             generateCompetition("competitions_video_20.csv", "test.ttl");
+            generatePublisher("publisher.csv", "test.ttl");
             System.out.println("RDF data has been generated");
         } catch (IOException e) {
             System.out.println("I/O Error while Generating RDF Data");
@@ -144,7 +149,7 @@ public class GenerateBookStoreGraph {
             br.readLine(); // to skip the column titles line
             while ((line = br.readLine()) != null) {
                 // System.out.println(line);
-                System.out.println(line);
+                
                 String[] lineTokens = line.split(",");
                 /*"game","name","releaseDate","developer","publisher","platform","genre","series",
                         "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
@@ -166,25 +171,94 @@ public class GenerateBookStoreGraph {
                     // store UUID in the map with authorFullName as key
                     /*"game","name","releaseDate","developer","publisher","platform","genre","series",
                     "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
-
+                    if(cashPrize.isEmpty()){
+                        cashPrize = "0";
+                    }
                     String competitionTemplateRDF = """
                             ogo:%s a ogo:Competition;
-                                ogo:competitionName \"%s\"^^xsd:string;
+                                rdfs:label \"%s\"^^xsd:string;
                                 ogo:date \"%s\"^^xsd:date;
-                                ogo:country %s;
+                                ogo:country \"%s\"^^xsd:string;
                                 ogo:cashPrize \"%s\"^^xsd:float;
                                 ogo:winner \"%s\"^^xsd:string;
-                                ogo:basedOn ogo:%s.
+                                ogo:basedOn ogo:%s .
                                 \n
                                 """;
                     bw.write(competitionTemplateRDF.formatted(competUUID, name, date, place,
                             cashPrize, winner, gameUUID));
                     String relationTemplateRDF = """
-                            ogo:%s ogo:hasCompetition ogo:%s.
+                            ogo:%s ogo:hasCompetition ogo:%s .
                                 \n
                                 """;
                     bw.write(relationTemplateRDF.formatted(gameUUID, competUUID));
 
+                }
+            }
+        }
+    }
+
+    public static void generatePublisher(String csvFileName, String turtleFileName) throws IOException {
+        try (
+            BufferedReader br = Files.newBufferedReader(Paths.get(csvFileName));
+            BufferedWriter bw = Files.newBufferedWriter(Paths.get(turtleFileName), StandardOpenOption.APPEND)) {
+            // using Files.newBufferedReader and Files.newBufferedWrite enforce charEncoding
+            // to UTF-8
+            // Files.newBufferedWriter(Paths.get(turtleFileName)) is equivalent to
+            // BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new
+            // FileOutputStream(turtleFileName), StandardCharsets.UTF_8));
+
+            // write prefixes
+
+
+            String line;
+            
+            br.readLine(); // to skip the column titles line
+            HashMap<String, UUID> publisherHashMap = new HashMap<>();
+            while ((line = br.readLine()) != null) {
+                // System.out.println(line);
+                
+                String[] lineTokens = line.split(",");
+                /*"game","name","releaseDate","developer","publisher","platform","genre","series",
+                        "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
+
+                String name = removeQuote(lineTokens[0]);
+                String game = removeQuote(lineTokens[2]);
+
+
+                UUID gameUUID = authors.get(game);
+                UUID publiUUID = UUID.nameUUIDFromBytes(name.getBytes());
+                
+                
+                if(!publisherHashMap.containsKey(name)){
+                    publisherHashMap.put(name, publiUUID);
+                    if (gameUUID != null) {
+                    // this is the first occurence of this author
+                    // create triples describing him
+                    // store UUID in the map with authorFullName as key
+                    /*"game","name","releaseDate","developer","publisher","platform","genre","series",
+                    "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
+
+                    String competitionTemplateRDF = """
+                            ogo:%s a ogo:Publisher;
+                                rdfs:label \"%s\"^^xsd:string;
+                                ogo:hasPublished ogo:%s .
+                                \n
+                                """;
+                    bw.write(competitionTemplateRDF.formatted(publiUUID, name, gameUUID));
+                    String relationTemplateRDF = """
+                            ogo:%s ogo:publishedBy ogo:%s .
+                                \n
+                                """;
+                    bw.write(relationTemplateRDF.formatted(gameUUID, publiUUID));
+
+                    }else{
+                        String competitionTemplateRDF = """
+                                ogo:%s a ogo:Publisher;
+                                    rdfs:label \"%s\"^^xsd:string;
+                                    \n
+                                    """;
+                        bw.write(competitionTemplateRDF.formatted(publiUUID, name, gameUUID));
+                    }
                 }
             }
         }

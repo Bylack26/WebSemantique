@@ -34,8 +34,20 @@ owl:series rdf:type owl:AnnotationProperty ;
 <http://dbpedia.org/ontology/Country> rdf:type rdfs:Datatype .
 
 
+###  http://dbpedia.org/ontology/Device
+<http://dbpedia.org/ontology/Device> rdf:type rdfs:Datatype .
+
+
+###  http://dbpedia.org/ontology/Place
+<http://dbpedia.org/ontology/Place> rdf:type rdfs:Datatype .
+
+
 ###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2/developer
 :developer rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
 
 
 #################################################################
@@ -106,14 +118,14 @@ owl:series rdf:type owl:AnnotationProperty ;
 :platforms rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf :VideoGameProperty ;
            rdfs:domain <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> ;
-           rdfs:range xsd:string .
+           rdfs:range <http://dbpedia.org/ontology/Device> .
 
 
 ###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#countryOfOrigin
 <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#countryOfOrigin> rdf:type owl:DatatypeProperty ;
                                                                                           rdfs:subPropertyOf :VideoGameProperty ;
                                                                                           rdfs:domain <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#Game> ;
-                                                                                          rdfs:range <http://dbpedia.org/ontology/Country> .
+                                                                                          rdfs:range <http://dbpedia.org/ontology/Place> .
 
 
 ###  http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#name
@@ -216,12 +228,7 @@ owl:series rdf:type owl:AnnotationProperty ;
                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                      owl:onProperty :platforms ;
                                                                                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                     owl:onDataRange xsd:string
-                                                                                                   ] ,
-                                                                                                   [ rdf:type owl:Restriction ;
-                                                                                                     owl:onProperty <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#countryOfOrigin> ;
-                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                     owl:onDataRange xsd:string
+                                                                                                     owl:onDataRange <http://dbpedia.org/ontology/Device>
                                                                                                    ] ,
                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                      owl:onProperty <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#name> ;
@@ -231,7 +238,7 @@ owl:series rdf:type owl:AnnotationProperty ;
                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                      owl:onProperty <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#releaseDate> ;
                                                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                     owl:onDataRange xsd:dateTime
+                                                                                                     owl:onDataRange xsd:date
                                                                                                    ] ,
                                                                                                    [ rdf:type owl:Restriction ;
                                                                                                      owl:onProperty <http://www.semanticweb.org/fabie/ontologies/2024/10/untitled-ontology-2#series> ;
@@ -258,14 +265,14 @@ owl:series rdf:type owl:AnnotationProperty ;
                                    owl:onDataRange xsd:float
                                  ] ,
                                  [ rdf:type owl:Restriction ;
+                                   owl:onProperty :country ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onDataRange <http://dbpedia.org/ontology/Place>
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
                                    owl:onProperty :date ;
                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                    owl:onDataRange xsd:dateTime
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :title ;
-                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                   owl:onDataRange xsd:string
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty :winner ;
