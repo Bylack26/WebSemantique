@@ -10,6 +10,14 @@
 
 <http://www.semanticweb.org/Games/ontology> rdf:type owl:Ontology ;
     owl:imports <file://./ontoTurtle.ttl> .
+ogo:e1d0bbe9-10e3-3b4d-9739-73a4de3c5ddd a ogo:Game;
+    rdfs:label "League of Legends"^^xsd:string;
+    ogo:releaseDate "2009-10-27"^^xsd:date;
+    ogo:platform <http://dbpedia.org/resource/Microsoft_Windows>;
+    ogo:genre <http://dbpedia.org/resource/MOBA>;
+    ogo:series <http://dbpedia.org/resource/League_of_Legends>.
+    
+
 ogo:a7ee02b1-2b63-3626-98cf-5594b1c745ff a ogo:Game;
     rdfs:label "Street Fighter IV"^^xsd:string;
     ogo:releaseDate "2009-07-07"^^xsd:date;
@@ -64,6 +72,18 @@ ogo:27b6b601-2901-3c63-9e97-e8a9d7eb676f a ogo:Competition;
     
 
 ogo:3edda33e-c8ce-3328-9e48-78c34e79a391 ogo:hasCompetition ogo:27b6b601-2901-3c63-9e97-e8a9d7eb676f .
+    
+
+ogo:ab6d7498-93d7-3413-9bcd-0444735065bf a ogo:Competition;
+    rdfs:label "League of Legends Worlds 2015"^^xsd:string;
+    ogo:date "2015-10-31"^^xsd:date;
+    ogo:country "Allemagne"^^xsd:string;
+    ogo:cashPrize "0"^^xsd:float;
+    ogo:winner "SK Telecom T1"^^xsd:string;
+    ogo:basedOn ogo:e1d0bbe9-10e3-3b4d-9739-73a4de3c5ddd .
+    
+
+ogo:e1d0bbe9-10e3-3b4d-9739-73a4de3c5ddd ogo:hasCompetition ogo:ab6d7498-93d7-3413-9bcd-0444735065bf .
     
 
 ogo:c4ca65ff-791c-3704-823c-b1005d44b4e3 a ogo:Competition;
@@ -124,6 +144,18 @@ ogo:3daa8475-3cd4-3899-b0e5-3ebd463585b9 a ogo:Competition;
     
 
 ogo:4ead3260-3bb3-3169-a244-c742f1f444ce ogo:hasCompetition ogo:3daa8475-3cd4-3899-b0e5-3ebd463585b9 .
+    
+
+ogo:bc0b74d7-88e4-33a1-a9de-47aee22c0f64 a ogo:Competition;
+    rdfs:label "League of Legends MSI 2016"^^xsd:string;
+    ogo:date "2016-05-07"^^xsd:date;
+    ogo:country "Chine"^^xsd:string;
+    ogo:cashPrize "50"^^xsd:float;
+    ogo:winner "SK Telecom T1"^^xsd:string;
+    ogo:basedOn ogo:e1d0bbe9-10e3-3b4d-9739-73a4de3c5ddd .
+    
+
+ogo:e1d0bbe9-10e3-3b4d-9739-73a4de3c5ddd ogo:hasCompetition ogo:bc0b74d7-88e4-33a1-a9de-47aee22c0f64 .
     
 
 ogo:d71b49a6-9b4e-3c12-b50c-905abbda32ae a ogo:Competition;
@@ -187,18 +219,1834 @@ ogo:e456c1ca-5c4f-38ba-b23a-72a4c9b4b192 ogo:hasCompetition ogo:a455da21-96da-34
     
 
 ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
     rdfs:label "Blizzard Entertainment"^^xsd:string;
+    ogo:hasPublished ogo:e456c1ca-5c4f-38ba-b23a-72a4c9b4b192 .
+    
+
+ogo:e456c1ca-5c4f-38ba-b23a-72a4c9b4b192 ogo:publishedBy ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+    rdfs:label "Blizzard Entertainment"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
     
 
 ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
     rdfs:label "Capcom"^^xsd:string;
+    ogo:hasPublished ogo:a7ee02b1-2b63-3626-98cf-5594b1c745ff .
+    
+
+ogo:a7ee02b1-2b63-3626-98cf-5594b1c745ff ogo:publishedBy ogo:cd34b4df-822d-3a86-a303-39f947aa1880 .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
+    
+
+ogo:cd34b4df-822d-3a86-a303-39f947aa1880 a ogo:Publisher;
+    rdfs:label "Capcom"^^xsd:string .
     
 
 ogo:d4950824-579f-30e5-992f-21cfae2add86 a ogo:Publisher;
     rdfs:label "Riot Games"^^xsd:string;
+    ogo:hasPublished ogo:e1d0bbe9-10e3-3b4d-9739-73a4de3c5ddd .
+    
+
+ogo:e1d0bbe9-10e3-3b4d-9739-73a4de3c5ddd ogo:publishedBy ogo:d4950824-579f-30e5-992f-21cfae2add86 .
+    
+
+ogo:d4950824-579f-30e5-992f-21cfae2add86 a ogo:Publisher;
+    rdfs:label "Riot Games"^^xsd:string .
+    
+
+ogo:d4950824-579f-30e5-992f-21cfae2add86 a ogo:Publisher;
+    rdfs:label "Riot Games"^^xsd:string .
+    
+
+ogo:d4950824-579f-30e5-992f-21cfae2add86 a ogo:Publisher;
+    rdfs:label "Riot Games"^^xsd:string .
+    
+
+ogo:d4950824-579f-30e5-992f-21cfae2add86 a ogo:Publisher;
+    rdfs:label "Riot Games"^^xsd:string .
+    
+
+ogo:d4950824-579f-30e5-992f-21cfae2add86 a ogo:Publisher;
+    rdfs:label "Riot Games"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
     
 
 ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
     rdfs:label "Valve Corporation"^^xsd:string;
+    ogo:hasPublished ogo:4ead3260-3bb3-3169-a244-c742f1f444ce .
+    
+
+ogo:4ead3260-3bb3-3169-a244-c742f1f444ce ogo:publishedBy ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string;
+    ogo:hasPublished ogo:3edda33e-c8ce-3328-9e48-78c34e79a391 .
+    
+
+ogo:3edda33e-c8ce-3328-9e48-78c34e79a391 ogo:publishedBy ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+    rdfs:label "Valve Corporation"^^xsd:string .
     
 

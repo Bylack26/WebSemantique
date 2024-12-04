@@ -63,7 +63,7 @@ public class GenerateBookStoreGraph {
                 //System.out.println(line);
                 String[] lineTokens = line.split(",");
                
-                if (lineTokens.length > 12) {
+                if (lineTokens.length > 8) {
 
                     String game = removeQuote(lineTokens[0]);
                     String name = removeQuote(lineTokens[1]);
@@ -73,11 +73,6 @@ public class GenerateBookStoreGraph {
                     String platform = removeQuote(lineTokens[5]);
                     String genre = removeQuote(lineTokens[6]);
                     String series = removeQuote(lineTokens[7]);
-                    String countryOfOrigin = removeQuote(lineTokens[8]);
-                    String mainSubject = removeQuote(lineTokens[9]);
-                    String officialWebsite = removeQuote(lineTokens[10]);
-                    String designer = removeQuote(lineTokens[11]);
-                    String composer = removeQuote(lineTokens[12]);
 
                     UUID gameUUID = authors.get(name);
                     //System.out.println("Game exist: " + gameUUID);
@@ -227,38 +222,36 @@ public class GenerateBookStoreGraph {
 
                 UUID gameUUID = authors.get(game);
                 UUID publiUUID = UUID.nameUUIDFromBytes(name.getBytes());
+                publisherHashMap.put(name, publiUUID);
+                if (gameUUID != null) {
+                // this is the first occurence of this author
+                // create triples describing him
+                // store UUID in the map with authorFullName as key
+                /*"game","name","releaseDate","developer","publisher","platform","genre","series",
+                "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
+                if(publisherHashMap.containsKey(name)){
+                    String competitionTemplateRDF = """
+                        ogo:%s a ogo:Publisher;
+                            rdfs:label \"%s\"^^xsd:string;
+                            ogo:hasPublished ogo:%s .
+                            \n
+                            """;
+                    bw.write(competitionTemplateRDF.formatted(publiUUID, name, gameUUID));
+                }
                 
-                
-                if(!publisherHashMap.containsKey(name)){
-                    publisherHashMap.put(name, publiUUID);
-                    if (gameUUID != null) {
-                    // this is the first occurence of this author
-                    // create triples describing him
-                    // store UUID in the map with authorFullName as key
-                    /*"game","name","releaseDate","developer","publisher","platform","genre","series",
-                    "countryOfOrigin","mainSubject","officialWebsite","designer","composer","character","gameMode" */
+                String relationTemplateRDF = """
+                        ogo:%s ogo:publishedBy ogo:%s .
+                            \n
+                            """;
+                bw.write(relationTemplateRDF.formatted(gameUUID, publiUUID));
 
+                }else{
                     String competitionTemplateRDF = """
                             ogo:%s a ogo:Publisher;
-                                rdfs:label \"%s\"^^xsd:string;
-                                ogo:hasPublished ogo:%s .
+                                rdfs:label \"%s\"^^xsd:string .
                                 \n
                                 """;
                     bw.write(competitionTemplateRDF.formatted(publiUUID, name, gameUUID));
-                    String relationTemplateRDF = """
-                            ogo:%s ogo:publishedBy ogo:%s .
-                                \n
-                                """;
-                    bw.write(relationTemplateRDF.formatted(gameUUID, publiUUID));
-
-                    }else{
-                        String competitionTemplateRDF = """
-                                ogo:%s a ogo:Publisher;
-                                    rdfs:label \"%s\"^^xsd:string;
-                                    \n
-                                    """;
-                        bw.write(competitionTemplateRDF.formatted(publiUUID, name, gameUUID));
-                    }
                 }
             }
         }
