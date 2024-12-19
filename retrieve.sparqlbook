@@ -1,0 +1,20 @@
+[
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "select ?entity ?name ?release ?dev ?pub ?platform ?genre ?series ?a ?b ?c ?d ?e ?vide\r\nwhere {\r\n    ?entity a dbo:Software;\r\n        rdfs:label ?name;\r\n        dbo:releaseDate ?release;\r\n        dbo:developer ?dev;\r\n        dbo:publisher ?pub; \r\n        dbo:computingPlatform ?platform;\r\n        dbo:genre ?genre;\r\n        dbo:series ?series.\r\n    FILTER( ?entity = dbr:Assassin\\'s_Creed_Odyssey)\r\n    FILTER(lang(?name) = \"en\")\r\n    FILTER(?platform = dbr:Microsoft_Windows)\r\n    OPTIONAL{\r\n        VALUES ?vide{\"\"}.\r\n        VALUES ?a{\"\"}.\r\n        VALUES ?b{\"\"}.\r\n        VALUES ?c{\"\"}.\r\n        VALUES ?d{\"\"}.\r\n        VALUES ?e{\"\"}.\r\n    }\r\n\r\n} \r\nLIMIT 100",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "select ?jeu \r\nWHERE {\r\n    ?jeu a dbo:Software.\r\n    FILTER(?jeu = dbr:Assassin\\'s_Creed_Origins)\r\n}",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "select ?publisherName ?gameName ?foundedBy ?foundedDate\r\nWHERE  {\r\n    ?g a dbo:Software;\r\n        rdfs:label ?gameName;\r\n        dbo:publisher ?pub.\r\n    ?pub rdfs:label ?publisherName.\r\n    ?pub dbo:foundedBy ?foundedBy.\r\n    Values ?foundedDate {\"1991-01-01\"}.\r\n    FILTER(lang(?publisherName) = \"en\")\r\n    FILTER(lang(?gameName) = \"en\")\r\n    FILTER(?gameName = \"Hearthstone\"@en)\r\n\r\n} LIMIT 20",
+    "metadata": {}
+  }
+]

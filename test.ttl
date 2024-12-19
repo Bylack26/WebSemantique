@@ -50,6 +50,38 @@ ogo:e456c1ca-5c4f-38ba-b23a-72a4c9b4b192 a ogo:Game;
     ogo:series <http://dbpedia.org/resource/Warcraft>.
     
 
+ogo:6e6236a9-424a-3162-97a5-965f950aa8d0 a ogo:Game;
+    rdfs:label "Assassin's Creed Origins"^^xsd:string;
+    ogo:releaseDate "2017-10-27"^^xsd:date;
+    ogo:platform <http://dbpedia.org/resource/Microsoft_Windows>;
+    ogo:genre <http://dbpedia.org/resource/Action_role-playing_game>;
+    ogo:series <http://dbpedia.org/resource/Assassin's_Creed>.
+    
+
+ogo:b70f5731-a56f-3e94-8bed-440c8fd51507 a ogo:Game;
+    rdfs:label "Assassin's Creed Odyssey"^^xsd:string;
+    ogo:releaseDate "2018-10-05"^^xsd:date;
+    ogo:platform <http://dbpedia.org/resource/Microsoft_Windows>;
+    ogo:genre <http://dbpedia.org/resource/Action_role-playing_game>;
+    ogo:series <http://dbpedia.org/resource/Assassin's_Creed>.
+    
+
+ogo:b0e4a1ea-7c65-339f-b912-c240d8caabb3 a ogo:Game;
+    rdfs:label "Dishonored"^^xsd:string;
+    ogo:releaseDate "2012-10-09"^^xsd:date;
+    ogo:platform <http://dbpedia.org/resource/Microsoft_Windows>;
+    ogo:genre <http://dbpedia.org/resource/Stealth_game>;
+    ogo:series <http://dbpedia.org/resource/Dishonored_(series)>.
+    
+
+ogo:bb1f5292-9bcb-32bd-ac70-49b55c48948e a ogo:Game;
+    rdfs:label "Wolfenstein: The New Order"^^xsd:string;
+    ogo:releaseDate "2014-05-20"^^xsd:date;
+    ogo:platform <http://dbpedia.org/resource/Windows>;
+    ogo:genre <http://dbpedia.org/resource/Action-adventure_game>;
+    ogo:series <http://dbpedia.org/resource/Wolfenstein>.
+    
+
 ogo:2272ff92-4890-3ac6-b2d3-52cde73249bd a ogo:Competition;
     rdfs:label "ESL One Cologne 2014"^^xsd:string;
     ogo:date "2014-07-08"^^xsd:date;
@@ -329,6 +361,24 @@ ogo:c77ebe62-38cb-30b0-be3a-7b1a91e853c2 a ogo:Publisher;
 ogo:foundedBy <http://dbpedia.org/resource/Olly_Moss>.
 
 
+ogo:b70f5731-a56f-3e94-8bed-440c8fd51507 ogo:publishedBy ogo:cb9561a3-a52f-3545-bf35-ae5f46fd36db .
+    
+
+ogo:cb9561a3-a52f-3545-bf35-ae5f46fd36db ogo:hasPublished ogo:b70f5731-a56f-3e94-8bed-440c8fd51507 .
+
+
+ogo:6e6236a9-424a-3162-97a5-965f950aa8d0 ogo:publishedBy ogo:cb9561a3-a52f-3545-bf35-ae5f46fd36db .
+    
+
+ogo:cb9561a3-a52f-3545-bf35-ae5f46fd36db ogo:hasPublished ogo:6e6236a9-424a-3162-97a5-965f950aa8d0 .
+
+
+ogo:b0e4a1ea-7c65-339f-b912-c240d8caabb3 ogo:publishedBy ogo:35e7d79f-334a-3753-8504-d9b5dde45f9f .
+    
+
+ogo:35e7d79f-334a-3753-8504-d9b5dde45f9f ogo:hasPublished ogo:b0e4a1ea-7c65-339f-b912-c240d8caabb3 .
+
+
 ogo:09830ea5-5b77-3658-a105-b571343435f5 a ogo:Publisher;
     rdfs:label "Delta 4"^^xsd:string;
     ogo:fundation "1985-01-01"^^xsd:date
@@ -341,6 +391,12 @@ ogo:e6b5eb7f-08f4-321c-a12f-91e9219ab996 a ogo:Publisher;
     ogo:fundation "1997-01-01"^^xsd:date
 ;
 ogo:foundedBy <http://dbpedia.org/resource/David_Cage>.
+
+
+ogo:bb1f5292-9bcb-32bd-ac70-49b55c48948e ogo:publishedBy ogo:35e7d79f-334a-3753-8504-d9b5dde45f9f .
+    
+
+ogo:35e7d79f-334a-3753-8504-d9b5dde45f9f ogo:hasPublished ogo:bb1f5292-9bcb-32bd-ac70-49b55c48948e .
 
 
 ogo:c9e9837d-1bdb-366f-a5d3-a9006f4a2dce a ogo:Publisher;
@@ -362,5 +418,35 @@ ogo:63313251-a2cf-3a1e-9f7a-012e9927330d a ogo:Publisher;
     ogo:fundation "1955-01-01"^^xsd:date
 ;
 ogo:foundedBy <http://dbpedia.org/resource/Masaya_Nakamura_(businessman)>.
+
+
+    ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 a ogo:Publisher;
+        rdfs:label "Valve Corporation"^^xsd:string;
+        ogo:fundation "1996-01-01"^^xsd:date
+;
+ogo:foundedBy <http://dbpedia.org/resource/Mike_Harrington>
+.
+ogo:3edda33e-c8ce-3328-9e48-78c34e79a391 ogo:publishedBy ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 ogo:hasPublished ogo:3edda33e-c8ce-3328-9e48-78c34e79a391 .
+
+
+ogo:3edda33e-c8ce-3328-9e48-78c34e79a391 ogo:publishedBy ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 .
+    
+
+ogo:1292f5ce-e282-33ad-bb20-124a8a837cc0 ogo:hasPublished ogo:3edda33e-c8ce-3328-9e48-78c34e79a391 .
+
+
+    ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e a ogo:Publisher;
+        rdfs:label "Blizzard Entertainment"^^xsd:string;
+        ogo:fundation "1991-01-01"^^xsd:date
+;
+ogo:foundedBy <http://dbpedia.org/resource/Michael_Morhaime>
+.
+ogo:e456c1ca-5c4f-38ba-b23a-72a4c9b4b192 ogo:publishedBy ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e .
+    
+
+ogo:4f1b5ccd-ce00-3ea6-b707-bfefd421ad5e ogo:hasPublished ogo:e456c1ca-5c4f-38ba-b23a-72a4c9b4b192 .
 
 
